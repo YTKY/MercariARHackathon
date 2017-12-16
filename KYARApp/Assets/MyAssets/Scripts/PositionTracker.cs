@@ -110,6 +110,13 @@ public class PositionTracker : Photon.PunBehaviour
             _playerPosition[playerId] = position*10;
             _playerRotation[playerId] = rotation;
         }
+
+        // Player の場合 private の position, rotation をアップデート
+        if (isPlayer)
+        {
+            _playerPosition[playerId] = position;
+            _playerRotation[playerId] = rotation;
+        }
     }
 
     [PunRPC]

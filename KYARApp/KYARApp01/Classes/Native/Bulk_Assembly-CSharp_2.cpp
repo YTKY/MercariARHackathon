@@ -30914,6 +30914,27 @@ extern "C"  void PositionTracker_UpdatePlayerPosition_m603019788 (PositionTracke
 
 IL_00ae:
 	{
+		bool L_23 = __this->get_isPlayer_7();
+		if (!L_23)
+		{
+			goto IL_00dd;
+		}
+	}
+	{
+		Vector3U5BU5D_t1172311765* L_24 = __this->get__playerPosition_3();
+		int32_t L_25 = ___playerId2;
+		NullCheck(L_24);
+		Vector3_t2243707580  L_26 = ___position0;
+		*(Vector3_t2243707580 *)((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_25))) = L_26;
+		Vector3U5BU5D_t1172311765* L_27 = __this->get__playerRotation_4();
+		int32_t L_28 = ___playerId2;
+		NullCheck(L_27);
+		Vector3_t2243707580  L_29 = ___rotation1;
+		*(Vector3_t2243707580 *)((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28))) = L_29;
+	}
+
+IL_00dd:
+	{
 		return;
 	}
 }
