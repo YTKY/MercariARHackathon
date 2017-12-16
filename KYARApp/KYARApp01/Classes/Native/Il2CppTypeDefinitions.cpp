@@ -19107,6 +19107,7 @@ extern const RuntimeType List_1_t2691018396_0_0_0 = { &List_1_t2691018396_Generi
 extern const RuntimeType GameObject_GetComponentsInParent_m2457452615_gp_0_0_0_0 = { (void*)167, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
 extern const RuntimeType GameObjectU5BU5D_t3057952154_0_0_0 = { (void*)&GameObject_t1756533147_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
+extern const RuntimeType GameObjectU5BU5D_t3057952154_0_0_1 = { (void*)&GameObject_t1756533147_0_0_0, 1, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType GameObjectU5BU5D_t3057952154_0_0_6 = { (void*)&GameObject_t1756533147_0_0_0, 6, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType GameObject_AddComponent_m1978679482_gp_0_0_0_0 = { (void*)168, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
@@ -22677,7 +22678,7 @@ extern const RuntimeType PickupItemU5BU5D_t478302502_0_0_0 = { (void*)&PickupIte
 extern const RuntimeType AttributeU5BU5DU5BU5D_t3912450874_0_0_0 = { (void*)&AttributeU5BU5D_t4255796347_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType ITrackingHandlerU5BU5D_t194660197_0_0_0 = { (void*)&ITrackingHandler_t2759960940_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const RuntimeType* const  g_Il2CppTypeTable[11499] = 
+extern const RuntimeType* const  g_Il2CppTypeTable[11500] = 
 {
 	&IEnumerator_1_t164973122_0_0_0,
 	&RuntimeObject_0_0_0,
@@ -32971,11 +32972,13 @@ extern const RuntimeType* const  g_Il2CppTypeTable[11499] =
 	&PunBehaviour_t692890556_0_0_0,
 	&GodManager_t3418635257_0_0_0,
 	&GodManager_t3418635257_1_0_0,
+	&GameObjectU5BU5D_t3057952154_0_0_1,
 	&PositionTracker_t858055883_0_0_1,
 	&PlayerManager_t1596653588_0_0_0,
 	&PlayerManager_t1596653588_1_0_0,
 	&PositionTracker_t858055883_0_0_0,
 	&PositionTracker_t858055883_1_0_0,
+	&Vector3U5BU5D_t1172311765_0_0_1,
 	&PhotonView_t899863581_0_0_1,
 	&Text_t356221433_0_0_6,
 	&SceneLoader_t1952549817_0_0_0,
@@ -33160,7 +33163,6 @@ extern const RuntimeType* const  g_Il2CppTypeTable[11499] =
 	&DragToMove_t3509972354_1_0_0,
 	&TransformU5BU5D_t3764228911_0_0_6,
 	&List_1_t1612828712_0_0_6,
-	&Vector3U5BU5D_t1172311765_0_0_1,
 	&U3CRecordMouseU3Ec__Iterator0_t1192151892_0_0_0,
 	&U3CRecordMouseU3Ec__Iterator0_t1192151892_1_0_0,
 	&Ray_t2469606224_0_0_3,

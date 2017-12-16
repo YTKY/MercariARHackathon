@@ -15021,11 +15021,12 @@ extern "C" void PointedAtGameObjectInfo__ctor_m3705571306 ();
 extern "C" void PointedAtGameObjectInfo_OnGUI_m3470551094 ();
 extern "C" void PositionTracker__ctor_m247007212 ();
 extern "C" void PositionTracker_Awake_m279960219 ();
+extern "C" void PositionTracker_Start_m1564803920 ();
 extern "C" void PositionTracker_Update_m3153287191 ();
-extern "C" void PositionTracker_UpdatePlayerPosition_m4078896741 ();
-extern "C" void PositionTracker_Shot_m2059857362 ();
-extern "C" void PositionTracker_PlayerPosition_m1630570442 ();
-extern "C" void PositionTracker_PlayerRotation_m1052247347 ();
+extern "C" void PositionTracker_UpdatePlayerPosition_m603019788 ();
+extern "C" void PositionTracker_Shot_m1858995391 ();
+extern "C" void PositionTracker_PlayerPosition_m4290773863 ();
+extern "C" void PositionTracker_PlayerRotation_m478065646 ();
 extern "C" void PunEvent__ctor_m2421758696 ();
 extern "C" void PunPlayerScores__ctor_m2480230180 ();
 extern "C" void PunRPC__ctor_m3631903409 ();
@@ -15803,7 +15804,7 @@ extern "C" void WorkerMenu_OnDisconnectedFromPhoton_m3655135434 ();
 extern "C" void WorkerMenu_OnFailedToConnectToPhoton_m2511247198 ();
 extern "C" void WorkerMenu_OnConnectedToMaster_m248562659 ();
 extern "C" void WorkerMenu__cctor_m4287693745 ();
-extern const Il2CppMethodPointer g_MethodPointers[15786] = 
+extern const Il2CppMethodPointer g_MethodPointers[15787] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -30809,11 +30810,12 @@ extern const Il2CppMethodPointer g_MethodPointers[15786] =
 	PointedAtGameObjectInfo_OnGUI_m3470551094,
 	PositionTracker__ctor_m247007212,
 	PositionTracker_Awake_m279960219,
+	PositionTracker_Start_m1564803920,
 	PositionTracker_Update_m3153287191,
-	PositionTracker_UpdatePlayerPosition_m4078896741,
-	PositionTracker_Shot_m2059857362,
-	PositionTracker_PlayerPosition_m1630570442,
-	PositionTracker_PlayerRotation_m1052247347,
+	PositionTracker_UpdatePlayerPosition_m603019788,
+	PositionTracker_Shot_m1858995391,
+	PositionTracker_PlayerPosition_m4290773863,
+	PositionTracker_PlayerRotation_m478065646,
 	PunEvent__ctor_m2421758696,
 	PunPlayerScores__ctor_m2480230180,
 	PunRPC__ctor_m3631903409,

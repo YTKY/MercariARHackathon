@@ -12,18 +12,22 @@ public class GodManager : MonoBehaviour
 
     // Player の Prefab
     public GameObject playerPrefab;
-    private GameObject _playerObj;
+    private GameObject[] _playerObj;
 
     private PositionTracker _positionTracker;
 
     void Start () {
-        _playerObj = Instantiate(playerPrefab);
+        _playerObj = new GameObject[] {Instantiate(playerPrefab),
+                                       Instantiate(playerPrefab)};
         _positionTracker = GetComponent<PositionTracker>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
-        _playerObj.transform.position = _positionTracker.PlayerPosition();
-        _playerObj.transform.rotation = Quaternion.Euler(_positionTracker.PlayerRotation());
+        for (int i = 0; i<2; i++) 
+        {
+            _playerObj[i].transform.position = _positionTracker.PlayerPosition(i);
+            _playerObj[i].transform.rotation = Quaternion.Euler(_positionTracker.PlayerRotation(i));  
+        }
+
 	}
 }

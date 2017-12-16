@@ -727,6 +727,7 @@ extern Il2CppCodeGenString* _stringLiteral4224750095;
 extern const uint32_t GameLogic_OnPhotonPlayerDisconnected_m992454639_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral1279560159;
 extern const uint32_t GameLogic_OnMasterClientSwitched_m1996450470_MetadataUsageId;
+extern RuntimeClass* GameObjectU5BU5D_t3057952154_il2cpp_TypeInfo_var;
 extern RuntimeClass* Object_t1021602117_il2cpp_TypeInfo_var;
 extern const RuntimeMethod* Object_Instantiate_TisGameObject_t1756533147_m3664764861_RuntimeMethod_var;
 extern const RuntimeMethod* Component_GetComponent_TisPositionTracker_t858055883_m1490921550_RuntimeMethod_var;
@@ -2039,11 +2040,11 @@ struct Vector3_t2243707580 ;
 struct StringU5BU5D_t1642385972;
 struct PhotonPlayerU5BU5D_t818546810;
 struct ObjectU5BU5D_t3614634134;
+struct GameObjectU5BU5D_t3057952154;
 struct GUILayoutOptionU5BU5D_t2108882777;
 struct ByteU5BU5D_t3397334013;
 struct Int32U5BU5D_t3030399641;
 struct ColorU5BU5D_t672350442;
-struct GameObjectU5BU5D_t3057952154;
 struct RoomInfoU5BU5D_t3672612454;
 struct BooleanU5BU5D_t3568034315;
 struct TypeU5BU5D_t1664964607;
@@ -19144,8 +19145,8 @@ public:
 	Vector3_t2243707580  ____playerRotation_3;
 	// UnityEngine.GameObject GodManager::playerPrefab
 	GameObject_t1756533147 * ___playerPrefab_4;
-	// UnityEngine.GameObject GodManager::_playerObj
-	GameObject_t1756533147 * ____playerObj_5;
+	// UnityEngine.GameObject[] GodManager::_playerObj
+	GameObjectU5BU5D_t3057952154* ____playerObj_5;
 	// PositionTracker GodManager::_positionTracker
 	PositionTracker_t858055883 * ____positionTracker_6;
 
@@ -19176,9 +19177,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of__playerObj_5() { return static_cast<int32_t>(offsetof(GodManager_t3418635257, ____playerObj_5)); }
-	inline GameObject_t1756533147 * get__playerObj_5() const { return ____playerObj_5; }
-	inline GameObject_t1756533147 ** get_address_of__playerObj_5() { return &____playerObj_5; }
-	inline void set__playerObj_5(GameObject_t1756533147 * value)
+	inline GameObjectU5BU5D_t3057952154* get__playerObj_5() const { return ____playerObj_5; }
+	inline GameObjectU5BU5D_t3057952154** get_address_of__playerObj_5() { return &____playerObj_5; }
+	inline void set__playerObj_5(GameObjectU5BU5D_t3057952154* value)
 	{
 		____playerObj_5 = value;
 		Il2CppCodeGenWriteBarrier((&____playerObj_5), value);
@@ -24397,79 +24398,91 @@ public:
 struct  PositionTracker_t858055883  : public PunBehaviour_t692890556
 {
 public:
-	// UnityEngine.Vector3 PositionTracker::_playerPosition
-	Vector3_t2243707580  ____playerPosition_3;
-	// UnityEngine.Vector3 PositionTracker::_playerRotation
-	Vector3_t2243707580  ____playerRotation_4;
+	// UnityEngine.Vector3[] PositionTracker::_playerPosition
+	Vector3U5BU5D_t1172311765* ____playerPosition_3;
+	// UnityEngine.Vector3[] PositionTracker::_playerRotation
+	Vector3U5BU5D_t1172311765* ____playerRotation_4;
+	// UnityEngine.Vector3 PositionTracker::_playerPositionOffset
+	Vector3_t2243707580  ____playerPositionOffset_5;
 	// PhotonView PositionTracker::_photonView
-	PhotonView_t899863581 * ____photonView_5;
+	PhotonView_t899863581 * ____photonView_6;
 	// System.Boolean PositionTracker::isPlayer
-	bool ___isPlayer_6;
+	bool ___isPlayer_7;
 	// System.Boolean PositionTracker::isGod
-	bool ___isGod_7;
+	bool ___isGod_8;
 	// UnityEngine.GameObject PositionTracker::bulletPrefab
-	GameObject_t1756533147 * ___bulletPrefab_8;
+	GameObject_t1756533147 * ___bulletPrefab_9;
 	// UnityEngine.UI.Text PositionTracker::text
-	Text_t356221433 * ___text_9;
+	Text_t356221433 * ___text_10;
 
 public:
 	inline static int32_t get_offset_of__playerPosition_3() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ____playerPosition_3)); }
-	inline Vector3_t2243707580  get__playerPosition_3() const { return ____playerPosition_3; }
-	inline Vector3_t2243707580 * get_address_of__playerPosition_3() { return &____playerPosition_3; }
-	inline void set__playerPosition_3(Vector3_t2243707580  value)
+	inline Vector3U5BU5D_t1172311765* get__playerPosition_3() const { return ____playerPosition_3; }
+	inline Vector3U5BU5D_t1172311765** get_address_of__playerPosition_3() { return &____playerPosition_3; }
+	inline void set__playerPosition_3(Vector3U5BU5D_t1172311765* value)
 	{
 		____playerPosition_3 = value;
+		Il2CppCodeGenWriteBarrier((&____playerPosition_3), value);
 	}
 
 	inline static int32_t get_offset_of__playerRotation_4() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ____playerRotation_4)); }
-	inline Vector3_t2243707580  get__playerRotation_4() const { return ____playerRotation_4; }
-	inline Vector3_t2243707580 * get_address_of__playerRotation_4() { return &____playerRotation_4; }
-	inline void set__playerRotation_4(Vector3_t2243707580  value)
+	inline Vector3U5BU5D_t1172311765* get__playerRotation_4() const { return ____playerRotation_4; }
+	inline Vector3U5BU5D_t1172311765** get_address_of__playerRotation_4() { return &____playerRotation_4; }
+	inline void set__playerRotation_4(Vector3U5BU5D_t1172311765* value)
 	{
 		____playerRotation_4 = value;
+		Il2CppCodeGenWriteBarrier((&____playerRotation_4), value);
 	}
 
-	inline static int32_t get_offset_of__photonView_5() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ____photonView_5)); }
-	inline PhotonView_t899863581 * get__photonView_5() const { return ____photonView_5; }
-	inline PhotonView_t899863581 ** get_address_of__photonView_5() { return &____photonView_5; }
-	inline void set__photonView_5(PhotonView_t899863581 * value)
+	inline static int32_t get_offset_of__playerPositionOffset_5() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ____playerPositionOffset_5)); }
+	inline Vector3_t2243707580  get__playerPositionOffset_5() const { return ____playerPositionOffset_5; }
+	inline Vector3_t2243707580 * get_address_of__playerPositionOffset_5() { return &____playerPositionOffset_5; }
+	inline void set__playerPositionOffset_5(Vector3_t2243707580  value)
 	{
-		____photonView_5 = value;
-		Il2CppCodeGenWriteBarrier((&____photonView_5), value);
+		____playerPositionOffset_5 = value;
 	}
 
-	inline static int32_t get_offset_of_isPlayer_6() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___isPlayer_6)); }
-	inline bool get_isPlayer_6() const { return ___isPlayer_6; }
-	inline bool* get_address_of_isPlayer_6() { return &___isPlayer_6; }
-	inline void set_isPlayer_6(bool value)
+	inline static int32_t get_offset_of__photonView_6() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ____photonView_6)); }
+	inline PhotonView_t899863581 * get__photonView_6() const { return ____photonView_6; }
+	inline PhotonView_t899863581 ** get_address_of__photonView_6() { return &____photonView_6; }
+	inline void set__photonView_6(PhotonView_t899863581 * value)
 	{
-		___isPlayer_6 = value;
+		____photonView_6 = value;
+		Il2CppCodeGenWriteBarrier((&____photonView_6), value);
 	}
 
-	inline static int32_t get_offset_of_isGod_7() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___isGod_7)); }
-	inline bool get_isGod_7() const { return ___isGod_7; }
-	inline bool* get_address_of_isGod_7() { return &___isGod_7; }
-	inline void set_isGod_7(bool value)
+	inline static int32_t get_offset_of_isPlayer_7() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___isPlayer_7)); }
+	inline bool get_isPlayer_7() const { return ___isPlayer_7; }
+	inline bool* get_address_of_isPlayer_7() { return &___isPlayer_7; }
+	inline void set_isPlayer_7(bool value)
 	{
-		___isGod_7 = value;
+		___isPlayer_7 = value;
 	}
 
-	inline static int32_t get_offset_of_bulletPrefab_8() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___bulletPrefab_8)); }
-	inline GameObject_t1756533147 * get_bulletPrefab_8() const { return ___bulletPrefab_8; }
-	inline GameObject_t1756533147 ** get_address_of_bulletPrefab_8() { return &___bulletPrefab_8; }
-	inline void set_bulletPrefab_8(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_isGod_8() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___isGod_8)); }
+	inline bool get_isGod_8() const { return ___isGod_8; }
+	inline bool* get_address_of_isGod_8() { return &___isGod_8; }
+	inline void set_isGod_8(bool value)
 	{
-		___bulletPrefab_8 = value;
-		Il2CppCodeGenWriteBarrier((&___bulletPrefab_8), value);
+		___isGod_8 = value;
 	}
 
-	inline static int32_t get_offset_of_text_9() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___text_9)); }
-	inline Text_t356221433 * get_text_9() const { return ___text_9; }
-	inline Text_t356221433 ** get_address_of_text_9() { return &___text_9; }
-	inline void set_text_9(Text_t356221433 * value)
+	inline static int32_t get_offset_of_bulletPrefab_9() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___bulletPrefab_9)); }
+	inline GameObject_t1756533147 * get_bulletPrefab_9() const { return ___bulletPrefab_9; }
+	inline GameObject_t1756533147 ** get_address_of_bulletPrefab_9() { return &___bulletPrefab_9; }
+	inline void set_bulletPrefab_9(GameObject_t1756533147 * value)
 	{
-		___text_9 = value;
-		Il2CppCodeGenWriteBarrier((&___text_9), value);
+		___bulletPrefab_9 = value;
+		Il2CppCodeGenWriteBarrier((&___bulletPrefab_9), value);
+	}
+
+	inline static int32_t get_offset_of_text_10() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___text_10)); }
+	inline Text_t356221433 * get_text_10() const { return ___text_10; }
+	inline Text_t356221433 ** get_address_of_text_10() { return &___text_10; }
+	inline void set_text_10(Text_t356221433 * value)
+	{
+		___text_10 = value;
+		Il2CppCodeGenWriteBarrier((&___text_10), value);
 	}
 };
 
@@ -24689,6 +24702,43 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
+// UnityEngine.GameObject[]
+struct GameObjectU5BU5D_t3057952154  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) GameObject_t1756533147 * m_Items[1];
+
+public:
+	inline GameObject_t1756533147 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GameObject_t1756533147 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GameObject_t1756533147 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline GameObject_t1756533147 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GameObject_t1756533147 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_t1756533147 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
 // UnityEngine.GUILayoutOption[]
 struct GUILayoutOptionU5BU5D_t2108882777  : public RuntimeArray
 {
@@ -24829,43 +24879,6 @@ public:
 	inline void SetAtUnchecked(il2cpp_array_size_t index, Color_t2020392075  value)
 	{
 		m_Items[index] = value;
-	}
-};
-// UnityEngine.GameObject[]
-struct GameObjectU5BU5D_t3057952154  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) GameObject_t1756533147 * m_Items[1];
-
-public:
-	inline GameObject_t1756533147 * GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline GameObject_t1756533147 ** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, GameObject_t1756533147 * value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-	inline GameObject_t1756533147 * GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline GameObject_t1756533147 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_t1756533147 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
 // RoomInfo[]
@@ -25590,12 +25603,12 @@ extern "C"  bool GameObject_get_activeInHierarchy_m2532098784 (GameObject_t17565
 #define Component_GetComponent_TisPositionTracker_t858055883_m1490921550(__this, method) ((  PositionTracker_t858055883 * (*) (Component_t3819376471 *, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m2724124387_gshared)(__this, method)
 // UnityEngine.Transform UnityEngine.GameObject::get_transform()
 extern "C"  Transform_t3275118058 * GameObject_get_transform_m3490276752 (GameObject_t1756533147 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Vector3 PositionTracker::PlayerPosition()
-extern "C"  Vector3_t2243707580  PositionTracker_PlayerPosition_m1630570442 (PositionTracker_t858055883 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 PositionTracker::PlayerPosition(System.Int32)
+extern "C"  Vector3_t2243707580  PositionTracker_PlayerPosition_m4290773863 (PositionTracker_t858055883 * __this, int32_t ___playerId0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
 extern "C"  void Transform_set_position_m2942701431 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Vector3 PositionTracker::PlayerRotation()
-extern "C"  Vector3_t2243707580  PositionTracker_PlayerRotation_m1052247347 (PositionTracker_t858055883 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 PositionTracker::PlayerRotation(System.Int32)
+extern "C"  Vector3_t2243707580  PositionTracker_PlayerRotation_m478065646 (PositionTracker_t858055883 * __this, int32_t ___playerId0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Quaternion UnityEngine.Quaternion::Euler(UnityEngine.Vector3)
 extern "C"  Quaternion_t4030073918  Quaternion_Euler_m471972646 (RuntimeObject * __this /* static, unused */, Vector3_t2243707580  p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
@@ -28098,12 +28111,22 @@ extern "C"  void GodManager_Start_m711941944 (GodManager_t3418635257 * __this, c
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		GameObject_t1756533147 * L_0 = __this->get_playerPrefab_4();
+		GameObjectU5BU5D_t3057952154* L_0 = ((GameObjectU5BU5D_t3057952154*)SZArrayNew(GameObjectU5BU5D_t3057952154_il2cpp_TypeInfo_var, (uint32_t)2));
+		GameObject_t1756533147 * L_1 = __this->get_playerPrefab_4();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		GameObject_t1756533147 * L_1 = Object_Instantiate_TisGameObject_t1756533147_m3664764861(NULL /*static, unused*/, L_0, /*hidden argument*/Object_Instantiate_TisGameObject_t1756533147_m3664764861_RuntimeMethod_var);
-		__this->set__playerObj_5(L_1);
-		PositionTracker_t858055883 * L_2 = Component_GetComponent_TisPositionTracker_t858055883_m1490921550(__this, /*hidden argument*/Component_GetComponent_TisPositionTracker_t858055883_m1490921550_RuntimeMethod_var);
-		__this->set__positionTracker_6(L_2);
+		GameObject_t1756533147 * L_2 = Object_Instantiate_TisGameObject_t1756533147_m3664764861(NULL /*static, unused*/, L_1, /*hidden argument*/Object_Instantiate_TisGameObject_t1756533147_m3664764861_RuntimeMethod_var);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_2);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (GameObject_t1756533147 *)L_2);
+		GameObjectU5BU5D_t3057952154* L_3 = L_0;
+		GameObject_t1756533147 * L_4 = __this->get_playerPrefab_4();
+		GameObject_t1756533147 * L_5 = Object_Instantiate_TisGameObject_t1756533147_m3664764861(NULL /*static, unused*/, L_4, /*hidden argument*/Object_Instantiate_TisGameObject_t1756533147_m3664764861_RuntimeMethod_var);
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_5);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (GameObject_t1756533147 *)L_5);
+		__this->set__playerObj_5(L_3);
+		PositionTracker_t858055883 * L_6 = Component_GetComponent_TisPositionTracker_t858055883_m1490921550(__this, /*hidden argument*/Component_GetComponent_TisPositionTracker_t858055883_m1490921550_RuntimeMethod_var);
+		__this->set__positionTracker_6(L_6);
 		return;
 	}
 }
@@ -28116,25 +28139,55 @@ extern "C"  void GodManager_Update_m3042548161 (GodManager_t3418635257 * __this,
 		il2cpp_codegen_initialize_method (GodManager_Update_m3042548161_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	int32_t V_0 = 0;
 	{
-		GameObject_t1756533147 * L_0 = __this->get__playerObj_5();
+		V_0 = 0;
+		goto IL_004c;
+	}
+
+IL_0007:
+	{
+		GameObjectU5BU5D_t3057952154* L_0 = __this->get__playerObj_5();
+		int32_t L_1 = V_0;
 		NullCheck(L_0);
-		Transform_t3275118058 * L_1 = GameObject_get_transform_m3490276752(L_0, /*hidden argument*/NULL);
-		PositionTracker_t858055883 * L_2 = __this->get__positionTracker_6();
-		NullCheck(L_2);
-		Vector3_t2243707580  L_3 = PositionTracker_PlayerPosition_m1630570442(L_2, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		Transform_set_position_m2942701431(L_1, L_3, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_4 = __this->get__playerObj_5();
-		NullCheck(L_4);
-		Transform_t3275118058 * L_5 = GameObject_get_transform_m3490276752(L_4, /*hidden argument*/NULL);
-		PositionTracker_t858055883 * L_6 = __this->get__positionTracker_6();
-		NullCheck(L_6);
-		Vector3_t2243707580  L_7 = PositionTracker_PlayerRotation_m1052247347(L_6, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Quaternion_t4030073918_il2cpp_TypeInfo_var);
-		Quaternion_t4030073918  L_8 = Quaternion_Euler_m471972646(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		int32_t L_2 = L_1;
+		GameObject_t1756533147 * L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		NullCheck(L_3);
+		Transform_t3275118058 * L_4 = GameObject_get_transform_m3490276752(L_3, /*hidden argument*/NULL);
+		PositionTracker_t858055883 * L_5 = __this->get__positionTracker_6();
+		int32_t L_6 = V_0;
 		NullCheck(L_5);
-		Transform_set_rotation_m2824446320(L_5, L_8, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_7 = PositionTracker_PlayerPosition_m4290773863(L_5, L_6, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Transform_set_position_m2942701431(L_4, L_7, /*hidden argument*/NULL);
+		GameObjectU5BU5D_t3057952154* L_8 = __this->get__playerObj_5();
+		int32_t L_9 = V_0;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		GameObject_t1756533147 * L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		NullCheck(L_11);
+		Transform_t3275118058 * L_12 = GameObject_get_transform_m3490276752(L_11, /*hidden argument*/NULL);
+		PositionTracker_t858055883 * L_13 = __this->get__positionTracker_6();
+		int32_t L_14 = V_0;
+		NullCheck(L_13);
+		Vector3_t2243707580  L_15 = PositionTracker_PlayerRotation_m478065646(L_13, L_14, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Quaternion_t4030073918_il2cpp_TypeInfo_var);
+		Quaternion_t4030073918  L_16 = Quaternion_Euler_m471972646(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Transform_set_rotation_m2824446320(L_12, L_16, /*hidden argument*/NULL);
+		int32_t L_17 = V_0;
+		V_0 = ((int32_t)((int32_t)L_17+(int32_t)1));
+	}
+
+IL_004c:
+	{
+		int32_t L_18 = V_0;
+		if ((((int32_t)L_18) < ((int32_t)2)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
 		return;
 	}
 }
