@@ -15011,6 +15011,7 @@ extern "C" void PlayerDiamond_UpdateDiamondPosition_m86164770 ();
 extern "C" void PlayerDiamond_UpdateDiamondRotation_m1475431845 ();
 extern "C" void PlayerDiamond_UpdateDiamondVisibility_m755098771 ();
 extern "C" void PlayerManager__ctor_m2438461151 ();
+extern "C" void PlayerManager_Awake_m3616248288 ();
 extern "C" void PlayerManager_Start_m3761560539 ();
 extern "C" void PlayerManager_Update_m2677707154 ();
 extern "C" void PointCloudParticleExample__ctor_m249742788 ();
@@ -15804,7 +15805,7 @@ extern "C" void WorkerMenu_OnDisconnectedFromPhoton_m3655135434 ();
 extern "C" void WorkerMenu_OnFailedToConnectToPhoton_m2511247198 ();
 extern "C" void WorkerMenu_OnConnectedToMaster_m248562659 ();
 extern "C" void WorkerMenu__cctor_m4287693745 ();
-extern const Il2CppMethodPointer g_MethodPointers[15787] = 
+extern const Il2CppMethodPointer g_MethodPointers[15788] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -30800,6 +30801,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15787] =
 	PlayerDiamond_UpdateDiamondRotation_m1475431845,
 	PlayerDiamond_UpdateDiamondVisibility_m755098771,
 	PlayerManager__ctor_m2438461151,
+	PlayerManager_Awake_m3616248288,
 	PlayerManager_Start_m3761560539,
 	PlayerManager_Update_m2677707154,
 	PointCloudParticleExample__ctor_m249742788,

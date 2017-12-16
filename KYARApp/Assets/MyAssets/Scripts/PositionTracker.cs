@@ -57,15 +57,8 @@ public class PositionTracker : Photon.PunBehaviour
         if (isPlayer)
         {
             // 最初に Room に入った人が isMine = true
-            int playerId;
-            if (_photonView.isMine)
-            {
-                playerId = 0;
-            }
-            else 
-            {
-                playerId = 1;
-            }
+            // God の人は最後に Room に入る必要があるので注意
+            int playerId = _photonView.isMine ? 0 : 1;
 
             // Player の座標をアップデート
             _playerPosition[playerId] = Camera.main.transform.position;

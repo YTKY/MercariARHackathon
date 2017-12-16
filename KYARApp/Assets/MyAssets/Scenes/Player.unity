@@ -560,6 +560,7 @@ GameObject:
   - component: {fileID: 1735373892}
   - component: {fileID: 1735373894}
   - component: {fileID: 1735373895}
+  - component: {fileID: 1735373896}
   m_Layer: 0
   m_Name: ARManager
   m_TagString: Untagged
@@ -638,3 +639,16 @@ MonoBehaviour:
   instantiationId: 1
   currentMasterID: -1
   isRuntimeInstantiated: 0
+--- !u!114 &1735373896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1735373891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b2d0961c8f304f1098166c0289b7f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 1114584363547688, guid: 1248da1da62524a5ab8697a7e490d5b1,
+    type: 2}
