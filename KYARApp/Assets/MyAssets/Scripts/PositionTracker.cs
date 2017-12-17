@@ -16,6 +16,12 @@ public class PositionTracker : Photon.PunBehaviour
 
     private Vector3[] _bulletPositionOffset;
 
+    // Life management
+    private int _hp = 3;
+    public Text playerLife;
+    public GameObject gameOver;
+    public GameObject damegeEffect;
+
     // Photon
     private PhotonView _photonView = null;
 
@@ -26,6 +32,8 @@ public class PositionTracker : Photon.PunBehaviour
     // Bullet 関連
     public GameObject bulletPrefab;
     public float bulletSpeed = 1000;
+
+
 
     // Debug 用
     // Player の座標を表示する Text
@@ -68,6 +76,25 @@ public class PositionTracker : Photon.PunBehaviour
 
     }
 
+    public void Damaged(int life)
+    {
+        if (life < 0)
+        {
+            damegeEffect.SetActive(true);
+            gameOver.SetActive(true);
+        }
+        else
+        {
+            playerLife.text = life.ToString();
+            damegeEffect.SetActive(true);
+            Invoke("ClearDamageEffect", 0.5f);
+        }
+    }
+
+    public void ClearDamageEffect()
+    {
+        damegeEffect.SetActive(false);
+    }
 
     void Update()
     {
@@ -86,6 +113,7 @@ public class PositionTracker : Photon.PunBehaviour
                             _playerPosition[playerId],
                             _playerRotation[playerId],
                             playerId);
+
 
             // 玉を発射
             if (Application.isEditor)
@@ -156,7 +184,8 @@ public class PositionTracker : Photon.PunBehaviour
                                            godContrrollerScript.GetPlayerPositionInGod(PlayerPosition(playerId, offsetId)),
                                            Quaternion.Euler(PlayerRotation(playerId, offsetId)));
         bulletObj.transform.localScale = godContrrollerScript.Resize(bulletObj.transform.localScale);
-
+        bulletObj.GetComponent<TrailRenderer>().startWidth *= godContrrollerScript.GetResizeRetio();
+        bulletObj.GetComponent<TrailRenderer>().endWidth *= godContrrollerScript.GetResizeRetio();
         Vector3 force;
         force = bulletObj.transform.forward * bulletSpeed;
         bulletObj.GetComponent<Rigidbody>().AddForce(force);
@@ -176,7 +205,7 @@ public class PositionTracker : Photon.PunBehaviour
         bulletObj.GetComponent<Rigidbody>().AddForce(force);
 
         // この玉は 5 秒後に消えます
-        Destroy(bulletObj, 5);
+        Destroy(bulletObj, 2);
     }
 
     public Vector3 PlayerPosition(int playerId, int offsetId)

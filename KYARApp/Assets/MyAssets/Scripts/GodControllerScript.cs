@@ -123,6 +123,11 @@ namespace UnityEngine.XR.iOS
             return (pos * (_targetDistance / _baseDistance)) + _basePoint;
         }
 
+        public float GetResizeRetio()
+        {
+            return (_targetDistance / _baseDistance);
+        }
+
         public void AddAnchor(ARPlaneAnchor arPlaneAnchor)
         {
             if (_floorDetectionStatus == FloorDetectionStatus.Finding)
