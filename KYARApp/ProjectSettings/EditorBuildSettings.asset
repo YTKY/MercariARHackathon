@@ -45,8 +45,8 @@ EditorBuildSettings:
     path: Assets/MyAssets/Scenes/Player.unity
     guid: 426e12cc849dc44a7a9724d77b7f51f7
   - enabled: 0
-    path: Assets/MyAssets/Scenes/Old_God.unity
-    guid: 1a438382aebba4ee3a701eaec50addf4
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/MyAssets/Scenes/God.unity
     guid: a3befe401cfd34308a39904ab962be2a
