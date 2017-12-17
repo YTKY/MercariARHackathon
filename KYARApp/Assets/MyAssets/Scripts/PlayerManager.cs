@@ -41,13 +41,11 @@ public class PlayerManager : Photon.PunBehaviour
                                  -_positionTracker.PlayerPositionOffset(1),
                                  Quaternion.Euler(_positionTracker.PlayerRotationOffset(1)));
         _playerObj.GetComponent<PlayerController>().SetPlayerId(_playerId);
-        Debug.Log(_playerObj.transform.position);
 
     }
 
     void Update()
     {
-        Debug.Log(_playerObj.transform.position);
         _playerObj.transform.position = _positionTracker.PlayerPosition(_playerId, 1);
         _playerObj.transform.rotation = Quaternion.Euler(_positionTracker.PlayerRotation(_playerId, 1));
 
