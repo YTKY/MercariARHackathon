@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.iOS;
@@ -62,8 +62,8 @@ public class PositionTracker : Photon.PunBehaviour
             new Vector3 (0.0f, 180.0f, 0.0f),
         };
         _bulletPositionOffset = new Vector3[]{
-            new Vector3 (0.0f, 0.0f, 1.0f),
-            new Vector3 (0.0f, 0.0f, -1.0f),
+            new Vector3 (0.0f, 0.0f, 0.0f),
+            new Vector3 (0.0f, 0.0f, 0.0f),
         };
     }
 
@@ -121,19 +121,8 @@ public class PositionTracker : Photon.PunBehaviour
             "y = " + position.y.ToString() + "\n" +
             "z = " + position.z.ToString() + "\n";*/
 
-        // God の場合 private の position, rotation をアップデート
-        if (isGod)
-        {
-            _playerPosition[playerId] = position * 10;
-            _playerRotation[playerId] = rotation;
-        }
-
-        // Player の場合 private の position, rotation をアップデート
-        if (isPlayer)
-        {
-            _playerPosition[playerId] = position * 5;
-            _playerRotation[playerId] = rotation;
-        }
+        _playerPosition[playerId] = position;
+        _playerRotation[playerId] = rotation;
     }
 
     [PunRPC]
@@ -178,6 +167,7 @@ public class PositionTracker : Photon.PunBehaviour
         GameObject bulletObj = Instantiate(bulletPrefab,
                                            PlayerPosition(playerId, offsetId) + _bulletPositionOffset[playerId],
                                            Quaternion.Euler(PlayerRotation(playerId, offsetId)));
+        bulletObj.GetComponent<BulletManager>().SetShooterId(playerId);
         Vector3 force;
         force = bulletObj.transform.forward * bulletSpeed;
         bulletObj.GetComponent<Rigidbody>().AddForce(force);

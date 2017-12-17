@@ -18795,8 +18795,17 @@ public:
 struct  BulletManager_t3142841283  : public MonoBehaviour_t1158329972
 {
 public:
+	// System.Int32 BulletManager::_shooterId
+	int32_t ____shooterId_2;
 
 public:
+	inline static int32_t get_offset_of__shooterId_2() { return static_cast<int32_t>(offsetof(BulletManager_t3142841283, ____shooterId_2)); }
+	inline int32_t get__shooterId_2() const { return ____shooterId_2; }
+	inline int32_t* get_address_of__shooterId_2() { return &____shooterId_2; }
+	inline void set__shooterId_2(int32_t value)
+	{
+		____shooterId_2 = value;
+	}
 };
 
 #ifdef __clang__
@@ -27306,17 +27315,12 @@ extern "C"  void BulletManager__ctor_m742243314 (BulletManager_t3142841283 * __t
 		return;
 	}
 }
-// System.Void BulletManager::Start()
-extern "C"  void BulletManager_Start_m1138582878 (BulletManager_t3142841283 * __this, const RuntimeMethod* method)
+// System.Void BulletManager::SetShooterId(System.Int32)
+extern "C"  void BulletManager_SetShooterId_m2178470276 (BulletManager_t3142841283 * __this, int32_t ___shooterId0, const RuntimeMethod* method)
 {
 	{
-		return;
-	}
-}
-// System.Void BulletManager::Update()
-extern "C"  void BulletManager_Update_m434196423 (BulletManager_t3142841283 * __this, const RuntimeMethod* method)
-{
-	{
+		int32_t L_0 = ___shooterId0;
+		__this->set__shooterId_2(L_0);
 		return;
 	}
 }
@@ -27340,7 +27344,7 @@ extern "C"  void BulletManager_OnTriggerEnter_m3755607182 (BulletManager_t314284
 		bool L_3 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_2, _stringLiteral1875862075, /*hidden argument*/NULL);
 		if (!L_3)
 		{
-			goto IL_0047;
+			goto IL_0053;
 		}
 	}
 	{
@@ -27352,14 +27356,22 @@ extern "C"  void BulletManager_OnTriggerEnter_m3755607182 (BulletManager_t314284
 		NullCheck(L_6);
 		int32_t L_7 = PlayerController_GetPlayerId_m879818666(L_6, /*hidden argument*/NULL);
 		V_0 = L_7;
-		String_t* L_8 = Int32_ToString_m2960866144((&V_0), /*hidden argument*/NULL);
+		int32_t L_8 = V_0;
+		int32_t L_9 = __this->get__shooterId_2();
+		if ((((int32_t)L_8) == ((int32_t)L_9)))
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		String_t* L_10 = Int32_ToString_m2960866144((&V_0), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_9 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1248670178, L_8, /*hidden argument*/NULL);
+		String_t* L_11 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1248670178, L_10, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m2923680153(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		Debug_Log_m2923680153(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 	}
 
-IL_0047:
+IL_0053:
 	{
 		return;
 	}

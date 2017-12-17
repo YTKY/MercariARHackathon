@@ -13740,8 +13740,7 @@ extern "C" void BlendshapePrinter_FaceUpdated_m2771505318 ();
 extern "C" void BlendshapePrinter_FaceRemoved_m4120866103 ();
 extern "C" void BlendshapePrinter_Update_m3989659578 ();
 extern "C" void BulletManager__ctor_m742243314 ();
-extern "C" void BulletManager_Start_m1138582878 ();
-extern "C" void BulletManager_Update_m434196423 ();
+extern "C" void BulletManager_SetShooterId_m2178470276 ();
 extern "C" void BulletManager_OnTriggerEnter_m3755607182 ();
 extern "C" void CellTree__ctor_m3782778995 ();
 extern "C" void CellTree__ctor_m1642478691 ();
@@ -15818,7 +15817,7 @@ extern "C" void WorkerMenu_OnDisconnectedFromPhoton_m3655135434 ();
 extern "C" void WorkerMenu_OnFailedToConnectToPhoton_m2511247198 ();
 extern "C" void WorkerMenu_OnConnectedToMaster_m248562659 ();
 extern "C" void WorkerMenu__cctor_m4287693745 ();
-extern const Il2CppMethodPointer g_MethodPointers[15801] = 
+extern const Il2CppMethodPointer g_MethodPointers[15800] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -29543,8 +29542,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15801] =
 	BlendshapePrinter_FaceRemoved_m4120866103,
 	BlendshapePrinter_Update_m3989659578,
 	BulletManager__ctor_m742243314,
-	BulletManager_Start_m1138582878,
-	BulletManager_Update_m434196423,
+	BulletManager_SetShooterId_m2178470276,
 	BulletManager_OnTriggerEnter_m3755607182,
 	CellTree__ctor_m3782778995,
 	CellTree__ctor_m1642478691,
