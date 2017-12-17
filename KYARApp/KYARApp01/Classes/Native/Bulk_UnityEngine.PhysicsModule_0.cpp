@@ -1580,6 +1580,8 @@ extern "C"  Vector3_t2243707580  ContactPoint_get_point_m3352727333 (ContactPoin
 extern "C"  Vector3_t2243707580  ContactPoint_get_normal_m1779349830 (ContactPoint_t1376425630 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Joint::INTERNAL_set_anchor(UnityEngine.Vector3&)
 extern "C"  void Joint_INTERNAL_set_anchor_m726811223 (Joint_t454317436 * __this, Vector3_t2243707580 * ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Physics::INTERNAL_get_gravity(UnityEngine.Vector3&)
+extern "C"  void Physics_INTERNAL_get_gravity_m2607613905 (RuntimeObject * __this /* static, unused */, Vector3_t2243707580 * ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
 extern "C"  bool Physics_Raycast_m1756435689 (RuntimeObject * __this /* static, unused */, Vector3_t2243707580  ___origin0, Vector3_t2243707580  ___direction1, float ___maxDistance2, int32_t ___layerMask3, int32_t ___queryTriggerInteraction4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Physics::Internal_RaycastTest(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
@@ -1965,6 +1967,35 @@ extern "C"  void Joint_INTERNAL_set_anchor_m726811223 (Joint_t454317436 * __this
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Joint_INTERNAL_set_anchor_m726811223_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Joint::INTERNAL_set_anchor(UnityEngine.Vector3&)");
 	_il2cpp_icall_func(__this, ___value0);
+}
+// UnityEngine.Vector3 UnityEngine.Physics::get_gravity()
+extern "C"  Vector3_t2243707580  Physics_get_gravity_m1035197364 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Physics_INTERNAL_get_gravity_m2607613905(NULL /*static, unused*/, (&V_0), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_0 = V_0;
+		V_1 = L_0;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		Vector3_t2243707580  L_1 = V_1;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.Physics::INTERNAL_get_gravity(UnityEngine.Vector3&)
+extern "C"  void Physics_INTERNAL_get_gravity_m2607613905 (RuntimeObject * __this /* static, unused */, Vector3_t2243707580 * ___value0, const RuntimeMethod* method)
+{
+	typedef void (*Physics_INTERNAL_get_gravity_m2607613905_ftn) (Vector3_t2243707580 *);
+	static Physics_INTERNAL_get_gravity_m2607613905_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Physics_INTERNAL_get_gravity_m2607613905_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Physics::INTERNAL_get_gravity(UnityEngine.Vector3&)");
+	_il2cpp_icall_func(___value0);
 }
 // System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32)
 extern "C"  bool Physics_Raycast_m3712965514 (RuntimeObject * __this /* static, unused */, Vector3_t2243707580  ___origin0, Vector3_t2243707580  ___direction1, float ___maxDistance2, int32_t ___layerMask3, const RuntimeMethod* method)
