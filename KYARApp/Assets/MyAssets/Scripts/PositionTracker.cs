@@ -25,7 +25,7 @@ public class PositionTracker : Photon.PunBehaviour
 
     // Debug 用
     // Player の座標を表示する Text
-    public Text text;
+    //public Text text;
 
     private void Awake()
     {
@@ -52,7 +52,7 @@ public class PositionTracker : Photon.PunBehaviour
         _playerPositionOffset = new Vector3(5.0f, 0.0f, 0.0f);
     }
 
-    void Update () 
+    void Update()
     {
         if (isPlayer)
         {
@@ -64,9 +64,9 @@ public class PositionTracker : Photon.PunBehaviour
             _playerPosition[playerId] = Camera.main.transform.position;
             _playerRotation[playerId] = Camera.main.transform.rotation.eulerAngles;
 
-            _photonView.RPC("UpdatePlayerPosition", 
-                            PhotonTargets.All, 
-                            _playerPosition[playerId], 
+            _photonView.RPC("UpdatePlayerPosition",
+                            PhotonTargets.All,
+                            _playerPosition[playerId],
                             _playerRotation[playerId],
                             playerId);
 
@@ -85,29 +85,24 @@ public class PositionTracker : Photon.PunBehaviour
                     Touch touch = Input.GetTouch(0);
                     if (touch.phase == TouchPhase.Ended)
                     {
-                        _photonView.RPC("Shot", PhotonTargets.All, 
+                        _photonView.RPC("Shot", PhotonTargets.All,
                                         playerId);
                     }
                 }
             }
         }
-	}
-    
+    }
+
     [PunRPC]
-    void UpdatePlayerPosition(Vector3 position, 
+    void UpdatePlayerPosition(Vector3 position,
                               Vector3 rotation,
                               int playerId
-                             ) {
-        // Player の座標を表示
-        text.text = "Current Position \n" +
-            "x = " + position.x.ToString() + "\n" +
-            "y = " + position.y.ToString() + "\n" +
-            "z = " + position.z.ToString() + "\n";
-
+                             )
+    {
         // God の場合 private の position, rotation をアップデート
-        if (isGod) 
+        if (isGod)
         {
-            _playerPosition[playerId] = position*10;
+            _playerPosition[playerId] = position * 10;
             _playerRotation[playerId] = rotation;
         }
 
@@ -133,7 +128,7 @@ public class PositionTracker : Photon.PunBehaviour
         Destroy(bulletObj, 5);
     }
 
-    public Vector3 PlayerPosition (int playerId) 
+    public Vector3 PlayerPosition(int playerId)
     {
         if (playerId == 1)
         {
@@ -145,7 +140,7 @@ public class PositionTracker : Photon.PunBehaviour
         }
     }
 
-    public Vector3 PlayerRotation (int playerId) 
+    public Vector3 PlayerRotation(int playerId)
     {
         return _playerRotation[playerId];
     }

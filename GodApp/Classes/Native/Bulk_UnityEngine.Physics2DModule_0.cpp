@@ -19,54 +19,54 @@
 #include "object-internals.h"
 
 // UnityEngine.RaycastHit2D[]
-struct RaycastHit2DU5BU5D_t2765076899;
+struct RaycastHit2DU5BU5D_t3310982912;
 // System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>
-struct List_1_t2909594656;
+struct List_1_t3439730791;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t3827102973;
+struct List_1_t2591684357;
 // UnityEngine.Collider2D
-struct Collider2D_t227714118;
+struct Collider2D_t1052193197;
 // UnityEngine.Rigidbody2D
-struct Rigidbody2D_t4242740165;
+struct Rigidbody2D_t1214194286;
 // UnityEngine.Rigidbody2D[]
-struct Rigidbody2DU5BU5D_t3810956168;
+struct Rigidbody2DU5BU5D_t3298299931;
 // System.Void
-struct Void_t387164986;
+struct Void_t3009872624;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t1569978218;
+struct CharU5BU5D_t2121874686;
 // UnityEngine.ContactPoint2D[]
-struct ContactPoint2DU5BU5D_t3116517296;
+struct ContactPoint2DU5BU5D_t3203479250;
 
-extern RuntimeClass* Mathf_t3057955895_il2cpp_TypeInfo_var;
-extern const uint32_t ContactFilter2D_CheckConsistency_m4233430013_MetadataUsageId;
-extern RuntimeClass* ContactFilter2D_t1414142737_il2cpp_TypeInfo_var;
-extern RuntimeClass* Physics2D_t2113190482_il2cpp_TypeInfo_var;
-extern const uint32_t ContactFilter2D_CreateLegacyFilter_m1632684172_MetadataUsageId;
-extern const uint32_t Physics2D_Raycast_m3365530562_MetadataUsageId;
-extern const uint32_t Physics2D_Raycast_m2394984827_MetadataUsageId;
-extern const uint32_t Physics2D_Raycast_m1543690383_MetadataUsageId;
-extern const uint32_t Physics2D_Raycast_m1781988276_MetadataUsageId;
-extern const uint32_t Physics2D_Raycast_m1960478690_MetadataUsageId;
-extern const uint32_t Physics2D_Raycast_m4052358784_MetadataUsageId;
-extern const uint32_t Physics2D_Raycast_m4019611116_MetadataUsageId;
-extern const uint32_t Physics2D_Internal_Raycast_m2561617261_MetadataUsageId;
-extern const uint32_t Physics2D_Internal_RaycastNonAlloc_m1191899843_MetadataUsageId;
-extern const uint32_t Physics2D_GetRayIntersectionAll_m1691126476_MetadataUsageId;
-extern const uint32_t Physics2D_GetRayIntersectionAll_m3109187178_MetadataUsageId;
-extern const uint32_t Physics2D_GetRayIntersectionAll_m727503243_MetadataUsageId;
-extern RuntimeClass* List_1_t2909594656_il2cpp_TypeInfo_var;
-extern const RuntimeMethod* List_1__ctor_m1145373920_RuntimeMethod_var;
-extern const uint32_t Physics2D__cctor_m3335783417_MetadataUsageId;
-struct ContactPoint2D_t2383930557 ;
+extern RuntimeClass* Mathf_t566170356_il2cpp_TypeInfo_var;
+extern const uint32_t ContactFilter2D_CheckConsistency_m1213320100_MetadataUsageId;
+extern RuntimeClass* ContactFilter2D_t3142948246_il2cpp_TypeInfo_var;
+extern RuntimeClass* Physics2D_t1771492903_il2cpp_TypeInfo_var;
+extern const uint32_t ContactFilter2D_CreateLegacyFilter_m50380274_MetadataUsageId;
+extern const uint32_t Physics2D_Raycast_m289242489_MetadataUsageId;
+extern const uint32_t Physics2D_Raycast_m4046856143_MetadataUsageId;
+extern const uint32_t Physics2D_Raycast_m2140266700_MetadataUsageId;
+extern const uint32_t Physics2D_Raycast_m2220606757_MetadataUsageId;
+extern const uint32_t Physics2D_Raycast_m1039229220_MetadataUsageId;
+extern const uint32_t Physics2D_Raycast_m1271905414_MetadataUsageId;
+extern const uint32_t Physics2D_Raycast_m3123622375_MetadataUsageId;
+extern const uint32_t Physics2D_Internal_Raycast_m3594849280_MetadataUsageId;
+extern const uint32_t Physics2D_Internal_RaycastNonAlloc_m269252419_MetadataUsageId;
+extern const uint32_t Physics2D_GetRayIntersectionAll_m2663616149_MetadataUsageId;
+extern const uint32_t Physics2D_GetRayIntersectionAll_m2347467717_MetadataUsageId;
+extern const uint32_t Physics2D_GetRayIntersectionAll_m1927736340_MetadataUsageId;
+extern RuntimeClass* List_1_t3439730791_il2cpp_TypeInfo_var;
+extern const RuntimeMethod* List_1__ctor_m199323213_RuntimeMethod_var;
+extern const uint32_t Physics2D__cctor_m3427603090_MetadataUsageId;
+struct ContactPoint2D_t801939139 ;
 
-struct ContactPoint2DU5BU5D_t3116517296;
-struct RaycastHit2DU5BU5D_t2765076899;
+struct ContactPoint2DU5BU5D_t3203479250;
+struct RaycastHit2DU5BU5D_t3310982912;
 
 
-#ifndef U3CMODULEU3E_T2344662622_H
-#define U3CMODULEU3E_T2344662622_H
+#ifndef U3CMODULEU3E_T3101132601_H
+#define U3CMODULEU3E_T3101132601_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -74,7 +74,7 @@ struct RaycastHit2DU5BU5D_t2765076899;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t2344662622 
+struct  U3CModuleU3E_t3101132601 
 {
 public:
 
@@ -84,7 +84,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T2344662622_H
+#endif // U3CMODULEU3E_T3101132601_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__
@@ -114,8 +114,8 @@ struct Il2CppArrayBounds;
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEARRAY_H
-#ifndef VALUETYPE_T728981031_H
-#define VALUETYPE_T728981031_H
+#ifndef VALUETYPE_T3718447127_H
+#define VALUETYPE_T3718447127_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -123,7 +123,7 @@ struct Il2CppArrayBounds;
 #endif
 
 // System.ValueType
-struct  ValueType_t728981031  : public RuntimeObject
+struct  ValueType_t3718447127  : public RuntimeObject
 {
 public:
 
@@ -134,16 +134,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of System.ValueType
-struct ValueType_t728981031_marshaled_pinvoke
+struct ValueType_t3718447127_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.ValueType
-struct ValueType_t728981031_marshaled_com
+struct ValueType_t3718447127_marshaled_com
 {
 };
-#endif // VALUETYPE_T728981031_H
-#ifndef LIST_1_T2909594656_H
-#define LIST_1_T2909594656_H
+#endif // VALUETYPE_T3718447127_H
+#ifndef LIST_1_T3439730791_H
+#define LIST_1_T3439730791_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -151,27 +151,27 @@ struct ValueType_t728981031_marshaled_com
 #endif
 
 // System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>
-struct  List_1_t2909594656  : public RuntimeObject
+struct  List_1_t3439730791  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
-	Rigidbody2DU5BU5D_t3810956168* ____items_1;
+	Rigidbody2DU5BU5D_t3298299931* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 
 public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t2909594656, ____items_1)); }
-	inline Rigidbody2DU5BU5D_t3810956168* get__items_1() const { return ____items_1; }
-	inline Rigidbody2DU5BU5D_t3810956168** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(Rigidbody2DU5BU5D_t3810956168* value)
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t3439730791, ____items_1)); }
+	inline Rigidbody2DU5BU5D_t3298299931* get__items_1() const { return ____items_1; }
+	inline Rigidbody2DU5BU5D_t3298299931** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(Rigidbody2DU5BU5D_t3298299931* value)
 	{
 		____items_1 = value;
 		Il2CppCodeGenWriteBarrier((&____items_1), value);
 	}
 
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t2909594656, ____size_2)); }
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t3439730791, ____size_2)); }
 	inline int32_t get__size_2() const { return ____size_2; }
 	inline int32_t* get_address_of__size_2() { return &____size_2; }
 	inline void set__size_2(int32_t value)
@@ -179,7 +179,7 @@ public:
 		____size_2 = value;
 	}
 
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t2909594656, ____version_3)); }
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t3439730791, ____version_3)); }
 	inline int32_t get__version_3() const { return ____version_3; }
 	inline int32_t* get_address_of__version_3() { return &____version_3; }
 	inline void set__version_3(int32_t value)
@@ -188,17 +188,17 @@ public:
 	}
 };
 
-struct List_1_t2909594656_StaticFields
+struct List_1_t3439730791_StaticFields
 {
 public:
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	Rigidbody2DU5BU5D_t3810956168* ___EmptyArray_4;
+	Rigidbody2DU5BU5D_t3298299931* ___EmptyArray_4;
 
 public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t2909594656_StaticFields, ___EmptyArray_4)); }
-	inline Rigidbody2DU5BU5D_t3810956168* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline Rigidbody2DU5BU5D_t3810956168** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(Rigidbody2DU5BU5D_t3810956168* value)
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t3439730791_StaticFields, ___EmptyArray_4)); }
+	inline Rigidbody2DU5BU5D_t3298299931* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline Rigidbody2DU5BU5D_t3298299931** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(Rigidbody2DU5BU5D_t3298299931* value)
 	{
 		___EmptyArray_4 = value;
 		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
@@ -208,9 +208,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // LIST_1_T2909594656_H
-#ifndef PHYSICS2D_T2113190482_H
-#define PHYSICS2D_T2113190482_H
+#endif // LIST_1_T3439730791_H
+#ifndef PHYSICS2D_T1771492903_H
+#define PHYSICS2D_T1771492903_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -218,24 +218,24 @@ public:
 #endif
 
 // UnityEngine.Physics2D
-struct  Physics2D_t2113190482  : public RuntimeObject
+struct  Physics2D_t1771492903  : public RuntimeObject
 {
 public:
 
 public:
 };
 
-struct Physics2D_t2113190482_StaticFields
+struct Physics2D_t1771492903_StaticFields
 {
 public:
 	// System.Collections.Generic.List`1<UnityEngine.Rigidbody2D> UnityEngine.Physics2D::m_LastDisabledRigidbody2D
-	List_1_t2909594656 * ___m_LastDisabledRigidbody2D_0;
+	List_1_t3439730791 * ___m_LastDisabledRigidbody2D_0;
 
 public:
-	inline static int32_t get_offset_of_m_LastDisabledRigidbody2D_0() { return static_cast<int32_t>(offsetof(Physics2D_t2113190482_StaticFields, ___m_LastDisabledRigidbody2D_0)); }
-	inline List_1_t2909594656 * get_m_LastDisabledRigidbody2D_0() const { return ___m_LastDisabledRigidbody2D_0; }
-	inline List_1_t2909594656 ** get_address_of_m_LastDisabledRigidbody2D_0() { return &___m_LastDisabledRigidbody2D_0; }
-	inline void set_m_LastDisabledRigidbody2D_0(List_1_t2909594656 * value)
+	inline static int32_t get_offset_of_m_LastDisabledRigidbody2D_0() { return static_cast<int32_t>(offsetof(Physics2D_t1771492903_StaticFields, ___m_LastDisabledRigidbody2D_0)); }
+	inline List_1_t3439730791 * get_m_LastDisabledRigidbody2D_0() const { return ___m_LastDisabledRigidbody2D_0; }
+	inline List_1_t3439730791 ** get_address_of_m_LastDisabledRigidbody2D_0() { return &___m_LastDisabledRigidbody2D_0; }
+	inline void set_m_LastDisabledRigidbody2D_0(List_1_t3439730791 * value)
 	{
 		___m_LastDisabledRigidbody2D_0 = value;
 		Il2CppCodeGenWriteBarrier((&___m_LastDisabledRigidbody2D_0), value);
@@ -245,7 +245,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // PHYSICS2D_T2113190482_H
+#endif // PHYSICS2D_T1771492903_H
 #ifndef INTPTR_T_H
 #define INTPTR_T_H
 #ifdef __clang__
@@ -291,8 +291,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INTPTR_T_H
-#ifndef LAYERMASK_T2442541870_H
-#define LAYERMASK_T2442541870_H
+#ifndef LAYERMASK_T917109080_H
+#define LAYERMASK_T917109080_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -300,14 +300,14 @@ public:
 #endif
 
 // UnityEngine.LayerMask
-struct  LayerMask_t2442541870 
+struct  LayerMask_t917109080 
 {
 public:
 	// System.Int32 UnityEngine.LayerMask::m_Mask
 	int32_t ___m_Mask_0;
 
 public:
-	inline static int32_t get_offset_of_m_Mask_0() { return static_cast<int32_t>(offsetof(LayerMask_t2442541870, ___m_Mask_0)); }
+	inline static int32_t get_offset_of_m_Mask_0() { return static_cast<int32_t>(offsetof(LayerMask_t917109080, ___m_Mask_0)); }
 	inline int32_t get_m_Mask_0() const { return ___m_Mask_0; }
 	inline int32_t* get_address_of_m_Mask_0() { return &___m_Mask_0; }
 	inline void set_m_Mask_0(int32_t value)
@@ -319,9 +319,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // LAYERMASK_T2442541870_H
-#ifndef VOID_T387164986_H
-#define VOID_T387164986_H
+#endif // LAYERMASK_T917109080_H
+#ifndef VOID_T3009872624_H
+#define VOID_T3009872624_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -329,7 +329,7 @@ public:
 #endif
 
 // System.Void
-struct  Void_t387164986 
+struct  Void_t3009872624 
 {
 public:
 
@@ -339,9 +339,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VOID_T387164986_H
-#ifndef SINGLE_T466080163_H
-#define SINGLE_T466080163_H
+#endif // VOID_T3009872624_H
+#ifndef SINGLE_T770794181_H
+#define SINGLE_T770794181_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -349,14 +349,14 @@ public:
 #endif
 
 // System.Single
-struct  Single_t466080163 
+struct  Single_t770794181 
 {
 public:
 	// System.Single System.Single::m_value
 	float ___m_value_7;
 
 public:
-	inline static int32_t get_offset_of_m_value_7() { return static_cast<int32_t>(offsetof(Single_t466080163, ___m_value_7)); }
+	inline static int32_t get_offset_of_m_value_7() { return static_cast<int32_t>(offsetof(Single_t770794181, ___m_value_7)); }
 	inline float get_m_value_7() const { return ___m_value_7; }
 	inline float* get_address_of_m_value_7() { return &___m_value_7; }
 	inline void set_m_value_7(float value)
@@ -368,9 +368,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // SINGLE_T466080163_H
-#ifndef BOOLEAN_T3167725057_H
-#define BOOLEAN_T3167725057_H
+#endif // SINGLE_T770794181_H
+#ifndef BOOLEAN_T2665647557_H
+#define BOOLEAN_T2665647557_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -378,14 +378,14 @@ public:
 #endif
 
 // System.Boolean
-struct  Boolean_t3167725057 
+struct  Boolean_t2665647557 
 {
 public:
 	// System.Boolean System.Boolean::m_value
 	bool ___m_value_2;
 
 public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Boolean_t3167725057, ___m_value_2)); }
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Boolean_t2665647557, ___m_value_2)); }
 	inline bool get_m_value_2() const { return ___m_value_2; }
 	inline bool* get_address_of_m_value_2() { return &___m_value_2; }
 	inline void set_m_value_2(bool value)
@@ -394,7 +394,7 @@ public:
 	}
 };
 
-struct Boolean_t3167725057_StaticFields
+struct Boolean_t2665647557_StaticFields
 {
 public:
 	// System.String System.Boolean::FalseString
@@ -403,7 +403,7 @@ public:
 	String_t* ___TrueString_1;
 
 public:
-	inline static int32_t get_offset_of_FalseString_0() { return static_cast<int32_t>(offsetof(Boolean_t3167725057_StaticFields, ___FalseString_0)); }
+	inline static int32_t get_offset_of_FalseString_0() { return static_cast<int32_t>(offsetof(Boolean_t2665647557_StaticFields, ___FalseString_0)); }
 	inline String_t* get_FalseString_0() const { return ___FalseString_0; }
 	inline String_t** get_address_of_FalseString_0() { return &___FalseString_0; }
 	inline void set_FalseString_0(String_t* value)
@@ -412,7 +412,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___FalseString_0), value);
 	}
 
-	inline static int32_t get_offset_of_TrueString_1() { return static_cast<int32_t>(offsetof(Boolean_t3167725057_StaticFields, ___TrueString_1)); }
+	inline static int32_t get_offset_of_TrueString_1() { return static_cast<int32_t>(offsetof(Boolean_t2665647557_StaticFields, ___TrueString_1)); }
 	inline String_t* get_TrueString_1() const { return ___TrueString_1; }
 	inline String_t** get_address_of_TrueString_1() { return &___TrueString_1; }
 	inline void set_TrueString_1(String_t* value)
@@ -425,9 +425,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // BOOLEAN_T3167725057_H
-#ifndef INT32_T1355828918_H
-#define INT32_T1355828918_H
+#endif // BOOLEAN_T2665647557_H
+#ifndef INT32_T455304863_H
+#define INT32_T455304863_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -435,14 +435,14 @@ public:
 #endif
 
 // System.Int32
-struct  Int32_t1355828918 
+struct  Int32_t455304863 
 {
 public:
 	// System.Int32 System.Int32::m_value
 	int32_t ___m_value_2;
 
 public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Int32_t1355828918, ___m_value_2)); }
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Int32_t455304863, ___m_value_2)); }
 	inline int32_t get_m_value_2() const { return ___m_value_2; }
 	inline int32_t* get_address_of_m_value_2() { return &___m_value_2; }
 	inline void set_m_value_2(int32_t value)
@@ -454,9 +454,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // INT32_T1355828918_H
-#ifndef VECTOR3_T3955860131_H
-#define VECTOR3_T3955860131_H
+#endif // INT32_T455304863_H
+#ifndef VECTOR3_T2497192819_H
+#define VECTOR3_T2497192819_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -464,7 +464,7 @@ public:
 #endif
 
 // UnityEngine.Vector3
-struct  Vector3_t3955860131 
+struct  Vector3_t2497192819 
 {
 public:
 	// System.Single UnityEngine.Vector3::x
@@ -475,7 +475,7 @@ public:
 	float ___z_3;
 
 public:
-	inline static int32_t get_offset_of_x_1() { return static_cast<int32_t>(offsetof(Vector3_t3955860131, ___x_1)); }
+	inline static int32_t get_offset_of_x_1() { return static_cast<int32_t>(offsetof(Vector3_t2497192819, ___x_1)); }
 	inline float get_x_1() const { return ___x_1; }
 	inline float* get_address_of_x_1() { return &___x_1; }
 	inline void set_x_1(float value)
@@ -483,7 +483,7 @@ public:
 		___x_1 = value;
 	}
 
-	inline static int32_t get_offset_of_y_2() { return static_cast<int32_t>(offsetof(Vector3_t3955860131, ___y_2)); }
+	inline static int32_t get_offset_of_y_2() { return static_cast<int32_t>(offsetof(Vector3_t2497192819, ___y_2)); }
 	inline float get_y_2() const { return ___y_2; }
 	inline float* get_address_of_y_2() { return &___y_2; }
 	inline void set_y_2(float value)
@@ -491,7 +491,7 @@ public:
 		___y_2 = value;
 	}
 
-	inline static int32_t get_offset_of_z_3() { return static_cast<int32_t>(offsetof(Vector3_t3955860131, ___z_3)); }
+	inline static int32_t get_offset_of_z_3() { return static_cast<int32_t>(offsetof(Vector3_t2497192819, ___z_3)); }
 	inline float get_z_3() const { return ___z_3; }
 	inline float* get_address_of_z_3() { return &___z_3; }
 	inline void set_z_3(float value)
@@ -500,107 +500,107 @@ public:
 	}
 };
 
-struct Vector3_t3955860131_StaticFields
+struct Vector3_t2497192819_StaticFields
 {
 public:
 	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
-	Vector3_t3955860131  ___zeroVector_4;
+	Vector3_t2497192819  ___zeroVector_4;
 	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
-	Vector3_t3955860131  ___oneVector_5;
+	Vector3_t2497192819  ___oneVector_5;
 	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
-	Vector3_t3955860131  ___upVector_6;
+	Vector3_t2497192819  ___upVector_6;
 	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
-	Vector3_t3955860131  ___downVector_7;
+	Vector3_t2497192819  ___downVector_7;
 	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
-	Vector3_t3955860131  ___leftVector_8;
+	Vector3_t2497192819  ___leftVector_8;
 	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
-	Vector3_t3955860131  ___rightVector_9;
+	Vector3_t2497192819  ___rightVector_9;
 	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
-	Vector3_t3955860131  ___forwardVector_10;
+	Vector3_t2497192819  ___forwardVector_10;
 	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
-	Vector3_t3955860131  ___backVector_11;
+	Vector3_t2497192819  ___backVector_11;
 	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
-	Vector3_t3955860131  ___positiveInfinityVector_12;
+	Vector3_t2497192819  ___positiveInfinityVector_12;
 	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
-	Vector3_t3955860131  ___negativeInfinityVector_13;
+	Vector3_t2497192819  ___negativeInfinityVector_13;
 
 public:
-	inline static int32_t get_offset_of_zeroVector_4() { return static_cast<int32_t>(offsetof(Vector3_t3955860131_StaticFields, ___zeroVector_4)); }
-	inline Vector3_t3955860131  get_zeroVector_4() const { return ___zeroVector_4; }
-	inline Vector3_t3955860131 * get_address_of_zeroVector_4() { return &___zeroVector_4; }
-	inline void set_zeroVector_4(Vector3_t3955860131  value)
+	inline static int32_t get_offset_of_zeroVector_4() { return static_cast<int32_t>(offsetof(Vector3_t2497192819_StaticFields, ___zeroVector_4)); }
+	inline Vector3_t2497192819  get_zeroVector_4() const { return ___zeroVector_4; }
+	inline Vector3_t2497192819 * get_address_of_zeroVector_4() { return &___zeroVector_4; }
+	inline void set_zeroVector_4(Vector3_t2497192819  value)
 	{
 		___zeroVector_4 = value;
 	}
 
-	inline static int32_t get_offset_of_oneVector_5() { return static_cast<int32_t>(offsetof(Vector3_t3955860131_StaticFields, ___oneVector_5)); }
-	inline Vector3_t3955860131  get_oneVector_5() const { return ___oneVector_5; }
-	inline Vector3_t3955860131 * get_address_of_oneVector_5() { return &___oneVector_5; }
-	inline void set_oneVector_5(Vector3_t3955860131  value)
+	inline static int32_t get_offset_of_oneVector_5() { return static_cast<int32_t>(offsetof(Vector3_t2497192819_StaticFields, ___oneVector_5)); }
+	inline Vector3_t2497192819  get_oneVector_5() const { return ___oneVector_5; }
+	inline Vector3_t2497192819 * get_address_of_oneVector_5() { return &___oneVector_5; }
+	inline void set_oneVector_5(Vector3_t2497192819  value)
 	{
 		___oneVector_5 = value;
 	}
 
-	inline static int32_t get_offset_of_upVector_6() { return static_cast<int32_t>(offsetof(Vector3_t3955860131_StaticFields, ___upVector_6)); }
-	inline Vector3_t3955860131  get_upVector_6() const { return ___upVector_6; }
-	inline Vector3_t3955860131 * get_address_of_upVector_6() { return &___upVector_6; }
-	inline void set_upVector_6(Vector3_t3955860131  value)
+	inline static int32_t get_offset_of_upVector_6() { return static_cast<int32_t>(offsetof(Vector3_t2497192819_StaticFields, ___upVector_6)); }
+	inline Vector3_t2497192819  get_upVector_6() const { return ___upVector_6; }
+	inline Vector3_t2497192819 * get_address_of_upVector_6() { return &___upVector_6; }
+	inline void set_upVector_6(Vector3_t2497192819  value)
 	{
 		___upVector_6 = value;
 	}
 
-	inline static int32_t get_offset_of_downVector_7() { return static_cast<int32_t>(offsetof(Vector3_t3955860131_StaticFields, ___downVector_7)); }
-	inline Vector3_t3955860131  get_downVector_7() const { return ___downVector_7; }
-	inline Vector3_t3955860131 * get_address_of_downVector_7() { return &___downVector_7; }
-	inline void set_downVector_7(Vector3_t3955860131  value)
+	inline static int32_t get_offset_of_downVector_7() { return static_cast<int32_t>(offsetof(Vector3_t2497192819_StaticFields, ___downVector_7)); }
+	inline Vector3_t2497192819  get_downVector_7() const { return ___downVector_7; }
+	inline Vector3_t2497192819 * get_address_of_downVector_7() { return &___downVector_7; }
+	inline void set_downVector_7(Vector3_t2497192819  value)
 	{
 		___downVector_7 = value;
 	}
 
-	inline static int32_t get_offset_of_leftVector_8() { return static_cast<int32_t>(offsetof(Vector3_t3955860131_StaticFields, ___leftVector_8)); }
-	inline Vector3_t3955860131  get_leftVector_8() const { return ___leftVector_8; }
-	inline Vector3_t3955860131 * get_address_of_leftVector_8() { return &___leftVector_8; }
-	inline void set_leftVector_8(Vector3_t3955860131  value)
+	inline static int32_t get_offset_of_leftVector_8() { return static_cast<int32_t>(offsetof(Vector3_t2497192819_StaticFields, ___leftVector_8)); }
+	inline Vector3_t2497192819  get_leftVector_8() const { return ___leftVector_8; }
+	inline Vector3_t2497192819 * get_address_of_leftVector_8() { return &___leftVector_8; }
+	inline void set_leftVector_8(Vector3_t2497192819  value)
 	{
 		___leftVector_8 = value;
 	}
 
-	inline static int32_t get_offset_of_rightVector_9() { return static_cast<int32_t>(offsetof(Vector3_t3955860131_StaticFields, ___rightVector_9)); }
-	inline Vector3_t3955860131  get_rightVector_9() const { return ___rightVector_9; }
-	inline Vector3_t3955860131 * get_address_of_rightVector_9() { return &___rightVector_9; }
-	inline void set_rightVector_9(Vector3_t3955860131  value)
+	inline static int32_t get_offset_of_rightVector_9() { return static_cast<int32_t>(offsetof(Vector3_t2497192819_StaticFields, ___rightVector_9)); }
+	inline Vector3_t2497192819  get_rightVector_9() const { return ___rightVector_9; }
+	inline Vector3_t2497192819 * get_address_of_rightVector_9() { return &___rightVector_9; }
+	inline void set_rightVector_9(Vector3_t2497192819  value)
 	{
 		___rightVector_9 = value;
 	}
 
-	inline static int32_t get_offset_of_forwardVector_10() { return static_cast<int32_t>(offsetof(Vector3_t3955860131_StaticFields, ___forwardVector_10)); }
-	inline Vector3_t3955860131  get_forwardVector_10() const { return ___forwardVector_10; }
-	inline Vector3_t3955860131 * get_address_of_forwardVector_10() { return &___forwardVector_10; }
-	inline void set_forwardVector_10(Vector3_t3955860131  value)
+	inline static int32_t get_offset_of_forwardVector_10() { return static_cast<int32_t>(offsetof(Vector3_t2497192819_StaticFields, ___forwardVector_10)); }
+	inline Vector3_t2497192819  get_forwardVector_10() const { return ___forwardVector_10; }
+	inline Vector3_t2497192819 * get_address_of_forwardVector_10() { return &___forwardVector_10; }
+	inline void set_forwardVector_10(Vector3_t2497192819  value)
 	{
 		___forwardVector_10 = value;
 	}
 
-	inline static int32_t get_offset_of_backVector_11() { return static_cast<int32_t>(offsetof(Vector3_t3955860131_StaticFields, ___backVector_11)); }
-	inline Vector3_t3955860131  get_backVector_11() const { return ___backVector_11; }
-	inline Vector3_t3955860131 * get_address_of_backVector_11() { return &___backVector_11; }
-	inline void set_backVector_11(Vector3_t3955860131  value)
+	inline static int32_t get_offset_of_backVector_11() { return static_cast<int32_t>(offsetof(Vector3_t2497192819_StaticFields, ___backVector_11)); }
+	inline Vector3_t2497192819  get_backVector_11() const { return ___backVector_11; }
+	inline Vector3_t2497192819 * get_address_of_backVector_11() { return &___backVector_11; }
+	inline void set_backVector_11(Vector3_t2497192819  value)
 	{
 		___backVector_11 = value;
 	}
 
-	inline static int32_t get_offset_of_positiveInfinityVector_12() { return static_cast<int32_t>(offsetof(Vector3_t3955860131_StaticFields, ___positiveInfinityVector_12)); }
-	inline Vector3_t3955860131  get_positiveInfinityVector_12() const { return ___positiveInfinityVector_12; }
-	inline Vector3_t3955860131 * get_address_of_positiveInfinityVector_12() { return &___positiveInfinityVector_12; }
-	inline void set_positiveInfinityVector_12(Vector3_t3955860131  value)
+	inline static int32_t get_offset_of_positiveInfinityVector_12() { return static_cast<int32_t>(offsetof(Vector3_t2497192819_StaticFields, ___positiveInfinityVector_12)); }
+	inline Vector3_t2497192819  get_positiveInfinityVector_12() const { return ___positiveInfinityVector_12; }
+	inline Vector3_t2497192819 * get_address_of_positiveInfinityVector_12() { return &___positiveInfinityVector_12; }
+	inline void set_positiveInfinityVector_12(Vector3_t2497192819  value)
 	{
 		___positiveInfinityVector_12 = value;
 	}
 
-	inline static int32_t get_offset_of_negativeInfinityVector_13() { return static_cast<int32_t>(offsetof(Vector3_t3955860131_StaticFields, ___negativeInfinityVector_13)); }
-	inline Vector3_t3955860131  get_negativeInfinityVector_13() const { return ___negativeInfinityVector_13; }
-	inline Vector3_t3955860131 * get_address_of_negativeInfinityVector_13() { return &___negativeInfinityVector_13; }
-	inline void set_negativeInfinityVector_13(Vector3_t3955860131  value)
+	inline static int32_t get_offset_of_negativeInfinityVector_13() { return static_cast<int32_t>(offsetof(Vector3_t2497192819_StaticFields, ___negativeInfinityVector_13)); }
+	inline Vector3_t2497192819  get_negativeInfinityVector_13() const { return ___negativeInfinityVector_13; }
+	inline Vector3_t2497192819 * get_address_of_negativeInfinityVector_13() { return &___negativeInfinityVector_13; }
+	inline void set_negativeInfinityVector_13(Vector3_t2497192819  value)
 	{
 		___negativeInfinityVector_13 = value;
 	}
@@ -609,9 +609,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VECTOR3_T3955860131_H
-#ifndef ENUM_T348024492_H
-#define ENUM_T348024492_H
+#endif // VECTOR3_T2497192819_H
+#ifndef ENUM_T3929743098_H
+#define ENUM_T3929743098_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -619,24 +619,24 @@ public:
 #endif
 
 // System.Enum
-struct  Enum_t348024492  : public ValueType_t728981031
+struct  Enum_t3929743098  : public ValueType_t3718447127
 {
 public:
 
 public:
 };
 
-struct Enum_t348024492_StaticFields
+struct Enum_t3929743098_StaticFields
 {
 public:
 	// System.Char[] System.Enum::split_char
-	CharU5BU5D_t1569978218* ___split_char_0;
+	CharU5BU5D_t2121874686* ___split_char_0;
 
 public:
-	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t348024492_StaticFields, ___split_char_0)); }
-	inline CharU5BU5D_t1569978218* get_split_char_0() const { return ___split_char_0; }
-	inline CharU5BU5D_t1569978218** get_address_of_split_char_0() { return &___split_char_0; }
-	inline void set_split_char_0(CharU5BU5D_t1569978218* value)
+	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t3929743098_StaticFields, ___split_char_0)); }
+	inline CharU5BU5D_t2121874686* get_split_char_0() const { return ___split_char_0; }
+	inline CharU5BU5D_t2121874686** get_address_of_split_char_0() { return &___split_char_0; }
+	inline void set_split_char_0(CharU5BU5D_t2121874686* value)
 	{
 		___split_char_0 = value;
 		Il2CppCodeGenWriteBarrier((&___split_char_0), value);
@@ -647,16 +647,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of System.Enum
-struct Enum_t348024492_marshaled_pinvoke
+struct Enum_t3929743098_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.Enum
-struct Enum_t348024492_marshaled_com
+struct Enum_t3929743098_marshaled_com
 {
 };
-#endif // ENUM_T348024492_H
-#ifndef VECTOR2_T3951545240_H
-#define VECTOR2_T3951545240_H
+#endif // ENUM_T3929743098_H
+#ifndef VECTOR2_T697963865_H
+#define VECTOR2_T697963865_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -664,7 +664,7 @@ struct Enum_t348024492_marshaled_com
 #endif
 
 // UnityEngine.Vector2
-struct  Vector2_t3951545240 
+struct  Vector2_t697963865 
 {
 public:
 	// System.Single UnityEngine.Vector2::x
@@ -673,7 +673,7 @@ public:
 	float ___y_1;
 
 public:
-	inline static int32_t get_offset_of_x_0() { return static_cast<int32_t>(offsetof(Vector2_t3951545240, ___x_0)); }
+	inline static int32_t get_offset_of_x_0() { return static_cast<int32_t>(offsetof(Vector2_t697963865, ___x_0)); }
 	inline float get_x_0() const { return ___x_0; }
 	inline float* get_address_of_x_0() { return &___x_0; }
 	inline void set_x_0(float value)
@@ -681,7 +681,7 @@ public:
 		___x_0 = value;
 	}
 
-	inline static int32_t get_offset_of_y_1() { return static_cast<int32_t>(offsetof(Vector2_t3951545240, ___y_1)); }
+	inline static int32_t get_offset_of_y_1() { return static_cast<int32_t>(offsetof(Vector2_t697963865, ___y_1)); }
 	inline float get_y_1() const { return ___y_1; }
 	inline float* get_address_of_y_1() { return &___y_1; }
 	inline void set_y_1(float value)
@@ -690,87 +690,87 @@ public:
 	}
 };
 
-struct Vector2_t3951545240_StaticFields
+struct Vector2_t697963865_StaticFields
 {
 public:
 	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
-	Vector2_t3951545240  ___zeroVector_2;
+	Vector2_t697963865  ___zeroVector_2;
 	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
-	Vector2_t3951545240  ___oneVector_3;
+	Vector2_t697963865  ___oneVector_3;
 	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
-	Vector2_t3951545240  ___upVector_4;
+	Vector2_t697963865  ___upVector_4;
 	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
-	Vector2_t3951545240  ___downVector_5;
+	Vector2_t697963865  ___downVector_5;
 	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
-	Vector2_t3951545240  ___leftVector_6;
+	Vector2_t697963865  ___leftVector_6;
 	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
-	Vector2_t3951545240  ___rightVector_7;
+	Vector2_t697963865  ___rightVector_7;
 	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
-	Vector2_t3951545240  ___positiveInfinityVector_8;
+	Vector2_t697963865  ___positiveInfinityVector_8;
 	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
-	Vector2_t3951545240  ___negativeInfinityVector_9;
+	Vector2_t697963865  ___negativeInfinityVector_9;
 
 public:
-	inline static int32_t get_offset_of_zeroVector_2() { return static_cast<int32_t>(offsetof(Vector2_t3951545240_StaticFields, ___zeroVector_2)); }
-	inline Vector2_t3951545240  get_zeroVector_2() const { return ___zeroVector_2; }
-	inline Vector2_t3951545240 * get_address_of_zeroVector_2() { return &___zeroVector_2; }
-	inline void set_zeroVector_2(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_zeroVector_2() { return static_cast<int32_t>(offsetof(Vector2_t697963865_StaticFields, ___zeroVector_2)); }
+	inline Vector2_t697963865  get_zeroVector_2() const { return ___zeroVector_2; }
+	inline Vector2_t697963865 * get_address_of_zeroVector_2() { return &___zeroVector_2; }
+	inline void set_zeroVector_2(Vector2_t697963865  value)
 	{
 		___zeroVector_2 = value;
 	}
 
-	inline static int32_t get_offset_of_oneVector_3() { return static_cast<int32_t>(offsetof(Vector2_t3951545240_StaticFields, ___oneVector_3)); }
-	inline Vector2_t3951545240  get_oneVector_3() const { return ___oneVector_3; }
-	inline Vector2_t3951545240 * get_address_of_oneVector_3() { return &___oneVector_3; }
-	inline void set_oneVector_3(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_oneVector_3() { return static_cast<int32_t>(offsetof(Vector2_t697963865_StaticFields, ___oneVector_3)); }
+	inline Vector2_t697963865  get_oneVector_3() const { return ___oneVector_3; }
+	inline Vector2_t697963865 * get_address_of_oneVector_3() { return &___oneVector_3; }
+	inline void set_oneVector_3(Vector2_t697963865  value)
 	{
 		___oneVector_3 = value;
 	}
 
-	inline static int32_t get_offset_of_upVector_4() { return static_cast<int32_t>(offsetof(Vector2_t3951545240_StaticFields, ___upVector_4)); }
-	inline Vector2_t3951545240  get_upVector_4() const { return ___upVector_4; }
-	inline Vector2_t3951545240 * get_address_of_upVector_4() { return &___upVector_4; }
-	inline void set_upVector_4(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_upVector_4() { return static_cast<int32_t>(offsetof(Vector2_t697963865_StaticFields, ___upVector_4)); }
+	inline Vector2_t697963865  get_upVector_4() const { return ___upVector_4; }
+	inline Vector2_t697963865 * get_address_of_upVector_4() { return &___upVector_4; }
+	inline void set_upVector_4(Vector2_t697963865  value)
 	{
 		___upVector_4 = value;
 	}
 
-	inline static int32_t get_offset_of_downVector_5() { return static_cast<int32_t>(offsetof(Vector2_t3951545240_StaticFields, ___downVector_5)); }
-	inline Vector2_t3951545240  get_downVector_5() const { return ___downVector_5; }
-	inline Vector2_t3951545240 * get_address_of_downVector_5() { return &___downVector_5; }
-	inline void set_downVector_5(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_downVector_5() { return static_cast<int32_t>(offsetof(Vector2_t697963865_StaticFields, ___downVector_5)); }
+	inline Vector2_t697963865  get_downVector_5() const { return ___downVector_5; }
+	inline Vector2_t697963865 * get_address_of_downVector_5() { return &___downVector_5; }
+	inline void set_downVector_5(Vector2_t697963865  value)
 	{
 		___downVector_5 = value;
 	}
 
-	inline static int32_t get_offset_of_leftVector_6() { return static_cast<int32_t>(offsetof(Vector2_t3951545240_StaticFields, ___leftVector_6)); }
-	inline Vector2_t3951545240  get_leftVector_6() const { return ___leftVector_6; }
-	inline Vector2_t3951545240 * get_address_of_leftVector_6() { return &___leftVector_6; }
-	inline void set_leftVector_6(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_leftVector_6() { return static_cast<int32_t>(offsetof(Vector2_t697963865_StaticFields, ___leftVector_6)); }
+	inline Vector2_t697963865  get_leftVector_6() const { return ___leftVector_6; }
+	inline Vector2_t697963865 * get_address_of_leftVector_6() { return &___leftVector_6; }
+	inline void set_leftVector_6(Vector2_t697963865  value)
 	{
 		___leftVector_6 = value;
 	}
 
-	inline static int32_t get_offset_of_rightVector_7() { return static_cast<int32_t>(offsetof(Vector2_t3951545240_StaticFields, ___rightVector_7)); }
-	inline Vector2_t3951545240  get_rightVector_7() const { return ___rightVector_7; }
-	inline Vector2_t3951545240 * get_address_of_rightVector_7() { return &___rightVector_7; }
-	inline void set_rightVector_7(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_rightVector_7() { return static_cast<int32_t>(offsetof(Vector2_t697963865_StaticFields, ___rightVector_7)); }
+	inline Vector2_t697963865  get_rightVector_7() const { return ___rightVector_7; }
+	inline Vector2_t697963865 * get_address_of_rightVector_7() { return &___rightVector_7; }
+	inline void set_rightVector_7(Vector2_t697963865  value)
 	{
 		___rightVector_7 = value;
 	}
 
-	inline static int32_t get_offset_of_positiveInfinityVector_8() { return static_cast<int32_t>(offsetof(Vector2_t3951545240_StaticFields, ___positiveInfinityVector_8)); }
-	inline Vector2_t3951545240  get_positiveInfinityVector_8() const { return ___positiveInfinityVector_8; }
-	inline Vector2_t3951545240 * get_address_of_positiveInfinityVector_8() { return &___positiveInfinityVector_8; }
-	inline void set_positiveInfinityVector_8(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_positiveInfinityVector_8() { return static_cast<int32_t>(offsetof(Vector2_t697963865_StaticFields, ___positiveInfinityVector_8)); }
+	inline Vector2_t697963865  get_positiveInfinityVector_8() const { return ___positiveInfinityVector_8; }
+	inline Vector2_t697963865 * get_address_of_positiveInfinityVector_8() { return &___positiveInfinityVector_8; }
+	inline void set_positiveInfinityVector_8(Vector2_t697963865  value)
 	{
 		___positiveInfinityVector_8 = value;
 	}
 
-	inline static int32_t get_offset_of_negativeInfinityVector_9() { return static_cast<int32_t>(offsetof(Vector2_t3951545240_StaticFields, ___negativeInfinityVector_9)); }
-	inline Vector2_t3951545240  get_negativeInfinityVector_9() const { return ___negativeInfinityVector_9; }
-	inline Vector2_t3951545240 * get_address_of_negativeInfinityVector_9() { return &___negativeInfinityVector_9; }
-	inline void set_negativeInfinityVector_9(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_negativeInfinityVector_9() { return static_cast<int32_t>(offsetof(Vector2_t697963865_StaticFields, ___negativeInfinityVector_9)); }
+	inline Vector2_t697963865  get_negativeInfinityVector_9() const { return ___negativeInfinityVector_9; }
+	inline Vector2_t697963865 * get_address_of_negativeInfinityVector_9() { return &___negativeInfinityVector_9; }
+	inline void set_negativeInfinityVector_9(Vector2_t697963865  value)
 	{
 		___negativeInfinityVector_9 = value;
 	}
@@ -779,9 +779,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VECTOR2_T3951545240_H
-#ifndef COLLISION2D_T3109789957_H
-#define COLLISION2D_T3109789957_H
+#endif // VECTOR2_T697963865_H
+#ifndef COLLISION2D_T315366027_H
+#define COLLISION2D_T315366027_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -789,7 +789,7 @@ public:
 #endif
 
 // UnityEngine.Collision2D
-struct  Collision2D_t3109789957  : public RuntimeObject
+struct  Collision2D_t315366027  : public RuntimeObject
 {
 public:
 	// System.Int32 UnityEngine.Collision2D::m_Collider
@@ -801,14 +801,14 @@ public:
 	// System.Int32 UnityEngine.Collision2D::m_OtherRigidbody
 	int32_t ___m_OtherRigidbody_3;
 	// UnityEngine.ContactPoint2D[] UnityEngine.Collision2D::m_Contacts
-	ContactPoint2DU5BU5D_t3116517296* ___m_Contacts_4;
+	ContactPoint2DU5BU5D_t3203479250* ___m_Contacts_4;
 	// UnityEngine.Vector2 UnityEngine.Collision2D::m_RelativeVelocity
-	Vector2_t3951545240  ___m_RelativeVelocity_5;
+	Vector2_t697963865  ___m_RelativeVelocity_5;
 	// System.Int32 UnityEngine.Collision2D::m_Enabled
 	int32_t ___m_Enabled_6;
 
 public:
-	inline static int32_t get_offset_of_m_Collider_0() { return static_cast<int32_t>(offsetof(Collision2D_t3109789957, ___m_Collider_0)); }
+	inline static int32_t get_offset_of_m_Collider_0() { return static_cast<int32_t>(offsetof(Collision2D_t315366027, ___m_Collider_0)); }
 	inline int32_t get_m_Collider_0() const { return ___m_Collider_0; }
 	inline int32_t* get_address_of_m_Collider_0() { return &___m_Collider_0; }
 	inline void set_m_Collider_0(int32_t value)
@@ -816,7 +816,7 @@ public:
 		___m_Collider_0 = value;
 	}
 
-	inline static int32_t get_offset_of_m_OtherCollider_1() { return static_cast<int32_t>(offsetof(Collision2D_t3109789957, ___m_OtherCollider_1)); }
+	inline static int32_t get_offset_of_m_OtherCollider_1() { return static_cast<int32_t>(offsetof(Collision2D_t315366027, ___m_OtherCollider_1)); }
 	inline int32_t get_m_OtherCollider_1() const { return ___m_OtherCollider_1; }
 	inline int32_t* get_address_of_m_OtherCollider_1() { return &___m_OtherCollider_1; }
 	inline void set_m_OtherCollider_1(int32_t value)
@@ -824,7 +824,7 @@ public:
 		___m_OtherCollider_1 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Rigidbody_2() { return static_cast<int32_t>(offsetof(Collision2D_t3109789957, ___m_Rigidbody_2)); }
+	inline static int32_t get_offset_of_m_Rigidbody_2() { return static_cast<int32_t>(offsetof(Collision2D_t315366027, ___m_Rigidbody_2)); }
 	inline int32_t get_m_Rigidbody_2() const { return ___m_Rigidbody_2; }
 	inline int32_t* get_address_of_m_Rigidbody_2() { return &___m_Rigidbody_2; }
 	inline void set_m_Rigidbody_2(int32_t value)
@@ -832,7 +832,7 @@ public:
 		___m_Rigidbody_2 = value;
 	}
 
-	inline static int32_t get_offset_of_m_OtherRigidbody_3() { return static_cast<int32_t>(offsetof(Collision2D_t3109789957, ___m_OtherRigidbody_3)); }
+	inline static int32_t get_offset_of_m_OtherRigidbody_3() { return static_cast<int32_t>(offsetof(Collision2D_t315366027, ___m_OtherRigidbody_3)); }
 	inline int32_t get_m_OtherRigidbody_3() const { return ___m_OtherRigidbody_3; }
 	inline int32_t* get_address_of_m_OtherRigidbody_3() { return &___m_OtherRigidbody_3; }
 	inline void set_m_OtherRigidbody_3(int32_t value)
@@ -840,24 +840,24 @@ public:
 		___m_OtherRigidbody_3 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Contacts_4() { return static_cast<int32_t>(offsetof(Collision2D_t3109789957, ___m_Contacts_4)); }
-	inline ContactPoint2DU5BU5D_t3116517296* get_m_Contacts_4() const { return ___m_Contacts_4; }
-	inline ContactPoint2DU5BU5D_t3116517296** get_address_of_m_Contacts_4() { return &___m_Contacts_4; }
-	inline void set_m_Contacts_4(ContactPoint2DU5BU5D_t3116517296* value)
+	inline static int32_t get_offset_of_m_Contacts_4() { return static_cast<int32_t>(offsetof(Collision2D_t315366027, ___m_Contacts_4)); }
+	inline ContactPoint2DU5BU5D_t3203479250* get_m_Contacts_4() const { return ___m_Contacts_4; }
+	inline ContactPoint2DU5BU5D_t3203479250** get_address_of_m_Contacts_4() { return &___m_Contacts_4; }
+	inline void set_m_Contacts_4(ContactPoint2DU5BU5D_t3203479250* value)
 	{
 		___m_Contacts_4 = value;
 		Il2CppCodeGenWriteBarrier((&___m_Contacts_4), value);
 	}
 
-	inline static int32_t get_offset_of_m_RelativeVelocity_5() { return static_cast<int32_t>(offsetof(Collision2D_t3109789957, ___m_RelativeVelocity_5)); }
-	inline Vector2_t3951545240  get_m_RelativeVelocity_5() const { return ___m_RelativeVelocity_5; }
-	inline Vector2_t3951545240 * get_address_of_m_RelativeVelocity_5() { return &___m_RelativeVelocity_5; }
-	inline void set_m_RelativeVelocity_5(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_m_RelativeVelocity_5() { return static_cast<int32_t>(offsetof(Collision2D_t315366027, ___m_RelativeVelocity_5)); }
+	inline Vector2_t697963865  get_m_RelativeVelocity_5() const { return ___m_RelativeVelocity_5; }
+	inline Vector2_t697963865 * get_address_of_m_RelativeVelocity_5() { return &___m_RelativeVelocity_5; }
+	inline void set_m_RelativeVelocity_5(Vector2_t697963865  value)
 	{
 		___m_RelativeVelocity_5 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Enabled_6() { return static_cast<int32_t>(offsetof(Collision2D_t3109789957, ___m_Enabled_6)); }
+	inline static int32_t get_offset_of_m_Enabled_6() { return static_cast<int32_t>(offsetof(Collision2D_t315366027, ___m_Enabled_6)); }
 	inline int32_t get_m_Enabled_6() const { return ___m_Enabled_6; }
 	inline int32_t* get_address_of_m_Enabled_6() { return &___m_Enabled_6; }
 	inline void set_m_Enabled_6(int32_t value)
@@ -870,30 +870,30 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of UnityEngine.Collision2D
-struct Collision2D_t3109789957_marshaled_pinvoke
+struct Collision2D_t315366027_marshaled_pinvoke
 {
 	int32_t ___m_Collider_0;
 	int32_t ___m_OtherCollider_1;
 	int32_t ___m_Rigidbody_2;
 	int32_t ___m_OtherRigidbody_3;
-	ContactPoint2D_t2383930557 * ___m_Contacts_4;
-	Vector2_t3951545240  ___m_RelativeVelocity_5;
+	ContactPoint2D_t801939139 * ___m_Contacts_4;
+	Vector2_t697963865  ___m_RelativeVelocity_5;
 	int32_t ___m_Enabled_6;
 };
 // Native definition for COM marshalling of UnityEngine.Collision2D
-struct Collision2D_t3109789957_marshaled_com
+struct Collision2D_t315366027_marshaled_com
 {
 	int32_t ___m_Collider_0;
 	int32_t ___m_OtherCollider_1;
 	int32_t ___m_Rigidbody_2;
 	int32_t ___m_OtherRigidbody_3;
-	ContactPoint2D_t2383930557 * ___m_Contacts_4;
-	Vector2_t3951545240  ___m_RelativeVelocity_5;
+	ContactPoint2D_t801939139 * ___m_Contacts_4;
+	Vector2_t697963865  ___m_RelativeVelocity_5;
 	int32_t ___m_Enabled_6;
 };
-#endif // COLLISION2D_T3109789957_H
-#ifndef RIGIDBODYTYPE2D_T1803705384_H
-#define RIGIDBODYTYPE2D_T1803705384_H
+#endif // COLLISION2D_T315366027_H
+#ifndef RIGIDBODYTYPE2D_T205636697_H
+#define RIGIDBODYTYPE2D_T205636697_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -901,14 +901,14 @@ struct Collision2D_t3109789957_marshaled_com
 #endif
 
 // UnityEngine.RigidbodyType2D
-struct  RigidbodyType2D_t1803705384 
+struct  RigidbodyType2D_t205636697 
 {
 public:
 	// System.Int32 UnityEngine.RigidbodyType2D::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(RigidbodyType2D_t1803705384, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(RigidbodyType2D_t205636697, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -920,9 +920,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // RIGIDBODYTYPE2D_T1803705384_H
-#ifndef CONTACTPOINT2D_T2383930557_H
-#define CONTACTPOINT2D_T2383930557_H
+#endif // RIGIDBODYTYPE2D_T205636697_H
+#ifndef CONTACTPOINT2D_T801939139_H
+#define CONTACTPOINT2D_T801939139_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -930,15 +930,15 @@ public:
 #endif
 
 // UnityEngine.ContactPoint2D
-struct  ContactPoint2D_t2383930557 
+struct  ContactPoint2D_t801939139 
 {
 public:
 	// UnityEngine.Vector2 UnityEngine.ContactPoint2D::m_Point
-	Vector2_t3951545240  ___m_Point_0;
+	Vector2_t697963865  ___m_Point_0;
 	// UnityEngine.Vector2 UnityEngine.ContactPoint2D::m_Normal
-	Vector2_t3951545240  ___m_Normal_1;
+	Vector2_t697963865  ___m_Normal_1;
 	// UnityEngine.Vector2 UnityEngine.ContactPoint2D::m_RelativeVelocity
-	Vector2_t3951545240  ___m_RelativeVelocity_2;
+	Vector2_t697963865  ___m_RelativeVelocity_2;
 	// System.Single UnityEngine.ContactPoint2D::m_Separation
 	float ___m_Separation_3;
 	// System.Single UnityEngine.ContactPoint2D::m_NormalImpulse
@@ -957,31 +957,31 @@ public:
 	int32_t ___m_Enabled_10;
 
 public:
-	inline static int32_t get_offset_of_m_Point_0() { return static_cast<int32_t>(offsetof(ContactPoint2D_t2383930557, ___m_Point_0)); }
-	inline Vector2_t3951545240  get_m_Point_0() const { return ___m_Point_0; }
-	inline Vector2_t3951545240 * get_address_of_m_Point_0() { return &___m_Point_0; }
-	inline void set_m_Point_0(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_m_Point_0() { return static_cast<int32_t>(offsetof(ContactPoint2D_t801939139, ___m_Point_0)); }
+	inline Vector2_t697963865  get_m_Point_0() const { return ___m_Point_0; }
+	inline Vector2_t697963865 * get_address_of_m_Point_0() { return &___m_Point_0; }
+	inline void set_m_Point_0(Vector2_t697963865  value)
 	{
 		___m_Point_0 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Normal_1() { return static_cast<int32_t>(offsetof(ContactPoint2D_t2383930557, ___m_Normal_1)); }
-	inline Vector2_t3951545240  get_m_Normal_1() const { return ___m_Normal_1; }
-	inline Vector2_t3951545240 * get_address_of_m_Normal_1() { return &___m_Normal_1; }
-	inline void set_m_Normal_1(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_m_Normal_1() { return static_cast<int32_t>(offsetof(ContactPoint2D_t801939139, ___m_Normal_1)); }
+	inline Vector2_t697963865  get_m_Normal_1() const { return ___m_Normal_1; }
+	inline Vector2_t697963865 * get_address_of_m_Normal_1() { return &___m_Normal_1; }
+	inline void set_m_Normal_1(Vector2_t697963865  value)
 	{
 		___m_Normal_1 = value;
 	}
 
-	inline static int32_t get_offset_of_m_RelativeVelocity_2() { return static_cast<int32_t>(offsetof(ContactPoint2D_t2383930557, ___m_RelativeVelocity_2)); }
-	inline Vector2_t3951545240  get_m_RelativeVelocity_2() const { return ___m_RelativeVelocity_2; }
-	inline Vector2_t3951545240 * get_address_of_m_RelativeVelocity_2() { return &___m_RelativeVelocity_2; }
-	inline void set_m_RelativeVelocity_2(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_m_RelativeVelocity_2() { return static_cast<int32_t>(offsetof(ContactPoint2D_t801939139, ___m_RelativeVelocity_2)); }
+	inline Vector2_t697963865  get_m_RelativeVelocity_2() const { return ___m_RelativeVelocity_2; }
+	inline Vector2_t697963865 * get_address_of_m_RelativeVelocity_2() { return &___m_RelativeVelocity_2; }
+	inline void set_m_RelativeVelocity_2(Vector2_t697963865  value)
 	{
 		___m_RelativeVelocity_2 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Separation_3() { return static_cast<int32_t>(offsetof(ContactPoint2D_t2383930557, ___m_Separation_3)); }
+	inline static int32_t get_offset_of_m_Separation_3() { return static_cast<int32_t>(offsetof(ContactPoint2D_t801939139, ___m_Separation_3)); }
 	inline float get_m_Separation_3() const { return ___m_Separation_3; }
 	inline float* get_address_of_m_Separation_3() { return &___m_Separation_3; }
 	inline void set_m_Separation_3(float value)
@@ -989,7 +989,7 @@ public:
 		___m_Separation_3 = value;
 	}
 
-	inline static int32_t get_offset_of_m_NormalImpulse_4() { return static_cast<int32_t>(offsetof(ContactPoint2D_t2383930557, ___m_NormalImpulse_4)); }
+	inline static int32_t get_offset_of_m_NormalImpulse_4() { return static_cast<int32_t>(offsetof(ContactPoint2D_t801939139, ___m_NormalImpulse_4)); }
 	inline float get_m_NormalImpulse_4() const { return ___m_NormalImpulse_4; }
 	inline float* get_address_of_m_NormalImpulse_4() { return &___m_NormalImpulse_4; }
 	inline void set_m_NormalImpulse_4(float value)
@@ -997,7 +997,7 @@ public:
 		___m_NormalImpulse_4 = value;
 	}
 
-	inline static int32_t get_offset_of_m_TangentImpulse_5() { return static_cast<int32_t>(offsetof(ContactPoint2D_t2383930557, ___m_TangentImpulse_5)); }
+	inline static int32_t get_offset_of_m_TangentImpulse_5() { return static_cast<int32_t>(offsetof(ContactPoint2D_t801939139, ___m_TangentImpulse_5)); }
 	inline float get_m_TangentImpulse_5() const { return ___m_TangentImpulse_5; }
 	inline float* get_address_of_m_TangentImpulse_5() { return &___m_TangentImpulse_5; }
 	inline void set_m_TangentImpulse_5(float value)
@@ -1005,7 +1005,7 @@ public:
 		___m_TangentImpulse_5 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Collider_6() { return static_cast<int32_t>(offsetof(ContactPoint2D_t2383930557, ___m_Collider_6)); }
+	inline static int32_t get_offset_of_m_Collider_6() { return static_cast<int32_t>(offsetof(ContactPoint2D_t801939139, ___m_Collider_6)); }
 	inline int32_t get_m_Collider_6() const { return ___m_Collider_6; }
 	inline int32_t* get_address_of_m_Collider_6() { return &___m_Collider_6; }
 	inline void set_m_Collider_6(int32_t value)
@@ -1013,7 +1013,7 @@ public:
 		___m_Collider_6 = value;
 	}
 
-	inline static int32_t get_offset_of_m_OtherCollider_7() { return static_cast<int32_t>(offsetof(ContactPoint2D_t2383930557, ___m_OtherCollider_7)); }
+	inline static int32_t get_offset_of_m_OtherCollider_7() { return static_cast<int32_t>(offsetof(ContactPoint2D_t801939139, ___m_OtherCollider_7)); }
 	inline int32_t get_m_OtherCollider_7() const { return ___m_OtherCollider_7; }
 	inline int32_t* get_address_of_m_OtherCollider_7() { return &___m_OtherCollider_7; }
 	inline void set_m_OtherCollider_7(int32_t value)
@@ -1021,7 +1021,7 @@ public:
 		___m_OtherCollider_7 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Rigidbody_8() { return static_cast<int32_t>(offsetof(ContactPoint2D_t2383930557, ___m_Rigidbody_8)); }
+	inline static int32_t get_offset_of_m_Rigidbody_8() { return static_cast<int32_t>(offsetof(ContactPoint2D_t801939139, ___m_Rigidbody_8)); }
 	inline int32_t get_m_Rigidbody_8() const { return ___m_Rigidbody_8; }
 	inline int32_t* get_address_of_m_Rigidbody_8() { return &___m_Rigidbody_8; }
 	inline void set_m_Rigidbody_8(int32_t value)
@@ -1029,7 +1029,7 @@ public:
 		___m_Rigidbody_8 = value;
 	}
 
-	inline static int32_t get_offset_of_m_OtherRigidbody_9() { return static_cast<int32_t>(offsetof(ContactPoint2D_t2383930557, ___m_OtherRigidbody_9)); }
+	inline static int32_t get_offset_of_m_OtherRigidbody_9() { return static_cast<int32_t>(offsetof(ContactPoint2D_t801939139, ___m_OtherRigidbody_9)); }
 	inline int32_t get_m_OtherRigidbody_9() const { return ___m_OtherRigidbody_9; }
 	inline int32_t* get_address_of_m_OtherRigidbody_9() { return &___m_OtherRigidbody_9; }
 	inline void set_m_OtherRigidbody_9(int32_t value)
@@ -1037,7 +1037,7 @@ public:
 		___m_OtherRigidbody_9 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Enabled_10() { return static_cast<int32_t>(offsetof(ContactPoint2D_t2383930557, ___m_Enabled_10)); }
+	inline static int32_t get_offset_of_m_Enabled_10() { return static_cast<int32_t>(offsetof(ContactPoint2D_t801939139, ___m_Enabled_10)); }
 	inline int32_t get_m_Enabled_10() const { return ___m_Enabled_10; }
 	inline int32_t* get_address_of_m_Enabled_10() { return &___m_Enabled_10; }
 	inline void set_m_Enabled_10(int32_t value)
@@ -1049,9 +1049,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // CONTACTPOINT2D_T2383930557_H
-#ifndef RAY_T411286590_H
-#define RAY_T411286590_H
+#endif // CONTACTPOINT2D_T801939139_H
+#ifndef RAY_T4251408636_H
+#define RAY_T4251408636_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1059,27 +1059,27 @@ public:
 #endif
 
 // UnityEngine.Ray
-struct  Ray_t411286590 
+struct  Ray_t4251408636 
 {
 public:
 	// UnityEngine.Vector3 UnityEngine.Ray::m_Origin
-	Vector3_t3955860131  ___m_Origin_0;
+	Vector3_t2497192819  ___m_Origin_0;
 	// UnityEngine.Vector3 UnityEngine.Ray::m_Direction
-	Vector3_t3955860131  ___m_Direction_1;
+	Vector3_t2497192819  ___m_Direction_1;
 
 public:
-	inline static int32_t get_offset_of_m_Origin_0() { return static_cast<int32_t>(offsetof(Ray_t411286590, ___m_Origin_0)); }
-	inline Vector3_t3955860131  get_m_Origin_0() const { return ___m_Origin_0; }
-	inline Vector3_t3955860131 * get_address_of_m_Origin_0() { return &___m_Origin_0; }
-	inline void set_m_Origin_0(Vector3_t3955860131  value)
+	inline static int32_t get_offset_of_m_Origin_0() { return static_cast<int32_t>(offsetof(Ray_t4251408636, ___m_Origin_0)); }
+	inline Vector3_t2497192819  get_m_Origin_0() const { return ___m_Origin_0; }
+	inline Vector3_t2497192819 * get_address_of_m_Origin_0() { return &___m_Origin_0; }
+	inline void set_m_Origin_0(Vector3_t2497192819  value)
 	{
 		___m_Origin_0 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Direction_1() { return static_cast<int32_t>(offsetof(Ray_t411286590, ___m_Direction_1)); }
-	inline Vector3_t3955860131  get_m_Direction_1() const { return ___m_Direction_1; }
-	inline Vector3_t3955860131 * get_address_of_m_Direction_1() { return &___m_Direction_1; }
-	inline void set_m_Direction_1(Vector3_t3955860131  value)
+	inline static int32_t get_offset_of_m_Direction_1() { return static_cast<int32_t>(offsetof(Ray_t4251408636, ___m_Direction_1)); }
+	inline Vector3_t2497192819  get_m_Direction_1() const { return ___m_Direction_1; }
+	inline Vector3_t2497192819 * get_address_of_m_Direction_1() { return &___m_Direction_1; }
+	inline void set_m_Direction_1(Vector3_t2497192819  value)
 	{
 		___m_Direction_1 = value;
 	}
@@ -1088,9 +1088,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // RAY_T411286590_H
-#ifndef RAYCASTHIT2D_T339009926_H
-#define RAYCASTHIT2D_T339009926_H
+#endif // RAY_T4251408636_H
+#ifndef RAYCASTHIT2D_T3392695213_H
+#define RAYCASTHIT2D_T3392695213_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1098,48 +1098,48 @@ public:
 #endif
 
 // UnityEngine.RaycastHit2D
-struct  RaycastHit2D_t339009926 
+struct  RaycastHit2D_t3392695213 
 {
 public:
 	// UnityEngine.Vector2 UnityEngine.RaycastHit2D::m_Centroid
-	Vector2_t3951545240  ___m_Centroid_0;
+	Vector2_t697963865  ___m_Centroid_0;
 	// UnityEngine.Vector2 UnityEngine.RaycastHit2D::m_Point
-	Vector2_t3951545240  ___m_Point_1;
+	Vector2_t697963865  ___m_Point_1;
 	// UnityEngine.Vector2 UnityEngine.RaycastHit2D::m_Normal
-	Vector2_t3951545240  ___m_Normal_2;
+	Vector2_t697963865  ___m_Normal_2;
 	// System.Single UnityEngine.RaycastHit2D::m_Distance
 	float ___m_Distance_3;
 	// System.Single UnityEngine.RaycastHit2D::m_Fraction
 	float ___m_Fraction_4;
 	// UnityEngine.Collider2D UnityEngine.RaycastHit2D::m_Collider
-	Collider2D_t227714118 * ___m_Collider_5;
+	Collider2D_t1052193197 * ___m_Collider_5;
 
 public:
-	inline static int32_t get_offset_of_m_Centroid_0() { return static_cast<int32_t>(offsetof(RaycastHit2D_t339009926, ___m_Centroid_0)); }
-	inline Vector2_t3951545240  get_m_Centroid_0() const { return ___m_Centroid_0; }
-	inline Vector2_t3951545240 * get_address_of_m_Centroid_0() { return &___m_Centroid_0; }
-	inline void set_m_Centroid_0(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_m_Centroid_0() { return static_cast<int32_t>(offsetof(RaycastHit2D_t3392695213, ___m_Centroid_0)); }
+	inline Vector2_t697963865  get_m_Centroid_0() const { return ___m_Centroid_0; }
+	inline Vector2_t697963865 * get_address_of_m_Centroid_0() { return &___m_Centroid_0; }
+	inline void set_m_Centroid_0(Vector2_t697963865  value)
 	{
 		___m_Centroid_0 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Point_1() { return static_cast<int32_t>(offsetof(RaycastHit2D_t339009926, ___m_Point_1)); }
-	inline Vector2_t3951545240  get_m_Point_1() const { return ___m_Point_1; }
-	inline Vector2_t3951545240 * get_address_of_m_Point_1() { return &___m_Point_1; }
-	inline void set_m_Point_1(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_m_Point_1() { return static_cast<int32_t>(offsetof(RaycastHit2D_t3392695213, ___m_Point_1)); }
+	inline Vector2_t697963865  get_m_Point_1() const { return ___m_Point_1; }
+	inline Vector2_t697963865 * get_address_of_m_Point_1() { return &___m_Point_1; }
+	inline void set_m_Point_1(Vector2_t697963865  value)
 	{
 		___m_Point_1 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Normal_2() { return static_cast<int32_t>(offsetof(RaycastHit2D_t339009926, ___m_Normal_2)); }
-	inline Vector2_t3951545240  get_m_Normal_2() const { return ___m_Normal_2; }
-	inline Vector2_t3951545240 * get_address_of_m_Normal_2() { return &___m_Normal_2; }
-	inline void set_m_Normal_2(Vector2_t3951545240  value)
+	inline static int32_t get_offset_of_m_Normal_2() { return static_cast<int32_t>(offsetof(RaycastHit2D_t3392695213, ___m_Normal_2)); }
+	inline Vector2_t697963865  get_m_Normal_2() const { return ___m_Normal_2; }
+	inline Vector2_t697963865 * get_address_of_m_Normal_2() { return &___m_Normal_2; }
+	inline void set_m_Normal_2(Vector2_t697963865  value)
 	{
 		___m_Normal_2 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Distance_3() { return static_cast<int32_t>(offsetof(RaycastHit2D_t339009926, ___m_Distance_3)); }
+	inline static int32_t get_offset_of_m_Distance_3() { return static_cast<int32_t>(offsetof(RaycastHit2D_t3392695213, ___m_Distance_3)); }
 	inline float get_m_Distance_3() const { return ___m_Distance_3; }
 	inline float* get_address_of_m_Distance_3() { return &___m_Distance_3; }
 	inline void set_m_Distance_3(float value)
@@ -1147,7 +1147,7 @@ public:
 		___m_Distance_3 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Fraction_4() { return static_cast<int32_t>(offsetof(RaycastHit2D_t339009926, ___m_Fraction_4)); }
+	inline static int32_t get_offset_of_m_Fraction_4() { return static_cast<int32_t>(offsetof(RaycastHit2D_t3392695213, ___m_Fraction_4)); }
 	inline float get_m_Fraction_4() const { return ___m_Fraction_4; }
 	inline float* get_address_of_m_Fraction_4() { return &___m_Fraction_4; }
 	inline void set_m_Fraction_4(float value)
@@ -1155,10 +1155,10 @@ public:
 		___m_Fraction_4 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Collider_5() { return static_cast<int32_t>(offsetof(RaycastHit2D_t339009926, ___m_Collider_5)); }
-	inline Collider2D_t227714118 * get_m_Collider_5() const { return ___m_Collider_5; }
-	inline Collider2D_t227714118 ** get_address_of_m_Collider_5() { return &___m_Collider_5; }
-	inline void set_m_Collider_5(Collider2D_t227714118 * value)
+	inline static int32_t get_offset_of_m_Collider_5() { return static_cast<int32_t>(offsetof(RaycastHit2D_t3392695213, ___m_Collider_5)); }
+	inline Collider2D_t1052193197 * get_m_Collider_5() const { return ___m_Collider_5; }
+	inline Collider2D_t1052193197 ** get_address_of_m_Collider_5() { return &___m_Collider_5; }
+	inline void set_m_Collider_5(Collider2D_t1052193197 * value)
 	{
 		___m_Collider_5 = value;
 		Il2CppCodeGenWriteBarrier((&___m_Collider_5), value);
@@ -1169,28 +1169,28 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of UnityEngine.RaycastHit2D
-struct RaycastHit2D_t339009926_marshaled_pinvoke
+struct RaycastHit2D_t3392695213_marshaled_pinvoke
 {
-	Vector2_t3951545240  ___m_Centroid_0;
-	Vector2_t3951545240  ___m_Point_1;
-	Vector2_t3951545240  ___m_Normal_2;
+	Vector2_t697963865  ___m_Centroid_0;
+	Vector2_t697963865  ___m_Point_1;
+	Vector2_t697963865  ___m_Normal_2;
 	float ___m_Distance_3;
 	float ___m_Fraction_4;
-	Collider2D_t227714118 * ___m_Collider_5;
+	Collider2D_t1052193197 * ___m_Collider_5;
 };
 // Native definition for COM marshalling of UnityEngine.RaycastHit2D
-struct RaycastHit2D_t339009926_marshaled_com
+struct RaycastHit2D_t3392695213_marshaled_com
 {
-	Vector2_t3951545240  ___m_Centroid_0;
-	Vector2_t3951545240  ___m_Point_1;
-	Vector2_t3951545240  ___m_Normal_2;
+	Vector2_t697963865  ___m_Centroid_0;
+	Vector2_t697963865  ___m_Point_1;
+	Vector2_t697963865  ___m_Normal_2;
 	float ___m_Distance_3;
 	float ___m_Fraction_4;
-	Collider2D_t227714118 * ___m_Collider_5;
+	Collider2D_t1052193197 * ___m_Collider_5;
 };
-#endif // RAYCASTHIT2D_T339009926_H
-#ifndef OBJECT_T3478055901_H
-#define OBJECT_T3478055901_H
+#endif // RAYCASTHIT2D_T3392695213_H
+#ifndef OBJECT_T548744543_H
+#define OBJECT_T548744543_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1198,14 +1198,14 @@ struct RaycastHit2D_t339009926_marshaled_com
 #endif
 
 // UnityEngine.Object
-struct  Object_t3478055901  : public RuntimeObject
+struct  Object_t548744543  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
 
 public:
-	inline static int32_t get_offset_of_m_CachedPtr_0() { return static_cast<int32_t>(offsetof(Object_t3478055901, ___m_CachedPtr_0)); }
+	inline static int32_t get_offset_of_m_CachedPtr_0() { return static_cast<int32_t>(offsetof(Object_t548744543, ___m_CachedPtr_0)); }
 	inline intptr_t get_m_CachedPtr_0() const { return ___m_CachedPtr_0; }
 	inline intptr_t* get_address_of_m_CachedPtr_0() { return &___m_CachedPtr_0; }
 	inline void set_m_CachedPtr_0(intptr_t value)
@@ -1214,14 +1214,14 @@ public:
 	}
 };
 
-struct Object_t3478055901_StaticFields
+struct Object_t548744543_StaticFields
 {
 public:
 	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
 	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 
 public:
-	inline static int32_t get_offset_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return static_cast<int32_t>(offsetof(Object_t3478055901_StaticFields, ___OffsetOfInstanceIDInCPlusPlusObject_1)); }
+	inline static int32_t get_offset_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return static_cast<int32_t>(offsetof(Object_t548744543_StaticFields, ___OffsetOfInstanceIDInCPlusPlusObject_1)); }
 	inline int32_t get_OffsetOfInstanceIDInCPlusPlusObject_1() const { return ___OffsetOfInstanceIDInCPlusPlusObject_1; }
 	inline int32_t* get_address_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return &___OffsetOfInstanceIDInCPlusPlusObject_1; }
 	inline void set_OffsetOfInstanceIDInCPlusPlusObject_1(int32_t value)
@@ -1234,18 +1234,18 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of UnityEngine.Object
-struct Object_t3478055901_marshaled_pinvoke
+struct Object_t548744543_marshaled_pinvoke
 {
 	intptr_t ___m_CachedPtr_0;
 };
 // Native definition for COM marshalling of UnityEngine.Object
-struct Object_t3478055901_marshaled_com
+struct Object_t548744543_marshaled_com
 {
 	intptr_t ___m_CachedPtr_0;
 };
-#endif // OBJECT_T3478055901_H
-#ifndef FORCEMODE2D_T654929701_H
-#define FORCEMODE2D_T654929701_H
+#endif // OBJECT_T548744543_H
+#ifndef FORCEMODE2D_T1728204363_H
+#define FORCEMODE2D_T1728204363_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1253,14 +1253,14 @@ struct Object_t3478055901_marshaled_com
 #endif
 
 // UnityEngine.ForceMode2D
-struct  ForceMode2D_t654929701 
+struct  ForceMode2D_t1728204363 
 {
 public:
 	// System.Int32 UnityEngine.ForceMode2D::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(ForceMode2D_t654929701, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(ForceMode2D_t1728204363, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -1272,9 +1272,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // FORCEMODE2D_T654929701_H
-#ifndef CONTACTFILTER2D_T1414142737_H
-#define CONTACTFILTER2D_T1414142737_H
+#endif // FORCEMODE2D_T1728204363_H
+#ifndef CONTACTFILTER2D_T3142948246_H
+#define CONTACTFILTER2D_T3142948246_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1282,7 +1282,7 @@ public:
 #endif
 
 // UnityEngine.ContactFilter2D
-struct  ContactFilter2D_t1414142737 
+struct  ContactFilter2D_t3142948246 
 {
 public:
 	// System.Boolean UnityEngine.ContactFilter2D::useTriggers
@@ -1298,7 +1298,7 @@ public:
 	// System.Boolean UnityEngine.ContactFilter2D::useOutsideNormalAngle
 	bool ___useOutsideNormalAngle_5;
 	// UnityEngine.LayerMask UnityEngine.ContactFilter2D::layerMask
-	LayerMask_t2442541870  ___layerMask_6;
+	LayerMask_t917109080  ___layerMask_6;
 	// System.Single UnityEngine.ContactFilter2D::minDepth
 	float ___minDepth_7;
 	// System.Single UnityEngine.ContactFilter2D::maxDepth
@@ -1309,7 +1309,7 @@ public:
 	float ___maxNormalAngle_10;
 
 public:
-	inline static int32_t get_offset_of_useTriggers_0() { return static_cast<int32_t>(offsetof(ContactFilter2D_t1414142737, ___useTriggers_0)); }
+	inline static int32_t get_offset_of_useTriggers_0() { return static_cast<int32_t>(offsetof(ContactFilter2D_t3142948246, ___useTriggers_0)); }
 	inline bool get_useTriggers_0() const { return ___useTriggers_0; }
 	inline bool* get_address_of_useTriggers_0() { return &___useTriggers_0; }
 	inline void set_useTriggers_0(bool value)
@@ -1317,7 +1317,7 @@ public:
 		___useTriggers_0 = value;
 	}
 
-	inline static int32_t get_offset_of_useLayerMask_1() { return static_cast<int32_t>(offsetof(ContactFilter2D_t1414142737, ___useLayerMask_1)); }
+	inline static int32_t get_offset_of_useLayerMask_1() { return static_cast<int32_t>(offsetof(ContactFilter2D_t3142948246, ___useLayerMask_1)); }
 	inline bool get_useLayerMask_1() const { return ___useLayerMask_1; }
 	inline bool* get_address_of_useLayerMask_1() { return &___useLayerMask_1; }
 	inline void set_useLayerMask_1(bool value)
@@ -1325,7 +1325,7 @@ public:
 		___useLayerMask_1 = value;
 	}
 
-	inline static int32_t get_offset_of_useDepth_2() { return static_cast<int32_t>(offsetof(ContactFilter2D_t1414142737, ___useDepth_2)); }
+	inline static int32_t get_offset_of_useDepth_2() { return static_cast<int32_t>(offsetof(ContactFilter2D_t3142948246, ___useDepth_2)); }
 	inline bool get_useDepth_2() const { return ___useDepth_2; }
 	inline bool* get_address_of_useDepth_2() { return &___useDepth_2; }
 	inline void set_useDepth_2(bool value)
@@ -1333,7 +1333,7 @@ public:
 		___useDepth_2 = value;
 	}
 
-	inline static int32_t get_offset_of_useOutsideDepth_3() { return static_cast<int32_t>(offsetof(ContactFilter2D_t1414142737, ___useOutsideDepth_3)); }
+	inline static int32_t get_offset_of_useOutsideDepth_3() { return static_cast<int32_t>(offsetof(ContactFilter2D_t3142948246, ___useOutsideDepth_3)); }
 	inline bool get_useOutsideDepth_3() const { return ___useOutsideDepth_3; }
 	inline bool* get_address_of_useOutsideDepth_3() { return &___useOutsideDepth_3; }
 	inline void set_useOutsideDepth_3(bool value)
@@ -1341,7 +1341,7 @@ public:
 		___useOutsideDepth_3 = value;
 	}
 
-	inline static int32_t get_offset_of_useNormalAngle_4() { return static_cast<int32_t>(offsetof(ContactFilter2D_t1414142737, ___useNormalAngle_4)); }
+	inline static int32_t get_offset_of_useNormalAngle_4() { return static_cast<int32_t>(offsetof(ContactFilter2D_t3142948246, ___useNormalAngle_4)); }
 	inline bool get_useNormalAngle_4() const { return ___useNormalAngle_4; }
 	inline bool* get_address_of_useNormalAngle_4() { return &___useNormalAngle_4; }
 	inline void set_useNormalAngle_4(bool value)
@@ -1349,7 +1349,7 @@ public:
 		___useNormalAngle_4 = value;
 	}
 
-	inline static int32_t get_offset_of_useOutsideNormalAngle_5() { return static_cast<int32_t>(offsetof(ContactFilter2D_t1414142737, ___useOutsideNormalAngle_5)); }
+	inline static int32_t get_offset_of_useOutsideNormalAngle_5() { return static_cast<int32_t>(offsetof(ContactFilter2D_t3142948246, ___useOutsideNormalAngle_5)); }
 	inline bool get_useOutsideNormalAngle_5() const { return ___useOutsideNormalAngle_5; }
 	inline bool* get_address_of_useOutsideNormalAngle_5() { return &___useOutsideNormalAngle_5; }
 	inline void set_useOutsideNormalAngle_5(bool value)
@@ -1357,15 +1357,15 @@ public:
 		___useOutsideNormalAngle_5 = value;
 	}
 
-	inline static int32_t get_offset_of_layerMask_6() { return static_cast<int32_t>(offsetof(ContactFilter2D_t1414142737, ___layerMask_6)); }
-	inline LayerMask_t2442541870  get_layerMask_6() const { return ___layerMask_6; }
-	inline LayerMask_t2442541870 * get_address_of_layerMask_6() { return &___layerMask_6; }
-	inline void set_layerMask_6(LayerMask_t2442541870  value)
+	inline static int32_t get_offset_of_layerMask_6() { return static_cast<int32_t>(offsetof(ContactFilter2D_t3142948246, ___layerMask_6)); }
+	inline LayerMask_t917109080  get_layerMask_6() const { return ___layerMask_6; }
+	inline LayerMask_t917109080 * get_address_of_layerMask_6() { return &___layerMask_6; }
+	inline void set_layerMask_6(LayerMask_t917109080  value)
 	{
 		___layerMask_6 = value;
 	}
 
-	inline static int32_t get_offset_of_minDepth_7() { return static_cast<int32_t>(offsetof(ContactFilter2D_t1414142737, ___minDepth_7)); }
+	inline static int32_t get_offset_of_minDepth_7() { return static_cast<int32_t>(offsetof(ContactFilter2D_t3142948246, ___minDepth_7)); }
 	inline float get_minDepth_7() const { return ___minDepth_7; }
 	inline float* get_address_of_minDepth_7() { return &___minDepth_7; }
 	inline void set_minDepth_7(float value)
@@ -1373,7 +1373,7 @@ public:
 		___minDepth_7 = value;
 	}
 
-	inline static int32_t get_offset_of_maxDepth_8() { return static_cast<int32_t>(offsetof(ContactFilter2D_t1414142737, ___maxDepth_8)); }
+	inline static int32_t get_offset_of_maxDepth_8() { return static_cast<int32_t>(offsetof(ContactFilter2D_t3142948246, ___maxDepth_8)); }
 	inline float get_maxDepth_8() const { return ___maxDepth_8; }
 	inline float* get_address_of_maxDepth_8() { return &___maxDepth_8; }
 	inline void set_maxDepth_8(float value)
@@ -1381,7 +1381,7 @@ public:
 		___maxDepth_8 = value;
 	}
 
-	inline static int32_t get_offset_of_minNormalAngle_9() { return static_cast<int32_t>(offsetof(ContactFilter2D_t1414142737, ___minNormalAngle_9)); }
+	inline static int32_t get_offset_of_minNormalAngle_9() { return static_cast<int32_t>(offsetof(ContactFilter2D_t3142948246, ___minNormalAngle_9)); }
 	inline float get_minNormalAngle_9() const { return ___minNormalAngle_9; }
 	inline float* get_address_of_minNormalAngle_9() { return &___minNormalAngle_9; }
 	inline void set_minNormalAngle_9(float value)
@@ -1389,7 +1389,7 @@ public:
 		___minNormalAngle_9 = value;
 	}
 
-	inline static int32_t get_offset_of_maxNormalAngle_10() { return static_cast<int32_t>(offsetof(ContactFilter2D_t1414142737, ___maxNormalAngle_10)); }
+	inline static int32_t get_offset_of_maxNormalAngle_10() { return static_cast<int32_t>(offsetof(ContactFilter2D_t3142948246, ___maxNormalAngle_10)); }
 	inline float get_maxNormalAngle_10() const { return ___maxNormalAngle_10; }
 	inline float* get_address_of_maxNormalAngle_10() { return &___maxNormalAngle_10; }
 	inline void set_maxNormalAngle_10(float value)
@@ -1402,7 +1402,7 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of UnityEngine.ContactFilter2D
-struct ContactFilter2D_t1414142737_marshaled_pinvoke
+struct ContactFilter2D_t3142948246_marshaled_pinvoke
 {
 	int32_t ___useTriggers_0;
 	int32_t ___useLayerMask_1;
@@ -1410,14 +1410,14 @@ struct ContactFilter2D_t1414142737_marshaled_pinvoke
 	int32_t ___useOutsideDepth_3;
 	int32_t ___useNormalAngle_4;
 	int32_t ___useOutsideNormalAngle_5;
-	LayerMask_t2442541870  ___layerMask_6;
+	LayerMask_t917109080  ___layerMask_6;
 	float ___minDepth_7;
 	float ___maxDepth_8;
 	float ___minNormalAngle_9;
 	float ___maxNormalAngle_10;
 };
 // Native definition for COM marshalling of UnityEngine.ContactFilter2D
-struct ContactFilter2D_t1414142737_marshaled_com
+struct ContactFilter2D_t3142948246_marshaled_com
 {
 	int32_t ___useTriggers_0;
 	int32_t ___useLayerMask_1;
@@ -1425,15 +1425,15 @@ struct ContactFilter2D_t1414142737_marshaled_com
 	int32_t ___useOutsideDepth_3;
 	int32_t ___useNormalAngle_4;
 	int32_t ___useOutsideNormalAngle_5;
-	LayerMask_t2442541870  ___layerMask_6;
+	LayerMask_t917109080  ___layerMask_6;
 	float ___minDepth_7;
 	float ___maxDepth_8;
 	float ___minNormalAngle_9;
 	float ___maxNormalAngle_10;
 };
-#endif // CONTACTFILTER2D_T1414142737_H
-#ifndef COMPONENT_T874560815_H
-#define COMPONENT_T874560815_H
+#endif // CONTACTFILTER2D_T3142948246_H
+#ifndef COMPONENT_T633146603_H
+#define COMPONENT_T633146603_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1441,7 +1441,7 @@ struct ContactFilter2D_t1414142737_marshaled_com
 #endif
 
 // UnityEngine.Component
-struct  Component_t874560815  : public Object_t3478055901
+struct  Component_t633146603  : public Object_t548744543
 {
 public:
 
@@ -1451,9 +1451,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // COMPONENT_T874560815_H
-#ifndef BEHAVIOUR_T1970484619_H
-#define BEHAVIOUR_T1970484619_H
+#endif // COMPONENT_T633146603_H
+#ifndef BEHAVIOUR_T1351830395_H
+#define BEHAVIOUR_T1351830395_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1461,7 +1461,7 @@ public:
 #endif
 
 // UnityEngine.Behaviour
-struct  Behaviour_t1970484619  : public Component_t874560815
+struct  Behaviour_t1351830395  : public Component_t633146603
 {
 public:
 
@@ -1471,9 +1471,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // BEHAVIOUR_T1970484619_H
-#ifndef RIGIDBODY2D_T4242740165_H
-#define RIGIDBODY2D_T4242740165_H
+#endif // BEHAVIOUR_T1351830395_H
+#ifndef RIGIDBODY2D_T1214194286_H
+#define RIGIDBODY2D_T1214194286_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1481,7 +1481,7 @@ public:
 #endif
 
 // UnityEngine.Rigidbody2D
-struct  Rigidbody2D_t4242740165  : public Component_t874560815
+struct  Rigidbody2D_t1214194286  : public Component_t633146603
 {
 public:
 
@@ -1491,9 +1491,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // RIGIDBODY2D_T4242740165_H
-#ifndef COLLIDER2D_T227714118_H
-#define COLLIDER2D_T227714118_H
+#endif // RIGIDBODY2D_T1214194286_H
+#ifndef COLLIDER2D_T1052193197_H
+#define COLLIDER2D_T1052193197_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1501,7 +1501,7 @@ public:
 #endif
 
 // UnityEngine.Collider2D
-struct  Collider2D_t227714118  : public Behaviour_t1970484619
+struct  Collider2D_t1052193197  : public Behaviour_t1351830395
 {
 public:
 
@@ -1511,73 +1511,73 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // COLLIDER2D_T227714118_H
+#endif // COLLIDER2D_T1052193197_H
 // UnityEngine.ContactPoint2D[]
-struct ContactPoint2DU5BU5D_t3116517296  : public RuntimeArray
+struct ContactPoint2DU5BU5D_t3203479250  : public RuntimeArray
 {
 public:
-	ALIGN_FIELD (8) ContactPoint2D_t2383930557  m_Items[1];
+	ALIGN_FIELD (8) ContactPoint2D_t801939139  m_Items[1];
 
 public:
-	inline ContactPoint2D_t2383930557  GetAt(il2cpp_array_size_t index) const
+	inline ContactPoint2D_t801939139  GetAt(il2cpp_array_size_t index) const
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items[index];
 	}
-	inline ContactPoint2D_t2383930557 * GetAddressAt(il2cpp_array_size_t index)
+	inline ContactPoint2D_t801939139 * GetAddressAt(il2cpp_array_size_t index)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items + index;
 	}
-	inline void SetAt(il2cpp_array_size_t index, ContactPoint2D_t2383930557  value)
+	inline void SetAt(il2cpp_array_size_t index, ContactPoint2D_t801939139  value)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		m_Items[index] = value;
 	}
-	inline ContactPoint2D_t2383930557  GetAtUnchecked(il2cpp_array_size_t index) const
+	inline ContactPoint2D_t801939139  GetAtUnchecked(il2cpp_array_size_t index) const
 	{
 		return m_Items[index];
 	}
-	inline ContactPoint2D_t2383930557 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	inline ContactPoint2D_t801939139 * GetAddressAtUnchecked(il2cpp_array_size_t index)
 	{
 		return m_Items + index;
 	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, ContactPoint2D_t2383930557  value)
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ContactPoint2D_t801939139  value)
 	{
 		m_Items[index] = value;
 	}
 };
 // UnityEngine.RaycastHit2D[]
-struct RaycastHit2DU5BU5D_t2765076899  : public RuntimeArray
+struct RaycastHit2DU5BU5D_t3310982912  : public RuntimeArray
 {
 public:
-	ALIGN_FIELD (8) RaycastHit2D_t339009926  m_Items[1];
+	ALIGN_FIELD (8) RaycastHit2D_t3392695213  m_Items[1];
 
 public:
-	inline RaycastHit2D_t339009926  GetAt(il2cpp_array_size_t index) const
+	inline RaycastHit2D_t3392695213  GetAt(il2cpp_array_size_t index) const
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items[index];
 	}
-	inline RaycastHit2D_t339009926 * GetAddressAt(il2cpp_array_size_t index)
+	inline RaycastHit2D_t3392695213 * GetAddressAt(il2cpp_array_size_t index)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items + index;
 	}
-	inline void SetAt(il2cpp_array_size_t index, RaycastHit2D_t339009926  value)
+	inline void SetAt(il2cpp_array_size_t index, RaycastHit2D_t3392695213  value)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		m_Items[index] = value;
 	}
-	inline RaycastHit2D_t339009926  GetAtUnchecked(il2cpp_array_size_t index) const
+	inline RaycastHit2D_t3392695213  GetAtUnchecked(il2cpp_array_size_t index) const
 	{
 		return m_Items[index];
 	}
-	inline RaycastHit2D_t339009926 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	inline RaycastHit2D_t3392695213 * GetAddressAtUnchecked(il2cpp_array_size_t index)
 	{
 		return m_Items + index;
 	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, RaycastHit2D_t339009926  value)
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RaycastHit2D_t3392695213  value)
 	{
 		m_Items[index] = value;
 	}
@@ -1585,93 +1585,93 @@ public:
 
 
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
-extern "C"  void List_1__ctor_m2788021982_gshared (List_1_t3827102973 * __this, const RuntimeMethod* method);
+extern "C"  void List_1__ctor_m2647920384_gshared (List_1_t2591684357 * __this, const RuntimeMethod* method);
 
 // System.Boolean System.Single::IsNaN(System.Single)
-extern "C"  bool Single_IsNaN_m838163812 (RuntimeObject * __this /* static, unused */, float p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Single_IsNaN_m1188173185 (RuntimeObject * __this /* static, unused */, float p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::Clamp(System.Single,System.Single,System.Single)
-extern "C"  float Mathf_Clamp_m1537380377 (RuntimeObject * __this /* static, unused */, float p0, float p1, float p2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  float Mathf_Clamp_m1024461719 (RuntimeObject * __this /* static, unused */, float p0, float p1, float p2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.ContactFilter2D::CheckConsistency()
-extern "C"  void ContactFilter2D_CheckConsistency_m4233430013 (ContactFilter2D_t1414142737 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void ContactFilter2D_CheckConsistency_m1213320100 (ContactFilter2D_t3142948246 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.ContactFilter2D::SetLayerMask(UnityEngine.LayerMask)
-extern "C"  void ContactFilter2D_SetLayerMask_m2694799996 (ContactFilter2D_t1414142737 * __this, LayerMask_t2442541870  ___layerMask0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void ContactFilter2D_SetLayerMask_m1411617422 (ContactFilter2D_t3142948246 * __this, LayerMask_t917109080  ___layerMask0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.ContactFilter2D::SetDepth(System.Single,System.Single)
-extern "C"  void ContactFilter2D_SetDepth_m1426450912 (ContactFilter2D_t1414142737 * __this, float ___minDepth0, float ___maxDepth1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void ContactFilter2D_SetDepth_m973213614 (ContactFilter2D_t3142948246 * __this, float ___minDepth0, float ___maxDepth1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Physics2D::get_queriesHitTriggers()
-extern "C"  bool Physics2D_get_queriesHitTriggers_m338558545 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Physics2D_get_queriesHitTriggers_m191450447 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.LayerMask UnityEngine.LayerMask::op_Implicit(System.Int32)
-extern "C"  LayerMask_t2442541870  LayerMask_op_Implicit_m1079107545 (RuntimeObject * __this /* static, unused */, int32_t p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  LayerMask_t917109080  LayerMask_op_Implicit_m1009131485 (RuntimeObject * __this /* static, unused */, int32_t p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RaycastHit2D UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32,System.Single,System.Single)
-extern "C"  RaycastHit2D_t339009926  Physics2D_Raycast_m1960478690 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, float ___distance2, int32_t ___layerMask3, float ___minDepth4, float ___maxDepth5, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  RaycastHit2D_t3392695213  Physics2D_Raycast_m1039229220 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, float ___distance2, int32_t ___layerMask3, float ___minDepth4, float ___maxDepth5, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.ContactFilter2D UnityEngine.ContactFilter2D::CreateLegacyFilter(System.Int32,System.Single,System.Single)
-extern "C"  ContactFilter2D_t1414142737  ContactFilter2D_CreateLegacyFilter_m1632684172 (RuntimeObject * __this /* static, unused */, int32_t ___layerMask0, float ___minDepth1, float ___maxDepth2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  ContactFilter2D_t3142948246  ContactFilter2D_CreateLegacyFilter_m50380274 (RuntimeObject * __this /* static, unused */, int32_t ___layerMask0, float ___minDepth1, float ___maxDepth2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Physics2D::Internal_Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D&)
-extern "C"  void Physics2D_Internal_Raycast_m2561617261 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, float ___distance2, ContactFilter2D_t1414142737  ___contactFilter3, RaycastHit2D_t339009926 * ___raycastHit4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Physics2D_Internal_Raycast_m3594849280 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, float ___distance2, ContactFilter2D_t3142948246  ___contactFilter3, RaycastHit2D_t3392695213 * ___raycastHit4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[],System.Single)
-extern "C"  int32_t Physics2D_Raycast_m4019611116 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, ContactFilter2D_t1414142737  ___contactFilter2, RaycastHit2DU5BU5D_t2765076899* ___results3, float ___distance4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  int32_t Physics2D_Raycast_m3123622375 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, ContactFilter2D_t3142948246  ___contactFilter2, RaycastHit2DU5BU5D_t3310982912* ___results3, float ___distance4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Physics2D::Internal_RaycastNonAlloc(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[])
-extern "C"  int32_t Physics2D_Internal_RaycastNonAlloc_m1191899843 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, float ___distance2, ContactFilter2D_t1414142737  ___contactFilter3, RaycastHit2DU5BU5D_t2765076899* ___results4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  int32_t Physics2D_Internal_RaycastNonAlloc_m269252419 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, float ___distance2, ContactFilter2D_t3142948246  ___contactFilter3, RaycastHit2DU5BU5D_t3310982912* ___results4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Physics2D::INTERNAL_CALL_Internal_Raycast(UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D&)
-extern "C"  void Physics2D_INTERNAL_CALL_Internal_Raycast_m1686031760 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240 * ___origin0, Vector2_t3951545240 * ___direction1, float ___distance2, ContactFilter2D_t1414142737 * ___contactFilter3, RaycastHit2D_t339009926 * ___raycastHit4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Physics2D_INTERNAL_CALL_Internal_Raycast_m2285513094 (RuntimeObject * __this /* static, unused */, Vector2_t697963865 * ___origin0, Vector2_t697963865 * ___direction1, float ___distance2, ContactFilter2D_t3142948246 * ___contactFilter3, RaycastHit2D_t3392695213 * ___raycastHit4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Physics2D::INTERNAL_CALL_Internal_RaycastNonAlloc(UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D[])
-extern "C"  int32_t Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m3920880600 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240 * ___origin0, Vector2_t3951545240 * ___direction1, float ___distance2, ContactFilter2D_t1414142737 * ___contactFilter3, RaycastHit2DU5BU5D_t2765076899* ___results4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  int32_t Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m369455957 (RuntimeObject * __this /* static, unused */, Vector2_t697963865 * ___origin0, Vector2_t697963865 * ___direction1, float ___distance2, ContactFilter2D_t3142948246 * ___contactFilter3, RaycastHit2DU5BU5D_t3310982912* ___results4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RaycastHit2D[] UnityEngine.Physics2D::INTERNAL_CALL_GetRayIntersectionAll(UnityEngine.Ray&,System.Single,System.Int32)
-extern "C"  RaycastHit2DU5BU5D_t2765076899* Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1258415351 (RuntimeObject * __this /* static, unused */, Ray_t411286590 * ___ray0, float ___distance1, int32_t ___layerMask2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  RaycastHit2DU5BU5D_t3310982912* Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1299805760 (RuntimeObject * __this /* static, unused */, Ray_t4251408636 * ___ray0, float ___distance1, int32_t ___layerMask2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>::.ctor()
-#define List_1__ctor_m1145373920(__this, method) ((  void (*) (List_1_t2909594656 *, const RuntimeMethod*))List_1__ctor_m2788021982_gshared)(__this, method)
+#define List_1__ctor_m199323213(__this, method) ((  void (*) (List_1_t3439730791 *, const RuntimeMethod*))List_1__ctor_m2647920384_gshared)(__this, method)
 // UnityEngine.Vector2 UnityEngine.RaycastHit2D::get_point()
-extern "C"  Vector2_t3951545240  RaycastHit2D_get_point_m1445372281 (RaycastHit2D_t339009926 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  Vector2_t697963865  RaycastHit2D_get_point_m2417792064 (RaycastHit2D_t3392695213 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.RaycastHit2D::get_normal()
-extern "C"  Vector2_t3951545240  RaycastHit2D_get_normal_m2411632738 (RaycastHit2D_t339009926 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  Vector2_t697963865  RaycastHit2D_get_normal_m2208000216 (RaycastHit2D_t3392695213 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.RaycastHit2D::get_distance()
-extern "C"  float RaycastHit2D_get_distance_m190453739 (RaycastHit2D_t339009926 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  float RaycastHit2D_get_distance_m1332146531 (RaycastHit2D_t3392695213 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Collider2D UnityEngine.RaycastHit2D::get_collider()
-extern "C"  Collider2D_t227714118 * RaycastHit2D_get_collider_m4168482416 (RaycastHit2D_t339009926 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  Collider2D_t1052193197 * RaycastHit2D_get_collider_m2882293099 (RaycastHit2D_t3392695213 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody2D::INTERNAL_get_velocity(UnityEngine.Vector2&)
-extern "C"  void Rigidbody2D_INTERNAL_get_velocity_m3017889933 (Rigidbody2D_t4242740165 * __this, Vector2_t3951545240 * ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Rigidbody2D_INTERNAL_get_velocity_m437810972 (Rigidbody2D_t1214194286 * __this, Vector2_t697963865 * ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody2D::INTERNAL_set_velocity(UnityEngine.Vector2&)
-extern "C"  void Rigidbody2D_INTERNAL_set_velocity_m2667442148 (Rigidbody2D_t4242740165 * __this, Vector2_t3951545240 * ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Rigidbody2D_INTERNAL_set_velocity_m959754698 (Rigidbody2D_t1214194286 * __this, Vector2_t697963865 * ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody2D::set_bodyType(UnityEngine.RigidbodyType2D)
-extern "C"  void Rigidbody2D_set_bodyType_m77041895 (Rigidbody2D_t4242740165 * __this, int32_t ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Rigidbody2D_set_bodyType_m2242353013 (Rigidbody2D_t1214194286 * __this, int32_t ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody2D::INTERNAL_CALL_AddForce(UnityEngine.Rigidbody2D,UnityEngine.Vector2&,UnityEngine.ForceMode2D)
-extern "C"  void Rigidbody2D_INTERNAL_CALL_AddForce_m3300307091 (RuntimeObject * __this /* static, unused */, Rigidbody2D_t4242740165 * ___self0, Vector2_t3951545240 * ___force1, int32_t ___mode2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Rigidbody2D_INTERNAL_CALL_AddForce_m3225633132 (RuntimeObject * __this /* static, unused */, Rigidbody2D_t1214194286 * ___self0, Vector2_t697963865 * ___force1, int32_t ___mode2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Conversion methods for marshalling of: UnityEngine.Collision2D
-extern "C" void Collision2D_t3109789957_marshal_pinvoke(const Collision2D_t3109789957& unmarshaled, Collision2D_t3109789957_marshaled_pinvoke& marshaled)
+extern "C" void Collision2D_t315366027_marshal_pinvoke(const Collision2D_t315366027& unmarshaled, Collision2D_t315366027_marshaled_pinvoke& marshaled)
 {
 	Il2CppCodeGenException* ___m_Contacts_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Contacts' of type 'Collision2D'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Contacts_4Exception);
 }
-extern "C" void Collision2D_t3109789957_marshal_pinvoke_back(const Collision2D_t3109789957_marshaled_pinvoke& marshaled, Collision2D_t3109789957& unmarshaled)
+extern "C" void Collision2D_t315366027_marshal_pinvoke_back(const Collision2D_t315366027_marshaled_pinvoke& marshaled, Collision2D_t315366027& unmarshaled)
 {
 	Il2CppCodeGenException* ___m_Contacts_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Contacts' of type 'Collision2D'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Contacts_4Exception);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.Collision2D
-extern "C" void Collision2D_t3109789957_marshal_pinvoke_cleanup(Collision2D_t3109789957_marshaled_pinvoke& marshaled)
+extern "C" void Collision2D_t315366027_marshal_pinvoke_cleanup(Collision2D_t315366027_marshaled_pinvoke& marshaled)
 {
 }
 // Conversion methods for marshalling of: UnityEngine.Collision2D
-extern "C" void Collision2D_t3109789957_marshal_com(const Collision2D_t3109789957& unmarshaled, Collision2D_t3109789957_marshaled_com& marshaled)
+extern "C" void Collision2D_t315366027_marshal_com(const Collision2D_t315366027& unmarshaled, Collision2D_t315366027_marshaled_com& marshaled)
 {
 	Il2CppCodeGenException* ___m_Contacts_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Contacts' of type 'Collision2D'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Contacts_4Exception);
 }
-extern "C" void Collision2D_t3109789957_marshal_com_back(const Collision2D_t3109789957_marshaled_com& marshaled, Collision2D_t3109789957& unmarshaled)
+extern "C" void Collision2D_t315366027_marshal_com_back(const Collision2D_t315366027_marshaled_com& marshaled, Collision2D_t315366027& unmarshaled)
 {
 	Il2CppCodeGenException* ___m_Contacts_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Contacts' of type 'Collision2D'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Contacts_4Exception);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.Collision2D
-extern "C" void Collision2D_t3109789957_marshal_com_cleanup(Collision2D_t3109789957_marshaled_com& marshaled)
+extern "C" void Collision2D_t315366027_marshal_com_cleanup(Collision2D_t315366027_marshaled_com& marshaled)
 {
 }
 // Conversion methods for marshalling of: UnityEngine.ContactFilter2D
-extern "C" void ContactFilter2D_t1414142737_marshal_pinvoke(const ContactFilter2D_t1414142737& unmarshaled, ContactFilter2D_t1414142737_marshaled_pinvoke& marshaled)
+extern "C" void ContactFilter2D_t3142948246_marshal_pinvoke(const ContactFilter2D_t3142948246& unmarshaled, ContactFilter2D_t3142948246_marshaled_pinvoke& marshaled)
 {
 	marshaled.___useTriggers_0 = static_cast<int32_t>(unmarshaled.get_useTriggers_0());
 	marshaled.___useLayerMask_1 = static_cast<int32_t>(unmarshaled.get_useLayerMask_1());
@@ -1685,7 +1685,7 @@ extern "C" void ContactFilter2D_t1414142737_marshal_pinvoke(const ContactFilter2
 	marshaled.___minNormalAngle_9 = unmarshaled.get_minNormalAngle_9();
 	marshaled.___maxNormalAngle_10 = unmarshaled.get_maxNormalAngle_10();
 }
-extern "C" void ContactFilter2D_t1414142737_marshal_pinvoke_back(const ContactFilter2D_t1414142737_marshaled_pinvoke& marshaled, ContactFilter2D_t1414142737& unmarshaled)
+extern "C" void ContactFilter2D_t3142948246_marshal_pinvoke_back(const ContactFilter2D_t3142948246_marshaled_pinvoke& marshaled, ContactFilter2D_t3142948246& unmarshaled)
 {
 	bool unmarshaled_useTriggers_temp_0 = false;
 	unmarshaled_useTriggers_temp_0 = static_cast<bool>(marshaled.___useTriggers_0);
@@ -1705,7 +1705,7 @@ extern "C" void ContactFilter2D_t1414142737_marshal_pinvoke_back(const ContactFi
 	bool unmarshaled_useOutsideNormalAngle_temp_5 = false;
 	unmarshaled_useOutsideNormalAngle_temp_5 = static_cast<bool>(marshaled.___useOutsideNormalAngle_5);
 	unmarshaled.set_useOutsideNormalAngle_5(unmarshaled_useOutsideNormalAngle_temp_5);
-	LayerMask_t2442541870  unmarshaled_layerMask_temp_6;
+	LayerMask_t917109080  unmarshaled_layerMask_temp_6;
 	memset(&unmarshaled_layerMask_temp_6, 0, sizeof(unmarshaled_layerMask_temp_6));
 	unmarshaled_layerMask_temp_6 = marshaled.___layerMask_6;
 	unmarshaled.set_layerMask_6(unmarshaled_layerMask_temp_6);
@@ -1723,11 +1723,11 @@ extern "C" void ContactFilter2D_t1414142737_marshal_pinvoke_back(const ContactFi
 	unmarshaled.set_maxNormalAngle_10(unmarshaled_maxNormalAngle_temp_10);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.ContactFilter2D
-extern "C" void ContactFilter2D_t1414142737_marshal_pinvoke_cleanup(ContactFilter2D_t1414142737_marshaled_pinvoke& marshaled)
+extern "C" void ContactFilter2D_t3142948246_marshal_pinvoke_cleanup(ContactFilter2D_t3142948246_marshaled_pinvoke& marshaled)
 {
 }
 // Conversion methods for marshalling of: UnityEngine.ContactFilter2D
-extern "C" void ContactFilter2D_t1414142737_marshal_com(const ContactFilter2D_t1414142737& unmarshaled, ContactFilter2D_t1414142737_marshaled_com& marshaled)
+extern "C" void ContactFilter2D_t3142948246_marshal_com(const ContactFilter2D_t3142948246& unmarshaled, ContactFilter2D_t3142948246_marshaled_com& marshaled)
 {
 	marshaled.___useTriggers_0 = static_cast<int32_t>(unmarshaled.get_useTriggers_0());
 	marshaled.___useLayerMask_1 = static_cast<int32_t>(unmarshaled.get_useLayerMask_1());
@@ -1741,7 +1741,7 @@ extern "C" void ContactFilter2D_t1414142737_marshal_com(const ContactFilter2D_t1
 	marshaled.___minNormalAngle_9 = unmarshaled.get_minNormalAngle_9();
 	marshaled.___maxNormalAngle_10 = unmarshaled.get_maxNormalAngle_10();
 }
-extern "C" void ContactFilter2D_t1414142737_marshal_com_back(const ContactFilter2D_t1414142737_marshaled_com& marshaled, ContactFilter2D_t1414142737& unmarshaled)
+extern "C" void ContactFilter2D_t3142948246_marshal_com_back(const ContactFilter2D_t3142948246_marshaled_com& marshaled, ContactFilter2D_t3142948246& unmarshaled)
 {
 	bool unmarshaled_useTriggers_temp_0 = false;
 	unmarshaled_useTriggers_temp_0 = static_cast<bool>(marshaled.___useTriggers_0);
@@ -1761,7 +1761,7 @@ extern "C" void ContactFilter2D_t1414142737_marshal_com_back(const ContactFilter
 	bool unmarshaled_useOutsideNormalAngle_temp_5 = false;
 	unmarshaled_useOutsideNormalAngle_temp_5 = static_cast<bool>(marshaled.___useOutsideNormalAngle_5);
 	unmarshaled.set_useOutsideNormalAngle_5(unmarshaled_useOutsideNormalAngle_temp_5);
-	LayerMask_t2442541870  unmarshaled_layerMask_temp_6;
+	LayerMask_t917109080  unmarshaled_layerMask_temp_6;
 	memset(&unmarshaled_layerMask_temp_6, 0, sizeof(unmarshaled_layerMask_temp_6));
 	unmarshaled_layerMask_temp_6 = marshaled.___layerMask_6;
 	unmarshaled.set_layerMask_6(unmarshaled_layerMask_temp_6);
@@ -1779,40 +1779,40 @@ extern "C" void ContactFilter2D_t1414142737_marshal_com_back(const ContactFilter
 	unmarshaled.set_maxNormalAngle_10(unmarshaled_maxNormalAngle_temp_10);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.ContactFilter2D
-extern "C" void ContactFilter2D_t1414142737_marshal_com_cleanup(ContactFilter2D_t1414142737_marshaled_com& marshaled)
+extern "C" void ContactFilter2D_t3142948246_marshal_com_cleanup(ContactFilter2D_t3142948246_marshaled_com& marshaled)
 {
 }
 // System.Void UnityEngine.ContactFilter2D::CheckConsistency()
-extern "C"  void ContactFilter2D_CheckConsistency_m4233430013 (ContactFilter2D_t1414142737 * __this, const RuntimeMethod* method)
+extern "C"  void ContactFilter2D_CheckConsistency_m1213320100 (ContactFilter2D_t3142948246 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (ContactFilter2D_CheckConsistency_m4233430013_MetadataUsageId);
+		il2cpp_codegen_initialize_method (ContactFilter2D_CheckConsistency_m1213320100_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
-	ContactFilter2D_t1414142737 * G_B3_0 = NULL;
-	ContactFilter2D_t1414142737 * G_B1_0 = NULL;
-	ContactFilter2D_t1414142737 * G_B2_0 = NULL;
-	ContactFilter2D_t1414142737 * G_B4_0 = NULL;
+	ContactFilter2D_t3142948246 * G_B3_0 = NULL;
+	ContactFilter2D_t3142948246 * G_B1_0 = NULL;
+	ContactFilter2D_t3142948246 * G_B2_0 = NULL;
+	ContactFilter2D_t3142948246 * G_B4_0 = NULL;
 	float G_B5_0 = 0.0f;
-	ContactFilter2D_t1414142737 * G_B5_1 = NULL;
-	ContactFilter2D_t1414142737 * G_B8_0 = NULL;
-	ContactFilter2D_t1414142737 * G_B6_0 = NULL;
-	ContactFilter2D_t1414142737 * G_B7_0 = NULL;
-	ContactFilter2D_t1414142737 * G_B9_0 = NULL;
+	ContactFilter2D_t3142948246 * G_B5_1 = NULL;
+	ContactFilter2D_t3142948246 * G_B8_0 = NULL;
+	ContactFilter2D_t3142948246 * G_B6_0 = NULL;
+	ContactFilter2D_t3142948246 * G_B7_0 = NULL;
+	ContactFilter2D_t3142948246 * G_B9_0 = NULL;
 	float G_B10_0 = 0.0f;
-	ContactFilter2D_t1414142737 * G_B10_1 = NULL;
-	ContactFilter2D_t1414142737 * G_B14_0 = NULL;
-	ContactFilter2D_t1414142737 * G_B13_0 = NULL;
+	ContactFilter2D_t3142948246 * G_B10_1 = NULL;
+	ContactFilter2D_t3142948246 * G_B14_0 = NULL;
+	ContactFilter2D_t3142948246 * G_B13_0 = NULL;
 	float G_B15_0 = 0.0f;
-	ContactFilter2D_t1414142737 * G_B15_1 = NULL;
-	ContactFilter2D_t1414142737 * G_B17_0 = NULL;
-	ContactFilter2D_t1414142737 * G_B16_0 = NULL;
+	ContactFilter2D_t3142948246 * G_B15_1 = NULL;
+	ContactFilter2D_t3142948246 * G_B17_0 = NULL;
+	ContactFilter2D_t3142948246 * G_B16_0 = NULL;
 	float G_B18_0 = 0.0f;
-	ContactFilter2D_t1414142737 * G_B18_1 = NULL;
+	ContactFilter2D_t3142948246 * G_B18_1 = NULL;
 	{
 		float L_0 = __this->get_minDepth_7();
 		G_B1_0 = __this;
@@ -1833,7 +1833,7 @@ extern "C"  void ContactFilter2D_CheckConsistency_m4233430013 (ContactFilter2D_t
 	}
 	{
 		float L_2 = __this->get_minDepth_7();
-		bool L_3 = Single_IsNaN_m838163812(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		bool L_3 = Single_IsNaN_m1188173185(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		G_B3_0 = G_B2_0;
 		if (!L_3)
 		{
@@ -1878,7 +1878,7 @@ IL_0042:
 	}
 	{
 		float L_7 = __this->get_maxDepth_8();
-		bool L_8 = Single_IsNaN_m838163812(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		bool L_8 = Single_IsNaN_m1188173185(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		G_B8_0 = G_B7_0;
 		if (!L_8)
 		{
@@ -1923,7 +1923,7 @@ IL_0088:
 IL_00ba:
 	{
 		float L_15 = __this->get_minNormalAngle_9();
-		bool L_16 = Single_IsNaN_m838163812(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		bool L_16 = Single_IsNaN_m1188173185(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 		G_B13_0 = __this;
 		if (!L_16)
 		{
@@ -1940,8 +1940,8 @@ IL_00ba:
 IL_00d5:
 	{
 		float L_17 = __this->get_minNormalAngle_9();
-		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t3057955895_il2cpp_TypeInfo_var);
-		float L_18 = Mathf_Clamp_m1537380377(NULL /*static, unused*/, L_17, (0.0f), (359.9999f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t566170356_il2cpp_TypeInfo_var);
+		float L_18 = Mathf_Clamp_m1024461719(NULL /*static, unused*/, L_17, (0.0f), (359.9999f), /*hidden argument*/NULL);
 		G_B15_0 = L_18;
 		G_B15_1 = G_B14_0;
 	}
@@ -1950,7 +1950,7 @@ IL_00ea:
 	{
 		G_B15_1->set_minNormalAngle_9(G_B15_0);
 		float L_19 = __this->get_maxNormalAngle_10();
-		bool L_20 = Single_IsNaN_m838163812(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		bool L_20 = Single_IsNaN_m1188173185(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
 		G_B16_0 = __this;
 		if (!L_20)
 		{
@@ -1967,8 +1967,8 @@ IL_00ea:
 IL_010a:
 	{
 		float L_21 = __this->get_maxNormalAngle_10();
-		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t3057955895_il2cpp_TypeInfo_var);
-		float L_22 = Mathf_Clamp_m1537380377(NULL /*static, unused*/, L_21, (0.0f), (359.9999f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t566170356_il2cpp_TypeInfo_var);
+		float L_22 = Mathf_Clamp_m1024461719(NULL /*static, unused*/, L_21, (0.0f), (359.9999f), /*hidden argument*/NULL);
 		G_B18_0 = L_22;
 		G_B18_1 = G_B17_0;
 	}
@@ -1997,28 +1997,28 @@ IL_0151:
 		return;
 	}
 }
-extern "C"  void ContactFilter2D_CheckConsistency_m4233430013_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+extern "C"  void ContactFilter2D_CheckConsistency_m1213320100_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	ContactFilter2D_t1414142737 * _thisAdjusted = reinterpret_cast<ContactFilter2D_t1414142737 *>(__this + 1);
-	ContactFilter2D_CheckConsistency_m4233430013(_thisAdjusted, method);
+	ContactFilter2D_t3142948246 * _thisAdjusted = reinterpret_cast<ContactFilter2D_t3142948246 *>(__this + 1);
+	ContactFilter2D_CheckConsistency_m1213320100(_thisAdjusted, method);
 }
 // System.Void UnityEngine.ContactFilter2D::SetLayerMask(UnityEngine.LayerMask)
-extern "C"  void ContactFilter2D_SetLayerMask_m2694799996 (ContactFilter2D_t1414142737 * __this, LayerMask_t2442541870  ___layerMask0, const RuntimeMethod* method)
+extern "C"  void ContactFilter2D_SetLayerMask_m1411617422 (ContactFilter2D_t3142948246 * __this, LayerMask_t917109080  ___layerMask0, const RuntimeMethod* method)
 {
 	{
-		LayerMask_t2442541870  L_0 = ___layerMask0;
+		LayerMask_t917109080  L_0 = ___layerMask0;
 		__this->set_layerMask_6(L_0);
 		__this->set_useLayerMask_1((bool)1);
 		return;
 	}
 }
-extern "C"  void ContactFilter2D_SetLayerMask_m2694799996_AdjustorThunk (RuntimeObject * __this, LayerMask_t2442541870  ___layerMask0, const RuntimeMethod* method)
+extern "C"  void ContactFilter2D_SetLayerMask_m1411617422_AdjustorThunk (RuntimeObject * __this, LayerMask_t917109080  ___layerMask0, const RuntimeMethod* method)
 {
-	ContactFilter2D_t1414142737 * _thisAdjusted = reinterpret_cast<ContactFilter2D_t1414142737 *>(__this + 1);
-	ContactFilter2D_SetLayerMask_m2694799996(_thisAdjusted, ___layerMask0, method);
+	ContactFilter2D_t3142948246 * _thisAdjusted = reinterpret_cast<ContactFilter2D_t3142948246 *>(__this + 1);
+	ContactFilter2D_SetLayerMask_m1411617422(_thisAdjusted, ___layerMask0, method);
 }
 // System.Void UnityEngine.ContactFilter2D::SetDepth(System.Single,System.Single)
-extern "C"  void ContactFilter2D_SetDepth_m1426450912 (ContactFilter2D_t1414142737 * __this, float ___minDepth0, float ___maxDepth1, const RuntimeMethod* method)
+extern "C"  void ContactFilter2D_SetDepth_m973213614 (ContactFilter2D_t3142948246 * __this, float ___minDepth0, float ___maxDepth1, const RuntimeMethod* method)
 {
 	{
 		float L_0 = ___minDepth0;
@@ -2026,258 +2026,258 @@ extern "C"  void ContactFilter2D_SetDepth_m1426450912 (ContactFilter2D_t14141427
 		float L_1 = ___maxDepth1;
 		__this->set_maxDepth_8(L_1);
 		__this->set_useDepth_2((bool)1);
-		ContactFilter2D_CheckConsistency_m4233430013(__this, /*hidden argument*/NULL);
+		ContactFilter2D_CheckConsistency_m1213320100(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-extern "C"  void ContactFilter2D_SetDepth_m1426450912_AdjustorThunk (RuntimeObject * __this, float ___minDepth0, float ___maxDepth1, const RuntimeMethod* method)
+extern "C"  void ContactFilter2D_SetDepth_m973213614_AdjustorThunk (RuntimeObject * __this, float ___minDepth0, float ___maxDepth1, const RuntimeMethod* method)
 {
-	ContactFilter2D_t1414142737 * _thisAdjusted = reinterpret_cast<ContactFilter2D_t1414142737 *>(__this + 1);
-	ContactFilter2D_SetDepth_m1426450912(_thisAdjusted, ___minDepth0, ___maxDepth1, method);
+	ContactFilter2D_t3142948246 * _thisAdjusted = reinterpret_cast<ContactFilter2D_t3142948246 *>(__this + 1);
+	ContactFilter2D_SetDepth_m973213614(_thisAdjusted, ___minDepth0, ___maxDepth1, method);
 }
 // UnityEngine.ContactFilter2D UnityEngine.ContactFilter2D::CreateLegacyFilter(System.Int32,System.Single,System.Single)
-extern "C"  ContactFilter2D_t1414142737  ContactFilter2D_CreateLegacyFilter_m1632684172 (RuntimeObject * __this /* static, unused */, int32_t ___layerMask0, float ___minDepth1, float ___maxDepth2, const RuntimeMethod* method)
+extern "C"  ContactFilter2D_t3142948246  ContactFilter2D_CreateLegacyFilter_m50380274 (RuntimeObject * __this /* static, unused */, int32_t ___layerMask0, float ___minDepth1, float ___maxDepth2, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (ContactFilter2D_CreateLegacyFilter_m1632684172_MetadataUsageId);
+		il2cpp_codegen_initialize_method (ContactFilter2D_CreateLegacyFilter_m50380274_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	ContactFilter2D_t1414142737  V_0;
+	ContactFilter2D_t3142948246  V_0;
 	memset(&V_0, 0, sizeof(V_0));
-	ContactFilter2D_t1414142737  V_1;
+	ContactFilter2D_t3142948246  V_1;
 	memset(&V_1, 0, sizeof(V_1));
 	{
-		Initobj (ContactFilter2D_t1414142737_il2cpp_TypeInfo_var, (&V_0));
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		bool L_0 = Physics2D_get_queriesHitTriggers_m338558545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Initobj (ContactFilter2D_t3142948246_il2cpp_TypeInfo_var, (&V_0));
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		bool L_0 = Physics2D_get_queriesHitTriggers_m191450447(NULL /*static, unused*/, /*hidden argument*/NULL);
 		(&V_0)->set_useTriggers_0(L_0);
 		int32_t L_1 = ___layerMask0;
-		LayerMask_t2442541870  L_2 = LayerMask_op_Implicit_m1079107545(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
-		ContactFilter2D_SetLayerMask_m2694799996((&V_0), L_2, /*hidden argument*/NULL);
+		LayerMask_t917109080  L_2 = LayerMask_op_Implicit_m1009131485(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		ContactFilter2D_SetLayerMask_m1411617422((&V_0), L_2, /*hidden argument*/NULL);
 		float L_3 = ___minDepth1;
 		float L_4 = ___maxDepth2;
-		ContactFilter2D_SetDepth_m1426450912((&V_0), L_3, L_4, /*hidden argument*/NULL);
-		ContactFilter2D_t1414142737  L_5 = V_0;
+		ContactFilter2D_SetDepth_m973213614((&V_0), L_3, L_4, /*hidden argument*/NULL);
+		ContactFilter2D_t3142948246  L_5 = V_0;
 		V_1 = L_5;
 		goto IL_0032;
 	}
 
 IL_0032:
 	{
-		ContactFilter2D_t1414142737  L_6 = V_1;
+		ContactFilter2D_t3142948246  L_6 = V_1;
 		return L_6;
 	}
 }
 // System.Boolean UnityEngine.Physics2D::get_queriesHitTriggers()
-extern "C"  bool Physics2D_get_queriesHitTriggers_m338558545 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+extern "C"  bool Physics2D_get_queriesHitTriggers_m191450447 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
 {
-	typedef bool (*Physics2D_get_queriesHitTriggers_m338558545_ftn) ();
-	static Physics2D_get_queriesHitTriggers_m338558545_ftn _il2cpp_icall_func;
+	typedef bool (*Physics2D_get_queriesHitTriggers_m191450447_ftn) ();
+	static Physics2D_get_queriesHitTriggers_m191450447_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Physics2D_get_queriesHitTriggers_m338558545_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Physics2D::get_queriesHitTriggers()");
+	_il2cpp_icall_func = (Physics2D_get_queriesHitTriggers_m191450447_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Physics2D::get_queriesHitTriggers()");
 	bool retVal = _il2cpp_icall_func();
 	return retVal;
 }
 // UnityEngine.RaycastHit2D UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32,System.Single)
-extern "C"  RaycastHit2D_t339009926  Physics2D_Raycast_m3365530562 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, float ___distance2, int32_t ___layerMask3, float ___minDepth4, const RuntimeMethod* method)
+extern "C"  RaycastHit2D_t3392695213  Physics2D_Raycast_m289242489 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, float ___distance2, int32_t ___layerMask3, float ___minDepth4, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D_Raycast_m3365530562_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D_Raycast_m289242489_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
-	RaycastHit2D_t339009926  V_1;
+	RaycastHit2D_t3392695213  V_1;
 	memset(&V_1, 0, sizeof(V_1));
 	{
 		V_0 = (std::numeric_limits<float>::infinity());
-		Vector2_t3951545240  L_0 = ___origin0;
-		Vector2_t3951545240  L_1 = ___direction1;
+		Vector2_t697963865  L_0 = ___origin0;
+		Vector2_t697963865  L_1 = ___direction1;
 		float L_2 = ___distance2;
 		int32_t L_3 = ___layerMask3;
 		float L_4 = ___minDepth4;
 		float L_5 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		RaycastHit2D_t339009926  L_6 = Physics2D_Raycast_m1960478690(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		RaycastHit2D_t3392695213  L_6 = Physics2D_Raycast_m1039229220(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
 		V_1 = L_6;
 		goto IL_0019;
 	}
 
 IL_0019:
 	{
-		RaycastHit2D_t339009926  L_7 = V_1;
+		RaycastHit2D_t3392695213  L_7 = V_1;
 		return L_7;
 	}
 }
 // UnityEngine.RaycastHit2D UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32)
-extern "C"  RaycastHit2D_t339009926  Physics2D_Raycast_m2394984827 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, float ___distance2, int32_t ___layerMask3, const RuntimeMethod* method)
+extern "C"  RaycastHit2D_t3392695213  Physics2D_Raycast_m4046856143 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, float ___distance2, int32_t ___layerMask3, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D_Raycast_m2394984827_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D_Raycast_m4046856143_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
-	RaycastHit2D_t339009926  V_2;
+	RaycastHit2D_t3392695213  V_2;
 	memset(&V_2, 0, sizeof(V_2));
 	{
 		V_0 = (std::numeric_limits<float>::infinity());
 		V_1 = (-std::numeric_limits<float>::infinity());
-		Vector2_t3951545240  L_0 = ___origin0;
-		Vector2_t3951545240  L_1 = ___direction1;
+		Vector2_t697963865  L_0 = ___origin0;
+		Vector2_t697963865  L_1 = ___direction1;
 		float L_2 = ___distance2;
 		int32_t L_3 = ___layerMask3;
 		float L_4 = V_1;
 		float L_5 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		RaycastHit2D_t339009926  L_6 = Physics2D_Raycast_m1960478690(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		RaycastHit2D_t3392695213  L_6 = Physics2D_Raycast_m1039229220(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
 		V_2 = L_6;
 		goto IL_001e;
 	}
 
 IL_001e:
 	{
-		RaycastHit2D_t339009926  L_7 = V_2;
+		RaycastHit2D_t3392695213  L_7 = V_2;
 		return L_7;
 	}
 }
 // UnityEngine.RaycastHit2D UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
-extern "C"  RaycastHit2D_t339009926  Physics2D_Raycast_m1543690383 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, float ___distance2, const RuntimeMethod* method)
+extern "C"  RaycastHit2D_t3392695213  Physics2D_Raycast_m2140266700 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, float ___distance2, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D_Raycast_m1543690383_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D_Raycast_m2140266700_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	int32_t V_2 = 0;
-	RaycastHit2D_t339009926  V_3;
+	RaycastHit2D_t3392695213  V_3;
 	memset(&V_3, 0, sizeof(V_3));
 	{
 		V_0 = (std::numeric_limits<float>::infinity());
 		V_1 = (-std::numeric_limits<float>::infinity());
 		V_2 = ((int32_t)-5);
-		Vector2_t3951545240  L_0 = ___origin0;
-		Vector2_t3951545240  L_1 = ___direction1;
+		Vector2_t697963865  L_0 = ___origin0;
+		Vector2_t697963865  L_1 = ___direction1;
 		float L_2 = ___distance2;
 		int32_t L_3 = V_2;
 		float L_4 = V_1;
 		float L_5 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		RaycastHit2D_t339009926  L_6 = Physics2D_Raycast_m1960478690(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		RaycastHit2D_t3392695213  L_6 = Physics2D_Raycast_m1039229220(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
 		V_3 = L_6;
 		goto IL_0021;
 	}
 
 IL_0021:
 	{
-		RaycastHit2D_t339009926  L_7 = V_3;
+		RaycastHit2D_t3392695213  L_7 = V_3;
 		return L_7;
 	}
 }
 // UnityEngine.RaycastHit2D UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2)
-extern "C"  RaycastHit2D_t339009926  Physics2D_Raycast_m1781988276 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, const RuntimeMethod* method)
+extern "C"  RaycastHit2D_t3392695213  Physics2D_Raycast_m2220606757 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D_Raycast_m1781988276_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D_Raycast_m2220606757_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	int32_t V_2 = 0;
 	float V_3 = 0.0f;
-	RaycastHit2D_t339009926  V_4;
+	RaycastHit2D_t3392695213  V_4;
 	memset(&V_4, 0, sizeof(V_4));
 	{
 		V_0 = (std::numeric_limits<float>::infinity());
 		V_1 = (-std::numeric_limits<float>::infinity());
 		V_2 = ((int32_t)-5);
 		V_3 = (std::numeric_limits<float>::infinity());
-		Vector2_t3951545240  L_0 = ___origin0;
-		Vector2_t3951545240  L_1 = ___direction1;
+		Vector2_t697963865  L_0 = ___origin0;
+		Vector2_t697963865  L_1 = ___direction1;
 		float L_2 = V_3;
 		int32_t L_3 = V_2;
 		float L_4 = V_1;
 		float L_5 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		RaycastHit2D_t339009926  L_6 = Physics2D_Raycast_m1960478690(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		RaycastHit2D_t3392695213  L_6 = Physics2D_Raycast_m1039229220(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
 		V_4 = L_6;
 		goto IL_0028;
 	}
 
 IL_0028:
 	{
-		RaycastHit2D_t339009926  L_7 = V_4;
+		RaycastHit2D_t3392695213  L_7 = V_4;
 		return L_7;
 	}
 }
 // UnityEngine.RaycastHit2D UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32,System.Single,System.Single)
-extern "C"  RaycastHit2D_t339009926  Physics2D_Raycast_m1960478690 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, float ___distance2, int32_t ___layerMask3, float ___minDepth4, float ___maxDepth5, const RuntimeMethod* method)
+extern "C"  RaycastHit2D_t3392695213  Physics2D_Raycast_m1039229220 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, float ___distance2, int32_t ___layerMask3, float ___minDepth4, float ___maxDepth5, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D_Raycast_m1960478690_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D_Raycast_m1039229220_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	ContactFilter2D_t1414142737  V_0;
+	ContactFilter2D_t3142948246  V_0;
 	memset(&V_0, 0, sizeof(V_0));
-	RaycastHit2D_t339009926  V_1;
+	RaycastHit2D_t3392695213  V_1;
 	memset(&V_1, 0, sizeof(V_1));
-	RaycastHit2D_t339009926  V_2;
+	RaycastHit2D_t3392695213  V_2;
 	memset(&V_2, 0, sizeof(V_2));
 	{
 		int32_t L_0 = ___layerMask3;
 		float L_1 = ___minDepth4;
 		float L_2 = ___maxDepth5;
-		ContactFilter2D_t1414142737  L_3 = ContactFilter2D_CreateLegacyFilter_m1632684172(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		ContactFilter2D_t3142948246  L_3 = ContactFilter2D_CreateLegacyFilter_m50380274(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
-		Vector2_t3951545240  L_4 = ___origin0;
-		Vector2_t3951545240  L_5 = ___direction1;
+		Vector2_t697963865  L_4 = ___origin0;
+		Vector2_t697963865  L_5 = ___direction1;
 		float L_6 = ___distance2;
-		ContactFilter2D_t1414142737  L_7 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		Physics2D_Internal_Raycast_m2561617261(NULL /*static, unused*/, L_4, L_5, L_6, L_7, (&V_1), /*hidden argument*/NULL);
-		RaycastHit2D_t339009926  L_8 = V_1;
+		ContactFilter2D_t3142948246  L_7 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		Physics2D_Internal_Raycast_m3594849280(NULL /*static, unused*/, L_4, L_5, L_6, L_7, (&V_1), /*hidden argument*/NULL);
+		RaycastHit2D_t3392695213  L_8 = V_1;
 		V_2 = L_8;
 		goto IL_001e;
 	}
 
 IL_001e:
 	{
-		RaycastHit2D_t339009926  L_9 = V_2;
+		RaycastHit2D_t3392695213  L_9 = V_2;
 		return L_9;
 	}
 }
 // System.Int32 UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[])
-extern "C"  int32_t Physics2D_Raycast_m4052358784 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, ContactFilter2D_t1414142737  ___contactFilter2, RaycastHit2DU5BU5D_t2765076899* ___results3, const RuntimeMethod* method)
+extern "C"  int32_t Physics2D_Raycast_m1271905414 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, ContactFilter2D_t3142948246  ___contactFilter2, RaycastHit2DU5BU5D_t3310982912* ___results3, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D_Raycast_m4052358784_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D_Raycast_m1271905414_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
 	int32_t V_1 = 0;
 	{
 		V_0 = (std::numeric_limits<float>::infinity());
-		Vector2_t3951545240  L_0 = ___origin0;
-		Vector2_t3951545240  L_1 = ___direction1;
-		ContactFilter2D_t1414142737  L_2 = ___contactFilter2;
-		RaycastHit2DU5BU5D_t2765076899* L_3 = ___results3;
+		Vector2_t697963865  L_0 = ___origin0;
+		Vector2_t697963865  L_1 = ___direction1;
+		ContactFilter2D_t3142948246  L_2 = ___contactFilter2;
+		RaycastHit2DU5BU5D_t3310982912* L_3 = ___results3;
 		float L_4 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		int32_t L_5 = Physics2D_Raycast_m4019611116(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		int32_t L_5 = Physics2D_Raycast_m3123622375(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		V_1 = L_5;
 		goto IL_0017;
 	}
@@ -2289,23 +2289,23 @@ IL_0017:
 	}
 }
 // System.Int32 UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[],System.Single)
-extern "C"  int32_t Physics2D_Raycast_m4019611116 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, ContactFilter2D_t1414142737  ___contactFilter2, RaycastHit2DU5BU5D_t2765076899* ___results3, float ___distance4, const RuntimeMethod* method)
+extern "C"  int32_t Physics2D_Raycast_m3123622375 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, ContactFilter2D_t3142948246  ___contactFilter2, RaycastHit2DU5BU5D_t3310982912* ___results3, float ___distance4, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D_Raycast_m4019611116_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D_Raycast_m3123622375_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
 	{
-		Vector2_t3951545240  L_0 = ___origin0;
-		Vector2_t3951545240  L_1 = ___direction1;
+		Vector2_t697963865  L_0 = ___origin0;
+		Vector2_t697963865  L_1 = ___direction1;
 		float L_2 = ___distance4;
-		ContactFilter2D_t1414142737  L_3 = ___contactFilter2;
-		RaycastHit2DU5BU5D_t2765076899* L_4 = ___results3;
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		int32_t L_5 = Physics2D_Internal_RaycastNonAlloc_m1191899843(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		ContactFilter2D_t3142948246  L_3 = ___contactFilter2;
+		RaycastHit2DU5BU5D_t3310982912* L_4 = ___results3;
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		int32_t L_5 = Physics2D_Internal_RaycastNonAlloc_m269252419(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		goto IL_0012;
 	}
@@ -2317,46 +2317,46 @@ IL_0012:
 	}
 }
 // System.Void UnityEngine.Physics2D::Internal_Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D&)
-extern "C"  void Physics2D_Internal_Raycast_m2561617261 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, float ___distance2, ContactFilter2D_t1414142737  ___contactFilter3, RaycastHit2D_t339009926 * ___raycastHit4, const RuntimeMethod* method)
+extern "C"  void Physics2D_Internal_Raycast_m3594849280 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, float ___distance2, ContactFilter2D_t3142948246  ___contactFilter3, RaycastHit2D_t3392695213 * ___raycastHit4, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D_Internal_Raycast_m2561617261_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D_Internal_Raycast_m3594849280_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		float L_0 = ___distance2;
-		RaycastHit2D_t339009926 * L_1 = ___raycastHit4;
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		Physics2D_INTERNAL_CALL_Internal_Raycast_m1686031760(NULL /*static, unused*/, (&___origin0), (&___direction1), L_0, (&___contactFilter3), L_1, /*hidden argument*/NULL);
+		RaycastHit2D_t3392695213 * L_1 = ___raycastHit4;
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		Physics2D_INTERNAL_CALL_Internal_Raycast_m2285513094(NULL /*static, unused*/, (&___origin0), (&___direction1), L_0, (&___contactFilter3), L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void UnityEngine.Physics2D::INTERNAL_CALL_Internal_Raycast(UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D&)
-extern "C"  void Physics2D_INTERNAL_CALL_Internal_Raycast_m1686031760 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240 * ___origin0, Vector2_t3951545240 * ___direction1, float ___distance2, ContactFilter2D_t1414142737 * ___contactFilter3, RaycastHit2D_t339009926 * ___raycastHit4, const RuntimeMethod* method)
+extern "C"  void Physics2D_INTERNAL_CALL_Internal_Raycast_m2285513094 (RuntimeObject * __this /* static, unused */, Vector2_t697963865 * ___origin0, Vector2_t697963865 * ___direction1, float ___distance2, ContactFilter2D_t3142948246 * ___contactFilter3, RaycastHit2D_t3392695213 * ___raycastHit4, const RuntimeMethod* method)
 {
-	typedef void (*Physics2D_INTERNAL_CALL_Internal_Raycast_m1686031760_ftn) (Vector2_t3951545240 *, Vector2_t3951545240 *, float, ContactFilter2D_t1414142737 *, RaycastHit2D_t339009926 *);
-	static Physics2D_INTERNAL_CALL_Internal_Raycast_m1686031760_ftn _il2cpp_icall_func;
+	typedef void (*Physics2D_INTERNAL_CALL_Internal_Raycast_m2285513094_ftn) (Vector2_t697963865 *, Vector2_t697963865 *, float, ContactFilter2D_t3142948246 *, RaycastHit2D_t3392695213 *);
+	static Physics2D_INTERNAL_CALL_Internal_Raycast_m2285513094_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Physics2D_INTERNAL_CALL_Internal_Raycast_m1686031760_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Physics2D::INTERNAL_CALL_Internal_Raycast(UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D&)");
+	_il2cpp_icall_func = (Physics2D_INTERNAL_CALL_Internal_Raycast_m2285513094_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Physics2D::INTERNAL_CALL_Internal_Raycast(UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D&)");
 	_il2cpp_icall_func(___origin0, ___direction1, ___distance2, ___contactFilter3, ___raycastHit4);
 }
 // System.Int32 UnityEngine.Physics2D::Internal_RaycastNonAlloc(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[])
-extern "C"  int32_t Physics2D_Internal_RaycastNonAlloc_m1191899843 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240  ___origin0, Vector2_t3951545240  ___direction1, float ___distance2, ContactFilter2D_t1414142737  ___contactFilter3, RaycastHit2DU5BU5D_t2765076899* ___results4, const RuntimeMethod* method)
+extern "C"  int32_t Physics2D_Internal_RaycastNonAlloc_m269252419 (RuntimeObject * __this /* static, unused */, Vector2_t697963865  ___origin0, Vector2_t697963865  ___direction1, float ___distance2, ContactFilter2D_t3142948246  ___contactFilter3, RaycastHit2DU5BU5D_t3310982912* ___results4, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D_Internal_RaycastNonAlloc_m1191899843_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D_Internal_RaycastNonAlloc_m269252419_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
 	{
 		float L_0 = ___distance2;
-		RaycastHit2DU5BU5D_t2765076899* L_1 = ___results4;
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		int32_t L_2 = Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m3920880600(NULL /*static, unused*/, (&___origin0), (&___direction1), L_0, (&___contactFilter3), L_1, /*hidden argument*/NULL);
+		RaycastHit2DU5BU5D_t3310982912* L_1 = ___results4;
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		int32_t L_2 = Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m369455957(NULL /*static, unused*/, (&___origin0), (&___direction1), L_0, (&___contactFilter3), L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		goto IL_0015;
 	}
@@ -2368,198 +2368,198 @@ IL_0015:
 	}
 }
 // System.Int32 UnityEngine.Physics2D::INTERNAL_CALL_Internal_RaycastNonAlloc(UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D[])
-extern "C"  int32_t Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m3920880600 (RuntimeObject * __this /* static, unused */, Vector2_t3951545240 * ___origin0, Vector2_t3951545240 * ___direction1, float ___distance2, ContactFilter2D_t1414142737 * ___contactFilter3, RaycastHit2DU5BU5D_t2765076899* ___results4, const RuntimeMethod* method)
+extern "C"  int32_t Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m369455957 (RuntimeObject * __this /* static, unused */, Vector2_t697963865 * ___origin0, Vector2_t697963865 * ___direction1, float ___distance2, ContactFilter2D_t3142948246 * ___contactFilter3, RaycastHit2DU5BU5D_t3310982912* ___results4, const RuntimeMethod* method)
 {
-	typedef int32_t (*Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m3920880600_ftn) (Vector2_t3951545240 *, Vector2_t3951545240 *, float, ContactFilter2D_t1414142737 *, RaycastHit2DU5BU5D_t2765076899*);
-	static Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m3920880600_ftn _il2cpp_icall_func;
+	typedef int32_t (*Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m369455957_ftn) (Vector2_t697963865 *, Vector2_t697963865 *, float, ContactFilter2D_t3142948246 *, RaycastHit2DU5BU5D_t3310982912*);
+	static Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m369455957_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m3920880600_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Physics2D::INTERNAL_CALL_Internal_RaycastNonAlloc(UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D[])");
+	_il2cpp_icall_func = (Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m369455957_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Physics2D::INTERNAL_CALL_Internal_RaycastNonAlloc(UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D[])");
 	int32_t retVal = _il2cpp_icall_func(___origin0, ___direction1, ___distance2, ___contactFilter3, ___results4);
 	return retVal;
 }
 // UnityEngine.RaycastHit2D[] UnityEngine.Physics2D::GetRayIntersectionAll(UnityEngine.Ray,System.Single,System.Int32)
-extern "C"  RaycastHit2DU5BU5D_t2765076899* Physics2D_GetRayIntersectionAll_m1691126476 (RuntimeObject * __this /* static, unused */, Ray_t411286590  ___ray0, float ___distance1, int32_t ___layerMask2, const RuntimeMethod* method)
+extern "C"  RaycastHit2DU5BU5D_t3310982912* Physics2D_GetRayIntersectionAll_m2663616149 (RuntimeObject * __this /* static, unused */, Ray_t4251408636  ___ray0, float ___distance1, int32_t ___layerMask2, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D_GetRayIntersectionAll_m1691126476_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D_GetRayIntersectionAll_m2663616149_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	RaycastHit2DU5BU5D_t2765076899* V_0 = NULL;
+	RaycastHit2DU5BU5D_t3310982912* V_0 = NULL;
 	{
 		float L_0 = ___distance1;
 		int32_t L_1 = ___layerMask2;
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		RaycastHit2DU5BU5D_t2765076899* L_2 = Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1258415351(NULL /*static, unused*/, (&___ray0), L_0, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		RaycastHit2DU5BU5D_t3310982912* L_2 = Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1299805760(NULL /*static, unused*/, (&___ray0), L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		goto IL_0010;
 	}
 
 IL_0010:
 	{
-		RaycastHit2DU5BU5D_t2765076899* L_3 = V_0;
+		RaycastHit2DU5BU5D_t3310982912* L_3 = V_0;
 		return L_3;
 	}
 }
 // UnityEngine.RaycastHit2D[] UnityEngine.Physics2D::GetRayIntersectionAll(UnityEngine.Ray,System.Single)
-extern "C"  RaycastHit2DU5BU5D_t2765076899* Physics2D_GetRayIntersectionAll_m3109187178 (RuntimeObject * __this /* static, unused */, Ray_t411286590  ___ray0, float ___distance1, const RuntimeMethod* method)
+extern "C"  RaycastHit2DU5BU5D_t3310982912* Physics2D_GetRayIntersectionAll_m2347467717 (RuntimeObject * __this /* static, unused */, Ray_t4251408636  ___ray0, float ___distance1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D_GetRayIntersectionAll_m3109187178_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D_GetRayIntersectionAll_m2347467717_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	RaycastHit2DU5BU5D_t2765076899* V_1 = NULL;
+	RaycastHit2DU5BU5D_t3310982912* V_1 = NULL;
 	{
 		V_0 = ((int32_t)-5);
 		float L_0 = ___distance1;
 		int32_t L_1 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		RaycastHit2DU5BU5D_t2765076899* L_2 = Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1258415351(NULL /*static, unused*/, (&___ray0), L_0, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		RaycastHit2DU5BU5D_t3310982912* L_2 = Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1299805760(NULL /*static, unused*/, (&___ray0), L_0, L_1, /*hidden argument*/NULL);
 		V_1 = L_2;
 		goto IL_0013;
 	}
 
 IL_0013:
 	{
-		RaycastHit2DU5BU5D_t2765076899* L_3 = V_1;
+		RaycastHit2DU5BU5D_t3310982912* L_3 = V_1;
 		return L_3;
 	}
 }
 // UnityEngine.RaycastHit2D[] UnityEngine.Physics2D::GetRayIntersectionAll(UnityEngine.Ray)
-extern "C"  RaycastHit2DU5BU5D_t2765076899* Physics2D_GetRayIntersectionAll_m727503243 (RuntimeObject * __this /* static, unused */, Ray_t411286590  ___ray0, const RuntimeMethod* method)
+extern "C"  RaycastHit2DU5BU5D_t3310982912* Physics2D_GetRayIntersectionAll_m1927736340 (RuntimeObject * __this /* static, unused */, Ray_t4251408636  ___ray0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D_GetRayIntersectionAll_m727503243_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D_GetRayIntersectionAll_m1927736340_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
-	RaycastHit2DU5BU5D_t2765076899* V_2 = NULL;
+	RaycastHit2DU5BU5D_t3310982912* V_2 = NULL;
 	{
 		V_0 = ((int32_t)-5);
 		V_1 = (std::numeric_limits<float>::infinity());
 		float L_0 = V_1;
 		int32_t L_1 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2113190482_il2cpp_TypeInfo_var);
-		RaycastHit2DU5BU5D_t2765076899* L_2 = Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1258415351(NULL /*static, unused*/, (&___ray0), L_0, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t1771492903_il2cpp_TypeInfo_var);
+		RaycastHit2DU5BU5D_t3310982912* L_2 = Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1299805760(NULL /*static, unused*/, (&___ray0), L_0, L_1, /*hidden argument*/NULL);
 		V_2 = L_2;
 		goto IL_0019;
 	}
 
 IL_0019:
 	{
-		RaycastHit2DU5BU5D_t2765076899* L_3 = V_2;
+		RaycastHit2DU5BU5D_t3310982912* L_3 = V_2;
 		return L_3;
 	}
 }
 // UnityEngine.RaycastHit2D[] UnityEngine.Physics2D::INTERNAL_CALL_GetRayIntersectionAll(UnityEngine.Ray&,System.Single,System.Int32)
-extern "C"  RaycastHit2DU5BU5D_t2765076899* Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1258415351 (RuntimeObject * __this /* static, unused */, Ray_t411286590 * ___ray0, float ___distance1, int32_t ___layerMask2, const RuntimeMethod* method)
+extern "C"  RaycastHit2DU5BU5D_t3310982912* Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1299805760 (RuntimeObject * __this /* static, unused */, Ray_t4251408636 * ___ray0, float ___distance1, int32_t ___layerMask2, const RuntimeMethod* method)
 {
-	typedef RaycastHit2DU5BU5D_t2765076899* (*Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1258415351_ftn) (Ray_t411286590 *, float, int32_t);
-	static Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1258415351_ftn _il2cpp_icall_func;
+	typedef RaycastHit2DU5BU5D_t3310982912* (*Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1299805760_ftn) (Ray_t4251408636 *, float, int32_t);
+	static Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1299805760_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1258415351_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Physics2D::INTERNAL_CALL_GetRayIntersectionAll(UnityEngine.Ray&,System.Single,System.Int32)");
-	RaycastHit2DU5BU5D_t2765076899* retVal = _il2cpp_icall_func(___ray0, ___distance1, ___layerMask2);
+	_il2cpp_icall_func = (Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m1299805760_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Physics2D::INTERNAL_CALL_GetRayIntersectionAll(UnityEngine.Ray&,System.Single,System.Int32)");
+	RaycastHit2DU5BU5D_t3310982912* retVal = _il2cpp_icall_func(___ray0, ___distance1, ___layerMask2);
 	return retVal;
 }
 // System.Void UnityEngine.Physics2D::.cctor()
-extern "C"  void Physics2D__cctor_m3335783417 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+extern "C"  void Physics2D__cctor_m3427603090 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Physics2D__cctor_m3335783417_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Physics2D__cctor_m3427603090_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		List_1_t2909594656 * L_0 = (List_1_t2909594656 *)il2cpp_codegen_object_new(List_1_t2909594656_il2cpp_TypeInfo_var);
-		List_1__ctor_m1145373920(L_0, /*hidden argument*/List_1__ctor_m1145373920_RuntimeMethod_var);
-		((Physics2D_t2113190482_StaticFields*)il2cpp_codegen_static_fields_for(Physics2D_t2113190482_il2cpp_TypeInfo_var))->set_m_LastDisabledRigidbody2D_0(L_0);
+		List_1_t3439730791 * L_0 = (List_1_t3439730791 *)il2cpp_codegen_object_new(List_1_t3439730791_il2cpp_TypeInfo_var);
+		List_1__ctor_m199323213(L_0, /*hidden argument*/List_1__ctor_m199323213_RuntimeMethod_var);
+		((Physics2D_t1771492903_StaticFields*)il2cpp_codegen_static_fields_for(Physics2D_t1771492903_il2cpp_TypeInfo_var))->set_m_LastDisabledRigidbody2D_0(L_0);
 		return;
 	}
 }
 // Conversion methods for marshalling of: UnityEngine.RaycastHit2D
-extern "C" void RaycastHit2D_t339009926_marshal_pinvoke(const RaycastHit2D_t339009926& unmarshaled, RaycastHit2D_t339009926_marshaled_pinvoke& marshaled)
+extern "C" void RaycastHit2D_t3392695213_marshal_pinvoke(const RaycastHit2D_t3392695213& unmarshaled, RaycastHit2D_t3392695213_marshaled_pinvoke& marshaled)
 {
 	Il2CppCodeGenException* ___m_Collider_5Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Collider' of type 'RaycastHit2D': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Collider_5Exception);
 }
-extern "C" void RaycastHit2D_t339009926_marshal_pinvoke_back(const RaycastHit2D_t339009926_marshaled_pinvoke& marshaled, RaycastHit2D_t339009926& unmarshaled)
+extern "C" void RaycastHit2D_t3392695213_marshal_pinvoke_back(const RaycastHit2D_t3392695213_marshaled_pinvoke& marshaled, RaycastHit2D_t3392695213& unmarshaled)
 {
 	Il2CppCodeGenException* ___m_Collider_5Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Collider' of type 'RaycastHit2D': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Collider_5Exception);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.RaycastHit2D
-extern "C" void RaycastHit2D_t339009926_marshal_pinvoke_cleanup(RaycastHit2D_t339009926_marshaled_pinvoke& marshaled)
+extern "C" void RaycastHit2D_t3392695213_marshal_pinvoke_cleanup(RaycastHit2D_t3392695213_marshaled_pinvoke& marshaled)
 {
 }
 // Conversion methods for marshalling of: UnityEngine.RaycastHit2D
-extern "C" void RaycastHit2D_t339009926_marshal_com(const RaycastHit2D_t339009926& unmarshaled, RaycastHit2D_t339009926_marshaled_com& marshaled)
+extern "C" void RaycastHit2D_t3392695213_marshal_com(const RaycastHit2D_t3392695213& unmarshaled, RaycastHit2D_t3392695213_marshaled_com& marshaled)
 {
 	Il2CppCodeGenException* ___m_Collider_5Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Collider' of type 'RaycastHit2D': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Collider_5Exception);
 }
-extern "C" void RaycastHit2D_t339009926_marshal_com_back(const RaycastHit2D_t339009926_marshaled_com& marshaled, RaycastHit2D_t339009926& unmarshaled)
+extern "C" void RaycastHit2D_t3392695213_marshal_com_back(const RaycastHit2D_t3392695213_marshaled_com& marshaled, RaycastHit2D_t3392695213& unmarshaled)
 {
 	Il2CppCodeGenException* ___m_Collider_5Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Collider' of type 'RaycastHit2D': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Collider_5Exception);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.RaycastHit2D
-extern "C" void RaycastHit2D_t339009926_marshal_com_cleanup(RaycastHit2D_t339009926_marshaled_com& marshaled)
+extern "C" void RaycastHit2D_t3392695213_marshal_com_cleanup(RaycastHit2D_t3392695213_marshaled_com& marshaled)
 {
 }
 // UnityEngine.Vector2 UnityEngine.RaycastHit2D::get_point()
-extern "C"  Vector2_t3951545240  RaycastHit2D_get_point_m1445372281 (RaycastHit2D_t339009926 * __this, const RuntimeMethod* method)
+extern "C"  Vector2_t697963865  RaycastHit2D_get_point_m2417792064 (RaycastHit2D_t3392695213 * __this, const RuntimeMethod* method)
 {
-	Vector2_t3951545240  V_0;
+	Vector2_t697963865  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	{
-		Vector2_t3951545240  L_0 = __this->get_m_Point_1();
+		Vector2_t697963865  L_0 = __this->get_m_Point_1();
 		V_0 = L_0;
 		goto IL_000d;
 	}
 
 IL_000d:
 	{
-		Vector2_t3951545240  L_1 = V_0;
+		Vector2_t697963865  L_1 = V_0;
 		return L_1;
 	}
 }
-extern "C"  Vector2_t3951545240  RaycastHit2D_get_point_m1445372281_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+extern "C"  Vector2_t697963865  RaycastHit2D_get_point_m2417792064_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	RaycastHit2D_t339009926 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t339009926 *>(__this + 1);
-	return RaycastHit2D_get_point_m1445372281(_thisAdjusted, method);
+	RaycastHit2D_t3392695213 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t3392695213 *>(__this + 1);
+	return RaycastHit2D_get_point_m2417792064(_thisAdjusted, method);
 }
 // UnityEngine.Vector2 UnityEngine.RaycastHit2D::get_normal()
-extern "C"  Vector2_t3951545240  RaycastHit2D_get_normal_m2411632738 (RaycastHit2D_t339009926 * __this, const RuntimeMethod* method)
+extern "C"  Vector2_t697963865  RaycastHit2D_get_normal_m2208000216 (RaycastHit2D_t3392695213 * __this, const RuntimeMethod* method)
 {
-	Vector2_t3951545240  V_0;
+	Vector2_t697963865  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	{
-		Vector2_t3951545240  L_0 = __this->get_m_Normal_2();
+		Vector2_t697963865  L_0 = __this->get_m_Normal_2();
 		V_0 = L_0;
 		goto IL_000d;
 	}
 
 IL_000d:
 	{
-		Vector2_t3951545240  L_1 = V_0;
+		Vector2_t697963865  L_1 = V_0;
 		return L_1;
 	}
 }
-extern "C"  Vector2_t3951545240  RaycastHit2D_get_normal_m2411632738_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+extern "C"  Vector2_t697963865  RaycastHit2D_get_normal_m2208000216_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	RaycastHit2D_t339009926 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t339009926 *>(__this + 1);
-	return RaycastHit2D_get_normal_m2411632738(_thisAdjusted, method);
+	RaycastHit2D_t3392695213 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t3392695213 *>(__this + 1);
+	return RaycastHit2D_get_normal_m2208000216(_thisAdjusted, method);
 }
 // System.Single UnityEngine.RaycastHit2D::get_distance()
-extern "C"  float RaycastHit2D_get_distance_m190453739 (RaycastHit2D_t339009926 * __this, const RuntimeMethod* method)
+extern "C"  float RaycastHit2D_get_distance_m1332146531 (RaycastHit2D_t3392695213 * __this, const RuntimeMethod* method)
 {
 	float V_0 = 0.0f;
 	{
@@ -2574,113 +2574,113 @@ IL_000d:
 		return L_1;
 	}
 }
-extern "C"  float RaycastHit2D_get_distance_m190453739_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+extern "C"  float RaycastHit2D_get_distance_m1332146531_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	RaycastHit2D_t339009926 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t339009926 *>(__this + 1);
-	return RaycastHit2D_get_distance_m190453739(_thisAdjusted, method);
+	RaycastHit2D_t3392695213 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t3392695213 *>(__this + 1);
+	return RaycastHit2D_get_distance_m1332146531(_thisAdjusted, method);
 }
 // UnityEngine.Collider2D UnityEngine.RaycastHit2D::get_collider()
-extern "C"  Collider2D_t227714118 * RaycastHit2D_get_collider_m4168482416 (RaycastHit2D_t339009926 * __this, const RuntimeMethod* method)
+extern "C"  Collider2D_t1052193197 * RaycastHit2D_get_collider_m2882293099 (RaycastHit2D_t3392695213 * __this, const RuntimeMethod* method)
 {
-	Collider2D_t227714118 * V_0 = NULL;
+	Collider2D_t1052193197 * V_0 = NULL;
 	{
-		Collider2D_t227714118 * L_0 = __this->get_m_Collider_5();
+		Collider2D_t1052193197 * L_0 = __this->get_m_Collider_5();
 		V_0 = L_0;
 		goto IL_000d;
 	}
 
 IL_000d:
 	{
-		Collider2D_t227714118 * L_1 = V_0;
+		Collider2D_t1052193197 * L_1 = V_0;
 		return L_1;
 	}
 }
-extern "C"  Collider2D_t227714118 * RaycastHit2D_get_collider_m4168482416_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+extern "C"  Collider2D_t1052193197 * RaycastHit2D_get_collider_m2882293099_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	RaycastHit2D_t339009926 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t339009926 *>(__this + 1);
-	return RaycastHit2D_get_collider_m4168482416(_thisAdjusted, method);
+	RaycastHit2D_t3392695213 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t3392695213 *>(__this + 1);
+	return RaycastHit2D_get_collider_m2882293099(_thisAdjusted, method);
 }
 // UnityEngine.Vector2 UnityEngine.Rigidbody2D::get_velocity()
-extern "C"  Vector2_t3951545240  Rigidbody2D_get_velocity_m392286750 (Rigidbody2D_t4242740165 * __this, const RuntimeMethod* method)
+extern "C"  Vector2_t697963865  Rigidbody2D_get_velocity_m720361931 (Rigidbody2D_t1214194286 * __this, const RuntimeMethod* method)
 {
-	Vector2_t3951545240  V_0;
+	Vector2_t697963865  V_0;
 	memset(&V_0, 0, sizeof(V_0));
-	Vector2_t3951545240  V_1;
+	Vector2_t697963865  V_1;
 	memset(&V_1, 0, sizeof(V_1));
 	{
-		Rigidbody2D_INTERNAL_get_velocity_m3017889933(__this, (&V_0), /*hidden argument*/NULL);
-		Vector2_t3951545240  L_0 = V_0;
+		Rigidbody2D_INTERNAL_get_velocity_m437810972(__this, (&V_0), /*hidden argument*/NULL);
+		Vector2_t697963865  L_0 = V_0;
 		V_1 = L_0;
 		goto IL_0010;
 	}
 
 IL_0010:
 	{
-		Vector2_t3951545240  L_1 = V_1;
+		Vector2_t697963865  L_1 = V_1;
 		return L_1;
 	}
 }
 // System.Void UnityEngine.Rigidbody2D::set_velocity(UnityEngine.Vector2)
-extern "C"  void Rigidbody2D_set_velocity_m3642208201 (Rigidbody2D_t4242740165 * __this, Vector2_t3951545240  ___value0, const RuntimeMethod* method)
+extern "C"  void Rigidbody2D_set_velocity_m516400408 (Rigidbody2D_t1214194286 * __this, Vector2_t697963865  ___value0, const RuntimeMethod* method)
 {
 	{
-		Rigidbody2D_INTERNAL_set_velocity_m2667442148(__this, (&___value0), /*hidden argument*/NULL);
+		Rigidbody2D_INTERNAL_set_velocity_m959754698(__this, (&___value0), /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void UnityEngine.Rigidbody2D::INTERNAL_get_velocity(UnityEngine.Vector2&)
-extern "C"  void Rigidbody2D_INTERNAL_get_velocity_m3017889933 (Rigidbody2D_t4242740165 * __this, Vector2_t3951545240 * ___value0, const RuntimeMethod* method)
+extern "C"  void Rigidbody2D_INTERNAL_get_velocity_m437810972 (Rigidbody2D_t1214194286 * __this, Vector2_t697963865 * ___value0, const RuntimeMethod* method)
 {
-	typedef void (*Rigidbody2D_INTERNAL_get_velocity_m3017889933_ftn) (Rigidbody2D_t4242740165 *, Vector2_t3951545240 *);
-	static Rigidbody2D_INTERNAL_get_velocity_m3017889933_ftn _il2cpp_icall_func;
+	typedef void (*Rigidbody2D_INTERNAL_get_velocity_m437810972_ftn) (Rigidbody2D_t1214194286 *, Vector2_t697963865 *);
+	static Rigidbody2D_INTERNAL_get_velocity_m437810972_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Rigidbody2D_INTERNAL_get_velocity_m3017889933_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::INTERNAL_get_velocity(UnityEngine.Vector2&)");
+	_il2cpp_icall_func = (Rigidbody2D_INTERNAL_get_velocity_m437810972_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::INTERNAL_get_velocity(UnityEngine.Vector2&)");
 	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Void UnityEngine.Rigidbody2D::INTERNAL_set_velocity(UnityEngine.Vector2&)
-extern "C"  void Rigidbody2D_INTERNAL_set_velocity_m2667442148 (Rigidbody2D_t4242740165 * __this, Vector2_t3951545240 * ___value0, const RuntimeMethod* method)
+extern "C"  void Rigidbody2D_INTERNAL_set_velocity_m959754698 (Rigidbody2D_t1214194286 * __this, Vector2_t697963865 * ___value0, const RuntimeMethod* method)
 {
-	typedef void (*Rigidbody2D_INTERNAL_set_velocity_m2667442148_ftn) (Rigidbody2D_t4242740165 *, Vector2_t3951545240 *);
-	static Rigidbody2D_INTERNAL_set_velocity_m2667442148_ftn _il2cpp_icall_func;
+	typedef void (*Rigidbody2D_INTERNAL_set_velocity_m959754698_ftn) (Rigidbody2D_t1214194286 *, Vector2_t697963865 *);
+	static Rigidbody2D_INTERNAL_set_velocity_m959754698_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Rigidbody2D_INTERNAL_set_velocity_m2667442148_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::INTERNAL_set_velocity(UnityEngine.Vector2&)");
+	_il2cpp_icall_func = (Rigidbody2D_INTERNAL_set_velocity_m959754698_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::INTERNAL_set_velocity(UnityEngine.Vector2&)");
 	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Single UnityEngine.Rigidbody2D::get_angularVelocity()
-extern "C"  float Rigidbody2D_get_angularVelocity_m2192150723 (Rigidbody2D_t4242740165 * __this, const RuntimeMethod* method)
+extern "C"  float Rigidbody2D_get_angularVelocity_m1624023674 (Rigidbody2D_t1214194286 * __this, const RuntimeMethod* method)
 {
-	typedef float (*Rigidbody2D_get_angularVelocity_m2192150723_ftn) (Rigidbody2D_t4242740165 *);
-	static Rigidbody2D_get_angularVelocity_m2192150723_ftn _il2cpp_icall_func;
+	typedef float (*Rigidbody2D_get_angularVelocity_m1624023674_ftn) (Rigidbody2D_t1214194286 *);
+	static Rigidbody2D_get_angularVelocity_m1624023674_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Rigidbody2D_get_angularVelocity_m2192150723_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::get_angularVelocity()");
+	_il2cpp_icall_func = (Rigidbody2D_get_angularVelocity_m1624023674_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::get_angularVelocity()");
 	float retVal = _il2cpp_icall_func(__this);
 	return retVal;
 }
 // System.Void UnityEngine.Rigidbody2D::set_angularVelocity(System.Single)
-extern "C"  void Rigidbody2D_set_angularVelocity_m3896409691 (Rigidbody2D_t4242740165 * __this, float ___value0, const RuntimeMethod* method)
+extern "C"  void Rigidbody2D_set_angularVelocity_m1067947078 (Rigidbody2D_t1214194286 * __this, float ___value0, const RuntimeMethod* method)
 {
-	typedef void (*Rigidbody2D_set_angularVelocity_m3896409691_ftn) (Rigidbody2D_t4242740165 *, float);
-	static Rigidbody2D_set_angularVelocity_m3896409691_ftn _il2cpp_icall_func;
+	typedef void (*Rigidbody2D_set_angularVelocity_m1067947078_ftn) (Rigidbody2D_t1214194286 *, float);
+	static Rigidbody2D_set_angularVelocity_m1067947078_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Rigidbody2D_set_angularVelocity_m3896409691_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_angularVelocity(System.Single)");
+	_il2cpp_icall_func = (Rigidbody2D_set_angularVelocity_m1067947078_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_angularVelocity(System.Single)");
 	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Void UnityEngine.Rigidbody2D::set_bodyType(UnityEngine.RigidbodyType2D)
-extern "C"  void Rigidbody2D_set_bodyType_m77041895 (Rigidbody2D_t4242740165 * __this, int32_t ___value0, const RuntimeMethod* method)
+extern "C"  void Rigidbody2D_set_bodyType_m2242353013 (Rigidbody2D_t1214194286 * __this, int32_t ___value0, const RuntimeMethod* method)
 {
-	typedef void (*Rigidbody2D_set_bodyType_m77041895_ftn) (Rigidbody2D_t4242740165 *, int32_t);
-	static Rigidbody2D_set_bodyType_m77041895_ftn _il2cpp_icall_func;
+	typedef void (*Rigidbody2D_set_bodyType_m2242353013_ftn) (Rigidbody2D_t1214194286 *, int32_t);
+	static Rigidbody2D_set_bodyType_m2242353013_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Rigidbody2D_set_bodyType_m77041895_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_bodyType(UnityEngine.RigidbodyType2D)");
+	_il2cpp_icall_func = (Rigidbody2D_set_bodyType_m2242353013_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_bodyType(UnityEngine.RigidbodyType2D)");
 	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Void UnityEngine.Rigidbody2D::set_isKinematic(System.Boolean)
-extern "C"  void Rigidbody2D_set_isKinematic_m12446756 (Rigidbody2D_t4242740165 * __this, bool ___value0, const RuntimeMethod* method)
+extern "C"  void Rigidbody2D_set_isKinematic_m1395707580 (Rigidbody2D_t1214194286 * __this, bool ___value0, const RuntimeMethod* method)
 {
-	Rigidbody2D_t4242740165 * G_B2_0 = NULL;
-	Rigidbody2D_t4242740165 * G_B1_0 = NULL;
+	Rigidbody2D_t1214194286 * G_B2_0 = NULL;
+	Rigidbody2D_t1214194286 * G_B1_0 = NULL;
 	int32_t G_B3_0 = 0;
-	Rigidbody2D_t4242740165 * G_B3_1 = NULL;
+	Rigidbody2D_t1214194286 * G_B3_1 = NULL;
 	{
 		bool L_0 = ___value0;
 		G_B1_0 = __this;
@@ -2705,28 +2705,28 @@ IL_000e:
 IL_000f:
 	{
 		NullCheck(G_B3_1);
-		Rigidbody2D_set_bodyType_m77041895(G_B3_1, G_B3_0, /*hidden argument*/NULL);
+		Rigidbody2D_set_bodyType_m2242353013(G_B3_1, G_B3_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void UnityEngine.Rigidbody2D::AddForce(UnityEngine.Vector2)
-extern "C"  void Rigidbody2D_AddForce_m3713160610 (Rigidbody2D_t4242740165 * __this, Vector2_t3951545240  ___force0, const RuntimeMethod* method)
+extern "C"  void Rigidbody2D_AddForce_m4263614668 (Rigidbody2D_t1214194286 * __this, Vector2_t697963865  ___force0, const RuntimeMethod* method)
 {
 	int32_t V_0 = 0;
 	{
 		V_0 = 0;
 		int32_t L_0 = V_0;
-		Rigidbody2D_INTERNAL_CALL_AddForce_m3300307091(NULL /*static, unused*/, __this, (&___force0), L_0, /*hidden argument*/NULL);
+		Rigidbody2D_INTERNAL_CALL_AddForce_m3225633132(NULL /*static, unused*/, __this, (&___force0), L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void UnityEngine.Rigidbody2D::INTERNAL_CALL_AddForce(UnityEngine.Rigidbody2D,UnityEngine.Vector2&,UnityEngine.ForceMode2D)
-extern "C"  void Rigidbody2D_INTERNAL_CALL_AddForce_m3300307091 (RuntimeObject * __this /* static, unused */, Rigidbody2D_t4242740165 * ___self0, Vector2_t3951545240 * ___force1, int32_t ___mode2, const RuntimeMethod* method)
+extern "C"  void Rigidbody2D_INTERNAL_CALL_AddForce_m3225633132 (RuntimeObject * __this /* static, unused */, Rigidbody2D_t1214194286 * ___self0, Vector2_t697963865 * ___force1, int32_t ___mode2, const RuntimeMethod* method)
 {
-	typedef void (*Rigidbody2D_INTERNAL_CALL_AddForce_m3300307091_ftn) (Rigidbody2D_t4242740165 *, Vector2_t3951545240 *, int32_t);
-	static Rigidbody2D_INTERNAL_CALL_AddForce_m3300307091_ftn _il2cpp_icall_func;
+	typedef void (*Rigidbody2D_INTERNAL_CALL_AddForce_m3225633132_ftn) (Rigidbody2D_t1214194286 *, Vector2_t697963865 *, int32_t);
+	static Rigidbody2D_INTERNAL_CALL_AddForce_m3225633132_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Rigidbody2D_INTERNAL_CALL_AddForce_m3300307091_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::INTERNAL_CALL_AddForce(UnityEngine.Rigidbody2D,UnityEngine.Vector2&,UnityEngine.ForceMode2D)");
+	_il2cpp_icall_func = (Rigidbody2D_INTERNAL_CALL_AddForce_m3225633132_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::INTERNAL_CALL_AddForce(UnityEngine.Rigidbody2D,UnityEngine.Vector2&,UnityEngine.ForceMode2D)");
 	_il2cpp_icall_func(___self0, ___force1, ___mode2);
 }
 #ifdef __clang__

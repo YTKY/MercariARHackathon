@@ -159,7 +159,7 @@ class BillboardRenderer;
 class LineRenderer; 
 class MeshRenderer; template <> void RegisterClass<MeshRenderer>();
 class ParticleRenderer; 
-class ParticleSystemRenderer; template <> void RegisterClass<ParticleSystemRenderer>();
+class ParticleSystemRenderer; 
 class SkinnedMeshRenderer; template <> void RegisterClass<SkinnedMeshRenderer>();
 class SpriteMask; 
 class SpriteRenderer; template <> void RegisterClass<SpriteRenderer>();
@@ -270,7 +270,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 87 non stripped classes
+	//Total: 86 non stripped classes
 	//0. ParticleSystem
 	RegisterClass<ParticleSystem>();
 	//1. Unity::Component
@@ -437,13 +437,11 @@ RegisterBuiltinTypes();
 	RegisterClass<AnimatorController>();
 	//82. RuntimeAnimatorController
 	RegisterClass<RuntimeAnimatorController>();
-	//83. ParticleSystemRenderer
-	RegisterClass<ParticleSystemRenderer>();
-	//84. Avatar
+	//83. Avatar
 	RegisterClass<Avatar>();
-	//85. BoxCollider2D
+	//84. BoxCollider2D
 	RegisterClass<BoxCollider2D>();
-	//86. PhysicsMaterial2D
+	//85. PhysicsMaterial2D
 	RegisterClass<PhysicsMaterial2D>();
 
 }

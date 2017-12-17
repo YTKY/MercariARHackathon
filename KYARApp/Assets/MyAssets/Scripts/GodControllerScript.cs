@@ -24,12 +24,22 @@ namespace UnityEngine.XR.iOS
         public Text mainMessage;
         public GameObject debugCanvasObject;
         public GameObject imageMask;
+        public GameObject playerPrefab;
+
+
 
         // Game management
-        private float MAX_TIME = 5;
+        private float MAX_TIME = 5.9f;
         private bool _debug = true;
-        private float timeCount;
+        private float _timeCount;
+        private float _targetDistance = 0.1f;
+        private float _baseHight = 0.1f;
+        private float _baseDistance = 15f;
+        private Vector3 _baseVector;
+        private Vector3 _basePoint;
         private FloorDetectionStatus _floorDetectionStatus;
+        private GameObject[] _playerObj;
+        private PositionTracker _positionTracker;
 
         // Use this for initialization
         void Start()
@@ -49,6 +59,7 @@ namespace UnityEngine.XR.iOS
             // Initializing
             _floorDetectionStatus = FloorDetectionStatus.Initializing;
             imageMask.gameObject.SetActive(false);
+            _baseVector = new Vector3(0, _baseHight, -(_baseDistance / 2f) * (_targetDistance / _baseDistance));
 
             // Added hook event for AR
             UnityARSessionNativeInterface.ARAnchorAddedEvent += AddAnchor;
@@ -71,27 +82,58 @@ namespace UnityEngine.XR.iOS
                 debugPositionText.text = "Current Position \n" +
                   "x = " + Camera.main.transform.position.x.ToString() + "\n" +
                   "y = " + Camera.main.transform.position.y.ToString() + "\n" +
-                  "z = " + Camera.main.transform.position.z.ToString() + "\n";
+                  "z = " + Camera.main.transform.position.z.ToString() + "\n" +
+                  "base = " + string.Format("x:{0:0.######} y:{1:0.######} z:{2:0.######}", _basePoint.x, _basePoint.y, _basePoint.z);
             }
             if (_floorDetectionStatus == FloorDetectionStatus.GameStarting)
             {
-                timeCount -= Time.deltaTime;
-                mainMessage.text = ((int)timeCount).ToString();
-                if (timeCount <= 1 && timeCount > 0)
+                _timeCount -= Time.deltaTime;
+                mainMessage.text = ((int)_timeCount).ToString();
+                if (_timeCount <= 1 && _timeCount > 0)
                 {
                     mainMessage.text = "Start!";
                     imageMask.gameObject.SetActive(false);
 
                 }
-                else if (timeCount <= 0)
+                else if (_timeCount <= 0)
                 {
                     mainMessage.text = "";
                     mainMessage.gameObject.SetActive(false);
                     _floorDetectionStatus = FloorDetectionStatus.GameStarted;
                 }
             }
+            else if (_floorDetectionStatus == FloorDetectionStatus.GameStarted)
+            {
+                if (_debug)
+                {
+                    // Get base position 
 
+
+                    // Initial Position
+
+                    Vector3 player0Position = new Vector3(0.7f, 1.5f, 1.3f);
+                    Vector3 player1Position = new Vector3(0.1f, 0.0f, 15.1f);
+                    player0Position = (player0Position * (_targetDistance / _baseDistance)) + _basePoint;
+                    player1Position = (player1Position * (_targetDistance / _baseDistance)) + _basePoint;
+
+                    _playerObj[0].transform.position = player0Position;
+                    _playerObj[1].transform.position = player1Position;
+                    _playerObj[0].transform.rotation = new Quaternion(0.3f, 0.2f, 0.1f, 0.9f);
+                    _playerObj[1].transform.rotation = new Quaternion(0.0f, -1.0f, 0.3f, 0.0f);
+
+                }
+                else
+                {
+                    for (int i = 0; i < 2; i++)
+                    {
+                        _playerObj[i].transform.position = _positionTracker.PlayerPosition(i);
+                        _playerObj[i].transform.rotation = Quaternion.Euler(_positionTracker.PlayerRotation(i));
+                    }
+                }
+            }
         }
+
+
 
         public void AddAnchor(ARPlaneAnchor arPlaneAnchor)
         {
@@ -120,24 +162,17 @@ namespace UnityEngine.XR.iOS
                 {
                     foreach (var hitResult in hitResults)
                     {
-                        Vector3 foundSquare = UnityARMatrixOps.GetPosition(hitResult.worldTransform);
-                        Debug.Log(string.Format("Ray x:{0:0.######} y:{1:0.######} z:{2:0.######}", foundSquare.x, foundSquare.y, foundSquare.z));
-                        if (_debug)
-                        {
-                            debugMessage.text = string.Format("Ray x:{0:0.######} y:{1:0.######} z:{2:0.######}", foundSquare.x, foundSquare.y, foundSquare.z);
-                        }
+                        _basePoint = UnityARMatrixOps.GetPosition(hitResult.worldTransform) + _baseVector;
                     }
                 }
-
-                // Deactive mainMesage window		
-                mainMessage.text = "";
 
                 // Change floor detection status to detected
                 _floorDetectionStatus = FloorDetectionStatus.Found;
                 Debug.Log("Floor detected");
+                mainMessage.text = "Detection Complete";
 
                 // Invoke StartGame() with delay
-                Invoke("StartGame", 1.0f);
+                Invoke("StartGame", 0.5f);
             }
         }
 
@@ -145,9 +180,17 @@ namespace UnityEngine.XR.iOS
         {
             _floorDetectionStatus = FloorDetectionStatus.GameStarting;
             imageMask.gameObject.SetActive(true);
-            // Display Count down timer 
-            timeCount = MAX_TIME;
-            mainMessage.text = ((int)timeCount).ToString();
+            // Display Count down timer    
+            _timeCount = MAX_TIME;
+            mainMessage.text = ((int)_timeCount).ToString();
+
+            Vector3 player0Position = new Vector3(0.7f, 1.5f, 1.3f);
+            Vector3 player1Position = new Vector3(0.1f, 0.0f, 15.1f);
+            player0Position = (player0Position * (_targetDistance / _baseDistance)) + _basePoint;
+            player1Position = (player1Position * (_targetDistance / _baseDistance)) + _basePoint;
+            _playerObj = new GameObject[] {Instantiate(playerPrefab, player0Position, new Quaternion(0.3f, 0.2f, 0.1f, 0.9f)),
+                                       Instantiate(playerPrefab,player1Position, new Quaternion(0.0f, -1.0f, 0.3f, 0.0f))};
+            _positionTracker = GetComponent<PositionTracker>();
         }
 
     }
