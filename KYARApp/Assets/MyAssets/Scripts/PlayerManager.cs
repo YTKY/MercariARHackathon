@@ -35,16 +35,19 @@ public class PlayerManager : Photon.PunBehaviour
         myPlayer.GetComponent<PlayerController>().SetPlayerId(myId);
 
         // 敵Playerの設定
-        _playerId = _photonView.isMine ? 1 : 0; 
+        _playerId = _photonView.isMine ? 1 : 0;
         _positionTracker = GetComponent<PositionTracker>();
         _playerObj = Instantiate(playerPrefab,
                                  -_positionTracker.PlayerPositionOffset(1),
                                  Quaternion.Euler(_positionTracker.PlayerRotationOffset(1)));
         _playerObj.GetComponent<PlayerController>().SetPlayerId(_playerId);
+        Debug.Log(_playerObj.transform.position);
+
     }
 
     void Update()
     {
+        Debug.Log(_playerObj.transform.position);
         _playerObj.transform.position = _positionTracker.PlayerPosition(_playerId, 1);
         _playerObj.transform.rotation = Quaternion.Euler(_positionTracker.PlayerRotation(_playerId, 1));
 

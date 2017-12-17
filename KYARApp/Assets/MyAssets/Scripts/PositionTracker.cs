@@ -154,6 +154,8 @@ public class PositionTracker : Photon.PunBehaviour
         GameObject bulletObj = Instantiate(bulletPrefab,
                                            godContrrollerScript.GetPlayerPositionInGod(PlayerPosition(playerId, offsetId)),
                                            Quaternion.Euler(PlayerRotation(playerId, offsetId)));
+        bulletObj.transform.localScale = godContrrollerScript.Resize(bulletObj.transform.localScale);
+
         Vector3 force;
         force = bulletObj.transform.forward * bulletSpeed;
         bulletObj.GetComponent<Rigidbody>().AddForce(force);

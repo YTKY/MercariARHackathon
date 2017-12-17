@@ -302,48 +302,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1001 &145244435
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4276616724327906, guid: be83e2cfe8c7a4218b64e044af3f6e9c, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4276616724327906, guid: be83e2cfe8c7a4218b64e044af3f6e9c, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4276616724327906, guid: be83e2cfe8c7a4218b64e044af3f6e9c, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 4276616724327906, guid: be83e2cfe8c7a4218b64e044af3f6e9c, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4276616724327906, guid: be83e2cfe8c7a4218b64e044af3f6e9c, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4276616724327906, guid: be83e2cfe8c7a4218b64e044af3f6e9c, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4276616724327906, guid: be83e2cfe8c7a4218b64e044af3f6e9c, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4276616724327906, guid: be83e2cfe8c7a4218b64e044af3f6e9c, type: 2}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: be83e2cfe8c7a4218b64e044af3f6e9c, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &229804520
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,8 +855,11 @@ MonoBehaviour:
   mainMessage: {fileID: 796803134}
   debugCanvasObject: {fileID: 1617573755}
   imageMask: {fileID: 1080381771}
-  playerPrefab: {fileID: 1528936018582412, guid: 105e7162b491440c4b3f008f7bbfefa6,
+  playerPrefab: {fileID: 1114584363547688, guid: 1248da1da62524a5ab8697a7e490d5b1,
     type: 2}
+  _targetDistance: 0.1
+  _baseHight: 0.1
+  _baseDistance: 5
 --- !u!4 &1308259104
 Transform:
   m_ObjectHideFlags: 0
@@ -951,7 +912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   isGod: 1
-  bulletPrefab: {fileID: 1925905971044412, guid: be83e2cfe8c7a4218b64e044af3f6e9c,
+  bulletPrefab: {fileID: 1776291409310328, guid: 6ae130fca789c4f5a93dc8ff42a5fd86,
     type: 2}
   bulletSpeed: 1000
 --- !u!1 &1611882531

@@ -32,9 +32,9 @@ namespace UnityEngine.XR.iOS
         private float MAX_TIME = 5.9f;
         private bool _debug = true;
         private float _timeCount;
-        private static float _targetDistance = 0.1f;
-        private static float _baseHight = 0.1f;
-        private static float _baseDistance = 15f;
+        public float _targetDistance = 0.1f;
+        public float _baseHight = 0.1f;
+        public float _baseDistance = 5f;
         private Vector3 _baseVector;
         private Vector3 _basePoint;
         private FloorDetectionStatus _floorDetectionStatus;
@@ -176,7 +176,12 @@ namespace UnityEngine.XR.iOS
             for (int i = 0; i < 2; i++)
             {
                 _playerObj[i] = Instantiate(playerPrefab, GetPlayerPositionInGod(_positionTracker.PlayerPosition(i, i)), Quaternion.Euler(_positionTracker.PlayerRotation(i, i)));
+                _playerObj[i].transform.localScale = Resize(_playerObj[i].transform.localScale);
             }
+        }
+        public Vector3 Resize(Vector3 scale)
+        {
+            return scale * (_targetDistance / _baseDistance);
         }
 
     }
