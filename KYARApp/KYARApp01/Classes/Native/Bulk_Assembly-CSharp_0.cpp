@@ -19777,6 +19777,16 @@ public:
 	PositionTracker_t858055883 * ____positionTracker_2;
 	// System.Int32 PlayerController::_playerId
 	int32_t ____playerId_3;
+	// System.Int32 PlayerController::_hp
+	int32_t ____hp_4;
+	// UnityEngine.GameObject[] PlayerController::barriers
+	GameObjectU5BU5D_t3057952154* ___barriers_5;
+	// UnityEngine.GameObject PlayerController::particle
+	GameObject_t1756533147 * ___particle_6;
+	// UnityEngine.GameObject PlayerController::player
+	GameObject_t1756533147 * ___player_7;
+	// UnityEngine.GameObject[] PlayerController::playerSkin
+	GameObjectU5BU5D_t3057952154* ___playerSkin_8;
 
 public:
 	inline static int32_t get_offset_of__positionTracker_2() { return static_cast<int32_t>(offsetof(PlayerController_t4148409433, ____positionTracker_2)); }
@@ -19794,6 +19804,50 @@ public:
 	inline void set__playerId_3(int32_t value)
 	{
 		____playerId_3 = value;
+	}
+
+	inline static int32_t get_offset_of__hp_4() { return static_cast<int32_t>(offsetof(PlayerController_t4148409433, ____hp_4)); }
+	inline int32_t get__hp_4() const { return ____hp_4; }
+	inline int32_t* get_address_of__hp_4() { return &____hp_4; }
+	inline void set__hp_4(int32_t value)
+	{
+		____hp_4 = value;
+	}
+
+	inline static int32_t get_offset_of_barriers_5() { return static_cast<int32_t>(offsetof(PlayerController_t4148409433, ___barriers_5)); }
+	inline GameObjectU5BU5D_t3057952154* get_barriers_5() const { return ___barriers_5; }
+	inline GameObjectU5BU5D_t3057952154** get_address_of_barriers_5() { return &___barriers_5; }
+	inline void set_barriers_5(GameObjectU5BU5D_t3057952154* value)
+	{
+		___barriers_5 = value;
+		Il2CppCodeGenWriteBarrier((&___barriers_5), value);
+	}
+
+	inline static int32_t get_offset_of_particle_6() { return static_cast<int32_t>(offsetof(PlayerController_t4148409433, ___particle_6)); }
+	inline GameObject_t1756533147 * get_particle_6() const { return ___particle_6; }
+	inline GameObject_t1756533147 ** get_address_of_particle_6() { return &___particle_6; }
+	inline void set_particle_6(GameObject_t1756533147 * value)
+	{
+		___particle_6 = value;
+		Il2CppCodeGenWriteBarrier((&___particle_6), value);
+	}
+
+	inline static int32_t get_offset_of_player_7() { return static_cast<int32_t>(offsetof(PlayerController_t4148409433, ___player_7)); }
+	inline GameObject_t1756533147 * get_player_7() const { return ___player_7; }
+	inline GameObject_t1756533147 ** get_address_of_player_7() { return &___player_7; }
+	inline void set_player_7(GameObject_t1756533147 * value)
+	{
+		___player_7 = value;
+		Il2CppCodeGenWriteBarrier((&___player_7), value);
+	}
+
+	inline static int32_t get_offset_of_playerSkin_8() { return static_cast<int32_t>(offsetof(PlayerController_t4148409433, ___playerSkin_8)); }
+	inline GameObjectU5BU5D_t3057952154* get_playerSkin_8() const { return ___playerSkin_8; }
+	inline GameObjectU5BU5D_t3057952154** get_address_of_playerSkin_8() { return &___playerSkin_8; }
+	inline void set_playerSkin_8(GameObjectU5BU5D_t3057952154* value)
+	{
+		___playerSkin_8 = value;
+		Il2CppCodeGenWriteBarrier((&___playerSkin_8), value);
 	}
 };
 
@@ -24673,6 +24727,8 @@ extern "C"  bool String_op_Equality_m1790663636 (RuntimeObject * __this /* stati
 extern "C"  int32_t PlayerController_GetPlayerId_m879818666 (PlayerController_t4148409433 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.String System.Int32::ToString()
 extern "C"  String_t* Int32_ToString_m2960866144 (int32_t* __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void PlayerController::Damage()
+extern "C"  void PlayerController_Damage_m4227909559 (PlayerController_t4148409433 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void CellTree::set_RootNode(CellTreeNode)
 extern "C"  void CellTree_set_RootNode_m1136045374 (CellTree_t3485148236 * __this, CellTreeNode_t1707173264 * ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.List`1<CellTreeNode>::.ctor(System.Int32)
@@ -27344,7 +27400,7 @@ extern "C"  void BulletManager_OnTriggerEnter_m3755607182 (BulletManager_t314284
 		bool L_3 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_2, _stringLiteral1875862075, /*hidden argument*/NULL);
 		if (!L_3)
 		{
-			goto IL_0053;
+			goto IL_0063;
 		}
 	}
 	{
@@ -27360,7 +27416,7 @@ extern "C"  void BulletManager_OnTriggerEnter_m3755607182 (BulletManager_t314284
 		int32_t L_9 = __this->get__shooterId_2();
 		if ((((int32_t)L_8) == ((int32_t)L_9)))
 		{
-			goto IL_0053;
+			goto IL_0063;
 		}
 	}
 	{
@@ -27369,9 +27425,16 @@ extern "C"  void BulletManager_OnTriggerEnter_m3755607182 (BulletManager_t314284
 		String_t* L_11 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1248670178, L_10, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
 		Debug_Log_m2923680153(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		Collider_t3497673348 * L_12 = ___collision0;
+		NullCheck(L_12);
+		Transform_t3275118058 * L_13 = Component_get_transform_m3374354972(L_12, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		PlayerController_t4148409433 * L_14 = Component_GetComponent_TisPlayerController_t4148409433_m3368631686(L_13, /*hidden argument*/Component_GetComponent_TisPlayerController_t4148409433_m3368631686_RuntimeMethod_var);
+		NullCheck(L_14);
+		PlayerController_Damage_m4227909559(L_14, /*hidden argument*/NULL);
 	}
 
-IL_0053:
+IL_0063:
 	{
 		return;
 	}

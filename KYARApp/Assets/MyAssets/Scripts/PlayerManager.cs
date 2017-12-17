@@ -18,7 +18,7 @@ public class PlayerManager : Photon.PunBehaviour
     // Photon
     private PhotonView _photonView;
 
-    // 何番目にログインしたプレイヤーか
+    // 敵 Playerの ID
     private int _playerId;
 
     private PositionTracker _positionTracker;
@@ -41,8 +41,6 @@ public class PlayerManager : Photon.PunBehaviour
                                  -_positionTracker.PlayerPositionOffset(1),
                                  Quaternion.Euler(_positionTracker.PlayerRotationOffset(1)));
         _playerObj.GetComponent<PlayerController>().SetPlayerId(_playerId);
-        Debug.Log(_playerObj.transform.position);
-
     }
 
     void Update()
