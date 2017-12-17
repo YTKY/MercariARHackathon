@@ -45,7 +45,6 @@ public class PlayerManager : Photon.PunBehaviour
 
     void Update()
     {
-        Debug.Log(_playerObj.transform.position);
         _playerObj.transform.position = _positionTracker.PlayerPosition(_playerId, 1);
         _playerObj.transform.rotation = Quaternion.Euler(_positionTracker.PlayerRotation(_playerId, 1));
 
