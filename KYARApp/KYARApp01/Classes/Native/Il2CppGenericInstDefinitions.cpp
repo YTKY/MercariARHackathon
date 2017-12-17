@@ -663,6 +663,7 @@ extern const Il2CppType PhotonHandler_t3957736394_0_0_0;
 extern const Il2CppType PickupController_t3031549840_0_0_0;
 extern const Il2CppType Collider_t3497673348_0_0_0;
 extern const Il2CppType Animation_t2068071072_0_0_0;
+extern const Il2CppType BulletManager_t3142841283_0_0_0;
 extern const Il2CppType PunTurnManager_t1878040655_0_0_0;
 extern const Il2CppType LoginManager_t973619992_0_0_0;
 extern const Il2CppType TextMesh_t1641806576_0_0_0;
@@ -2379,6 +2380,8 @@ static const RuntimeType* GenInst_Collider_t3497673348_0_0_0_Types[] = { (&Colli
 extern const Il2CppGenericInst GenInst_Collider_t3497673348_0_0_0 = { 1, GenInst_Collider_t3497673348_0_0_0_Types };
 static const RuntimeType* GenInst_Animation_t2068071072_0_0_0_Types[] = { (&Animation_t2068071072_0_0_0) };
 extern const Il2CppGenericInst GenInst_Animation_t2068071072_0_0_0 = { 1, GenInst_Animation_t2068071072_0_0_0_Types };
+static const RuntimeType* GenInst_BulletManager_t3142841283_0_0_0_Types[] = { (&BulletManager_t3142841283_0_0_0) };
+extern const Il2CppGenericInst GenInst_BulletManager_t3142841283_0_0_0 = { 1, GenInst_BulletManager_t3142841283_0_0_0_Types };
 static const RuntimeType* GenInst_PunTurnManager_t1878040655_0_0_0_Types[] = { (&PunTurnManager_t1878040655_0_0_0) };
 extern const Il2CppGenericInst GenInst_PunTurnManager_t1878040655_0_0_0 = { 1, GenInst_PunTurnManager_t1878040655_0_0_0_Types };
 static const RuntimeType* GenInst_LoginManager_t973619992_0_0_0_Types[] = { (&LoginManager_t973619992_0_0_0) };
@@ -2497,7 +2500,7 @@ static const RuntimeType* GenInst_TextEditOp_t3138797698_0_0_0_RuntimeObject_0_0
 extern const Il2CppGenericInst GenInst_TextEditOp_t3138797698_0_0_0_RuntimeObject_0_0_0 = { 2, GenInst_TextEditOp_t3138797698_0_0_0_RuntimeObject_0_0_0_Types };
 static const RuntimeType* GenInst_TextEditOp_t3138797698_0_0_0_TextEditOp_t3138797698_0_0_0_Types[] = { (&TextEditOp_t3138797698_0_0_0), (&TextEditOp_t3138797698_0_0_0) };
 extern const Il2CppGenericInst GenInst_TextEditOp_t3138797698_0_0_0_TextEditOp_t3138797698_0_0_0 = { 2, GenInst_TextEditOp_t3138797698_0_0_0_TextEditOp_t3138797698_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[909] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[910] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2071877448_0_0_0,
@@ -3349,6 +3352,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[909] =
 	&GenInst_PickupController_t3031549840_0_0_0,
 	&GenInst_Collider_t3497673348_0_0_0,
 	&GenInst_Animation_t2068071072_0_0_0,
+	&GenInst_BulletManager_t3142841283_0_0_0,
 	&GenInst_PunTurnManager_t1878040655_0_0_0,
 	&GenInst_LoginManager_t973619992_0_0_0,
 	&GenInst_TextMesh_t1641806576_0_0_0,

@@ -3159,6 +3159,7 @@ const RuntimeMethod* Component_GetComponent_TisPickupItem_t3927383039_m416810987
 const RuntimeMethod* GameObject_GetComponent_TisPositionTracker_t858055883_m1045139832_RuntimeMethod_var;
 const RuntimeMethod* Component_GetComponentInChildren_TisRenderer_t257310565_m3774552929_RuntimeMethod_var;
 const RuntimeMethod* PointCloudParticleExample_ARFrameUpdated_m1855536526_RuntimeMethod_var;
+const RuntimeMethod* GameObject_GetComponent_TisBulletManager_t3142841283_m35505686_RuntimeMethod_var;
 const RuntimeMethod* GameObject_GetComponent_TisRigidbody_t4233889191_m1060888193_RuntimeMethod_var;
 const RuntimeMethod* Dictionary_2__ctor_m3311363738_RuntimeMethod_var;
 const RuntimeMethod* Dictionary_2_set_Item_m2613746097_RuntimeMethod_var;
@@ -7709,7 +7710,7 @@ Il2CppCodeGenString* _stringLiteral3025533088;
 Il2CppCodeGenString* _stringLiteral3687436746;
 Il2CppCodeGenString* _stringLiteral2779811765;
 Il2CppCodeGenString* _stringLiteral273729679;
-extern void** const g_MetadataUsages[7692] = 
+extern void** const g_MetadataUsages[7693] = 
 {
 	(void**)(&Contraction_t1673853792_0_0_0_var),
 	(void**)(&Level2Map_t3322505726_0_0_0_var),
@@ -10853,6 +10854,7 @@ extern void** const g_MetadataUsages[7692] =
 	(void**)(&GameObject_GetComponent_TisPositionTracker_t858055883_m1045139832_RuntimeMethod_var),
 	(void**)(&Component_GetComponentInChildren_TisRenderer_t257310565_m3774552929_RuntimeMethod_var),
 	(void**)(&PointCloudParticleExample_ARFrameUpdated_m1855536526_RuntimeMethod_var),
+	(void**)(&GameObject_GetComponent_TisBulletManager_t3142841283_m35505686_RuntimeMethod_var),
 	(void**)(&GameObject_GetComponent_TisRigidbody_t4233889191_m1060888193_RuntimeMethod_var),
 	(void**)(&Dictionary_2__ctor_m3311363738_RuntimeMethod_var),
 	(void**)(&Dictionary_2_set_Item_m2613746097_RuntimeMethod_var),

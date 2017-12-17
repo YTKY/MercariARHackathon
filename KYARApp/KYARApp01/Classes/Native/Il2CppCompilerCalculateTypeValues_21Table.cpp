@@ -4168,8 +4168,17 @@ public:
 struct  BulletManager_t3142841283  : public MonoBehaviour_t1158329972
 {
 public:
+	// System.Int32 BulletManager::_shooterId
+	int32_t ____shooterId_2;
 
 public:
+	inline static int32_t get_offset_of__shooterId_2() { return static_cast<int32_t>(offsetof(BulletManager_t3142841283, ____shooterId_2)); }
+	inline int32_t get__shooterId_2() const { return ____shooterId_2; }
+	inline int32_t* get_address_of__shooterId_2() { return &____shooterId_2; }
+	inline void set__shooterId_2(int32_t value)
+	{
+		____shooterId_2 = value;
+	}
 };
 
 #ifdef __clang__
@@ -7489,6 +7498,10 @@ extern const int32_t g_FieldOffsetTable2164[2] =
 	LoginManager_t973619992::get_offset_of__nextScene_4(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2165 = { sizeof (BulletManager_t3142841283), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2165[1] = 
+{
+	BulletManager_t3142841283::get_offset_of__shooterId_2(),
+};
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2166 = { sizeof (GodManager_t3418635257), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable2166[3] = 
 {

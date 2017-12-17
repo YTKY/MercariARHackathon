@@ -4,21 +4,25 @@ using UnityEngine;
 
 public class BulletManager : MonoBehaviour {
 
-	void Start () {
-		
-	}
-	
-	void Update () {
-		
-	}
+    // 打った人
+    private int _shooterId;
+
+    public void SetShooterId (int shooterId)
+    {
+        _shooterId = shooterId;
+    }
 
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.tag == "Player") 
         {
-            int playerId;
+            int playerId; // 打たれた人
             playerId = collision.transform.GetComponent<PlayerController>().GetPlayerId();
-            Debug.Log("Shot the player " + playerId.ToString());
+
+            if (playerId != _shooterId)
+            {
+                Debug.Log("Shot the player " + playerId.ToString());
+            }
         }
     }
 }
