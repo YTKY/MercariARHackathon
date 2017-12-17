@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.iOS;
@@ -25,10 +25,11 @@ public class PositionTracker : Photon.PunBehaviour
 
     // Bullet 関連
     public GameObject bulletPrefab;
+    public float bulletSpeed = 1000;
 
     // Debug 用
     // Player の座標を表示する Text
-    public Text text;
+    //public Text text;
 
     private void Awake()
     {
@@ -67,7 +68,7 @@ public class PositionTracker : Photon.PunBehaviour
     }
 
 
-    void Update () 
+    void Update()
     {
         if (isPlayer)
         {
@@ -79,9 +80,9 @@ public class PositionTracker : Photon.PunBehaviour
             _playerPosition[playerId] = Camera.main.transform.position;
             _playerRotation[playerId] = Camera.main.transform.rotation.eulerAngles;
 
-            _photonView.RPC("UpdatePlayerPosition", 
-                            PhotonTargets.All, 
-                            _playerPosition[playerId], 
+            _photonView.RPC("UpdatePlayerPosition",
+                            PhotonTargets.All,
+                            _playerPosition[playerId],
                             _playerRotation[playerId],
                             playerId);
 
@@ -100,45 +101,46 @@ public class PositionTracker : Photon.PunBehaviour
                     Touch touch = Input.GetTouch(0);
                     if (touch.phase == TouchPhase.Ended)
                     {
-                        _photonView.RPC("ShotRPC", PhotonTargets.All, 
+                        _photonView.RPC("ShotRPC", PhotonTargets.All,
                                         playerId);
                     }
                 }
             }
         }
-	}
-    
+    }
+
     [PunRPC]
-    void UpdatePlayerPosition(Vector3 position, 
+    void UpdatePlayerPosition(Vector3 position,
                               Vector3 rotation,
                               int playerId
                              )
     {
         // Player の座標を表示
-        text.text = "Current Position \n" +
+        /*text.text = "Current Position \n" +
             "x = " + position.x.ToString() + "\n" +
             "y = " + position.y.ToString() + "\n" +
-            "z = " + position.z.ToString() + "\n";
+            "z = " + position.z.ToString() + "\n";*/
 
         _playerPosition[playerId] = position;
         _playerRotation[playerId] = rotation;
     }
 
     [PunRPC]
-    void ShotRPC (int playerId) // playerId = 打った人
+    void ShotRPC(int playerId) // playerId = 打った人
     {
-        if (isGod) 
+        if (isGod)
         {
-            Shot(playerId, playerId);
+            ShotInGodView(playerId, playerId);
         }
-        if (isPlayer) 
+        if (isPlayer)
         {
             // 打ったのが自分かどうか
             int myId = _photonView.isMine ? 0 : 1; // 自分のID
 
-            if (myId == playerId) { // 自分が打った
+            if (myId == playerId)
+            { // 自分が打った
                 Shot(playerId, 0);
-            } 
+            }
             else // 敵が打った
             {
                 Shot(playerId, 1);
@@ -146,41 +148,56 @@ public class PositionTracker : Photon.PunBehaviour
         }
     }
 
-    void Shot (int playerId, int offsetId) 
+    void ShotInGodView(int playerId, int offsetId)
     {
+        GodControllerScript godContrrollerScript = GetComponent<GodControllerScript>();
         GameObject bulletObj = Instantiate(bulletPrefab,
-                                           PlayerPosition(playerId, offsetId) + _bulletPositionOffset[playerId],
+                                           godContrrollerScript.GetPlayerPositionInGod(PlayerPosition(playerId, offsetId)),
                                            Quaternion.Euler(PlayerRotation(playerId, offsetId)));
-        bulletObj.GetComponent<BulletManager>().SetShooterId(playerId);
         Vector3 force;
-        force = bulletObj.transform.forward * 1000;
+        force = bulletObj.transform.forward * bulletSpeed;
         bulletObj.GetComponent<Rigidbody>().AddForce(force);
 
         // この玉は 5 秒後に消えます
         Destroy(bulletObj, 5);
     }
 
-    public Vector3 PlayerPosition (int playerId, int offsetId) 
+    void Shot(int playerId, int offsetId)
+    {
+        GameObject bulletObj = Instantiate(bulletPrefab,
+                                           PlayerPosition(playerId, offsetId) + _bulletPositionOffset[playerId],
+                                           Quaternion.Euler(PlayerRotation(playerId, offsetId)));
+        bulletObj.GetComponent<BulletManager>().SetShooterId(playerId);
+        Vector3 force;
+        force = bulletObj.transform.forward * bulletSpeed;
+        bulletObj.GetComponent<Rigidbody>().AddForce(force);
+
+        // この玉は 5 秒後に消えます
+        Destroy(bulletObj, 5);
+    }
+
+    public Vector3 PlayerPosition(int playerId, int offsetId)
     {
         // 相手のプレイヤーは 180° 回転しているので元に戻す
         // God のときは Player1 を回転
         int myId = _photonView.isMine ? 0 : 1;
         Vector3 tmp = _playerPosition[playerId];
-        
-        if ((playerId != myId && isPlayer) || (playerId == 1 && isGod)) { 
+
+        if ((playerId != myId && isPlayer) || (playerId == 1 && isGod))
+        {
             tmp.x *= -1;
             tmp.z *= -1;
         }
-            
+
         return tmp - _playerPositionOffset[offsetId];
     }
 
-    public Vector3 PlayerRotation (int playerId, int offsetId) 
+    public Vector3 PlayerRotation(int playerId, int offsetId)
     {
         return _playerRotation[playerId] - _playerRotationOffset[offsetId];
     }
 
-    public Vector3 PlayerPositionOffset (int playerId)
+    public Vector3 PlayerPositionOffset(int playerId)
     {
         return _playerPositionOffset[playerId];
     }
