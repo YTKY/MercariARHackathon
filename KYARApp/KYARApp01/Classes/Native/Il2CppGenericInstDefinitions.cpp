@@ -644,6 +644,7 @@ extern const Il2CppType Animator_t69676727_0_0_0;
 extern const Il2CppType UnityARVideo_t2351297253_0_0_0;
 extern const Il2CppType AudioSource_t1135106623_0_0_0;
 extern const Il2CppType MeshRenderer_t1268241104_0_0_0;
+extern const Il2CppType PlayerController_t4148409433_0_0_0;
 extern const Il2CppType ChatGui_t1028549327_0_0_0;
 extern const Il2CppType ChannelSelector_t4169853654_0_0_0;
 extern const Il2CppType InputToEvent_t861782367_0_0_0;
@@ -2340,6 +2341,8 @@ static const RuntimeType* GenInst_AudioSource_t1135106623_0_0_0_Types[] = { (&Au
 extern const Il2CppGenericInst GenInst_AudioSource_t1135106623_0_0_0 = { 1, GenInst_AudioSource_t1135106623_0_0_0_Types };
 static const RuntimeType* GenInst_MeshRenderer_t1268241104_0_0_0_Types[] = { (&MeshRenderer_t1268241104_0_0_0) };
 extern const Il2CppGenericInst GenInst_MeshRenderer_t1268241104_0_0_0 = { 1, GenInst_MeshRenderer_t1268241104_0_0_0_Types };
+static const RuntimeType* GenInst_PlayerController_t4148409433_0_0_0_Types[] = { (&PlayerController_t4148409433_0_0_0) };
+extern const Il2CppGenericInst GenInst_PlayerController_t4148409433_0_0_0 = { 1, GenInst_PlayerController_t4148409433_0_0_0_Types };
 static const RuntimeType* GenInst_ChatGui_t1028549327_0_0_0_Types[] = { (&ChatGui_t1028549327_0_0_0) };
 extern const Il2CppGenericInst GenInst_ChatGui_t1028549327_0_0_0 = { 1, GenInst_ChatGui_t1028549327_0_0_0_Types };
 static const RuntimeType* GenInst_ChannelSelector_t4169853654_0_0_0_Types[] = { (&ChannelSelector_t4169853654_0_0_0) };
@@ -2494,7 +2497,7 @@ static const RuntimeType* GenInst_TextEditOp_t3138797698_0_0_0_RuntimeObject_0_0
 extern const Il2CppGenericInst GenInst_TextEditOp_t3138797698_0_0_0_RuntimeObject_0_0_0 = { 2, GenInst_TextEditOp_t3138797698_0_0_0_RuntimeObject_0_0_0_Types };
 static const RuntimeType* GenInst_TextEditOp_t3138797698_0_0_0_TextEditOp_t3138797698_0_0_0_Types[] = { (&TextEditOp_t3138797698_0_0_0), (&TextEditOp_t3138797698_0_0_0) };
 extern const Il2CppGenericInst GenInst_TextEditOp_t3138797698_0_0_0_TextEditOp_t3138797698_0_0_0 = { 2, GenInst_TextEditOp_t3138797698_0_0_0_TextEditOp_t3138797698_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[908] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[909] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2071877448_0_0_0,
@@ -3327,6 +3330,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[908] =
 	&GenInst_UnityARVideo_t2351297253_0_0_0,
 	&GenInst_AudioSource_t1135106623_0_0_0,
 	&GenInst_MeshRenderer_t1268241104_0_0_0,
+	&GenInst_PlayerController_t4148409433_0_0_0,
 	&GenInst_ChatGui_t1028549327_0_0_0,
 	&GenInst_ChannelSelector_t4169853654_0_0_0,
 	&GenInst_InputToEvent_t861782367_0_0_0,

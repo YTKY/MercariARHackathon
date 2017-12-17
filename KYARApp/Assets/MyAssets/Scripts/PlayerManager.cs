@@ -5,12 +5,15 @@ using UnityEngine;
 public class PlayerManager : Photon.PunBehaviour
 {
     // Player の座標、回転
-    private Vector3 _playerPosition;
-    private Vector3 _playerRotation;
+    // private Vector3 _playerPosition;
+    // private Vector3 _playerRotation;
 
-    // Player の Prefab
+    // 敵 Player の Prefab
     public GameObject playerPrefab;
     private GameObject _playerObj;
+
+    // 自 Player 
+    public GameObject myPlayer;
 
     // Photon
     private PhotonView _photonView;
@@ -27,13 +30,17 @@ public class PlayerManager : Photon.PunBehaviour
 
     void Start()
     {
-        _playerId = _photonView.isMine ? 1 : 0; // 敵の ID
-        _positionTracker = GetComponent<PositionTracker>();
+        // 自Playerの設定
+        int myId = _photonView.isMine ? 0 : 1;
+        myPlayer.GetComponent<PlayerController>().SetPlayerId(myId);
 
+        // 敵Playerの設定
+        _playerId = _photonView.isMine ? 1 : 0; 
+        _positionTracker = GetComponent<PositionTracker>();
         _playerObj = Instantiate(playerPrefab,
                                  -_positionTracker.PlayerPositionOffset(1),
                                  Quaternion.Euler(_positionTracker.PlayerRotationOffset(1)));
-
+        _playerObj.GetComponent<PlayerController>().SetPlayerId(_playerId);
     }
 
     void Update()

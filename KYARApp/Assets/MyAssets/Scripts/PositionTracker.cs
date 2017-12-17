@@ -14,6 +14,8 @@ public class PositionTracker : Photon.PunBehaviour
     private Vector3[] _playerPositionOffset;
     private Vector3[] _playerRotationOffset;
 
+    private Vector3[] _bulletPositionOffset;
+
     // Photon
     private PhotonView _photonView = null;
 
@@ -52,13 +54,18 @@ public class PositionTracker : Photon.PunBehaviour
         };
         _playerPositionOffset = new Vector3[]{
             new Vector3 (0.0f, 0.0f, 0.0f),
-            new Vector3 (0.0f, 0.0f, -15.0f),
+            new Vector3 (0.0f, 0.0f, -5.0f),
         };
         _playerRotationOffset = new Vector3[]{
             new Vector3 (0.0f, 0.0f, 0.0f),
             new Vector3 (0.0f, 180.0f, 0.0f),
         };
+        _bulletPositionOffset = new Vector3[]{
+            new Vector3 (0.0f, 0.0f, 1.0f),
+            new Vector3 (0.0f, 0.0f, -1.0f),
+        };
     }
+
 
     void Update () 
     {
@@ -153,7 +160,7 @@ public class PositionTracker : Photon.PunBehaviour
     void Shot (int playerId, int offsetId) 
     {
         GameObject bulletObj = Instantiate(bulletPrefab,
-                                           PlayerPosition(playerId, offsetId),
+                                           PlayerPosition(playerId, offsetId) + _bulletPositionOffset[playerId],
                                            Quaternion.Euler(PlayerRotation(playerId, offsetId)));
         Vector3 force;
         force = bulletObj.transform.forward * 1000;
@@ -166,8 +173,7 @@ public class PositionTracker : Photon.PunBehaviour
     public Vector3 PlayerPosition (int playerId, int offsetId) 
     {
         // 相手のプレイヤーは 180° 回転しているので元に戻す
-        // God (PlayerID = 2 のときは回転しない
-
+        // God のときは Player1 を回転
         int myId = _photonView.isMine ? 0 : 1;
         Vector3 tmp = _playerPosition[playerId];
         

@@ -20,6 +20,10 @@ public class GodManager : MonoBehaviour
         _positionTracker = GetComponent<PositionTracker>();
         _playerObj = new GameObject[] {Instantiate(playerPrefab),
                                        Instantiate(playerPrefab)};
+        for (int i = 0; i < 2; i++)
+        {
+            _playerObj[i].GetComponent<PlayerController>().SetPlayerId(i);
+        }
 	}
 	
 	void Update () {
