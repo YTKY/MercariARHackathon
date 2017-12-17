@@ -4017,59 +4017,39 @@ public:
 struct  GodManager_t3418635257  : public MonoBehaviour_t1158329972
 {
 public:
-	// UnityEngine.Vector3 GodManager::_playerPosition
-	Vector3_t2243707580  ____playerPosition_2;
-	// UnityEngine.Vector3 GodManager::_playerRotation
-	Vector3_t2243707580  ____playerRotation_3;
 	// UnityEngine.GameObject GodManager::playerPrefab
-	GameObject_t1756533147 * ___playerPrefab_4;
+	GameObject_t1756533147 * ___playerPrefab_2;
 	// UnityEngine.GameObject[] GodManager::_playerObj
-	GameObjectU5BU5D_t3057952154* ____playerObj_5;
+	GameObjectU5BU5D_t3057952154* ____playerObj_3;
 	// PositionTracker GodManager::_positionTracker
-	PositionTracker_t858055883 * ____positionTracker_6;
+	PositionTracker_t858055883 * ____positionTracker_4;
 
 public:
-	inline static int32_t get_offset_of__playerPosition_2() { return static_cast<int32_t>(offsetof(GodManager_t3418635257, ____playerPosition_2)); }
-	inline Vector3_t2243707580  get__playerPosition_2() const { return ____playerPosition_2; }
-	inline Vector3_t2243707580 * get_address_of__playerPosition_2() { return &____playerPosition_2; }
-	inline void set__playerPosition_2(Vector3_t2243707580  value)
+	inline static int32_t get_offset_of_playerPrefab_2() { return static_cast<int32_t>(offsetof(GodManager_t3418635257, ___playerPrefab_2)); }
+	inline GameObject_t1756533147 * get_playerPrefab_2() const { return ___playerPrefab_2; }
+	inline GameObject_t1756533147 ** get_address_of_playerPrefab_2() { return &___playerPrefab_2; }
+	inline void set_playerPrefab_2(GameObject_t1756533147 * value)
 	{
-		____playerPosition_2 = value;
+		___playerPrefab_2 = value;
+		Il2CppCodeGenWriteBarrier((&___playerPrefab_2), value);
 	}
 
-	inline static int32_t get_offset_of__playerRotation_3() { return static_cast<int32_t>(offsetof(GodManager_t3418635257, ____playerRotation_3)); }
-	inline Vector3_t2243707580  get__playerRotation_3() const { return ____playerRotation_3; }
-	inline Vector3_t2243707580 * get_address_of__playerRotation_3() { return &____playerRotation_3; }
-	inline void set__playerRotation_3(Vector3_t2243707580  value)
+	inline static int32_t get_offset_of__playerObj_3() { return static_cast<int32_t>(offsetof(GodManager_t3418635257, ____playerObj_3)); }
+	inline GameObjectU5BU5D_t3057952154* get__playerObj_3() const { return ____playerObj_3; }
+	inline GameObjectU5BU5D_t3057952154** get_address_of__playerObj_3() { return &____playerObj_3; }
+	inline void set__playerObj_3(GameObjectU5BU5D_t3057952154* value)
 	{
-		____playerRotation_3 = value;
+		____playerObj_3 = value;
+		Il2CppCodeGenWriteBarrier((&____playerObj_3), value);
 	}
 
-	inline static int32_t get_offset_of_playerPrefab_4() { return static_cast<int32_t>(offsetof(GodManager_t3418635257, ___playerPrefab_4)); }
-	inline GameObject_t1756533147 * get_playerPrefab_4() const { return ___playerPrefab_4; }
-	inline GameObject_t1756533147 ** get_address_of_playerPrefab_4() { return &___playerPrefab_4; }
-	inline void set_playerPrefab_4(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of__positionTracker_4() { return static_cast<int32_t>(offsetof(GodManager_t3418635257, ____positionTracker_4)); }
+	inline PositionTracker_t858055883 * get__positionTracker_4() const { return ____positionTracker_4; }
+	inline PositionTracker_t858055883 ** get_address_of__positionTracker_4() { return &____positionTracker_4; }
+	inline void set__positionTracker_4(PositionTracker_t858055883 * value)
 	{
-		___playerPrefab_4 = value;
-		Il2CppCodeGenWriteBarrier((&___playerPrefab_4), value);
-	}
-
-	inline static int32_t get_offset_of__playerObj_5() { return static_cast<int32_t>(offsetof(GodManager_t3418635257, ____playerObj_5)); }
-	inline GameObjectU5BU5D_t3057952154* get__playerObj_5() const { return ____playerObj_5; }
-	inline GameObjectU5BU5D_t3057952154** get_address_of__playerObj_5() { return &____playerObj_5; }
-	inline void set__playerObj_5(GameObjectU5BU5D_t3057952154* value)
-	{
-		____playerObj_5 = value;
-		Il2CppCodeGenWriteBarrier((&____playerObj_5), value);
-	}
-
-	inline static int32_t get_offset_of__positionTracker_6() { return static_cast<int32_t>(offsetof(GodManager_t3418635257, ____positionTracker_6)); }
-	inline PositionTracker_t858055883 * get__positionTracker_6() const { return ____positionTracker_6; }
-	inline PositionTracker_t858055883 ** get_address_of__positionTracker_6() { return &____positionTracker_6; }
-	inline void set__positionTracker_6(PositionTracker_t858055883 * value)
-	{
-		____positionTracker_6 = value;
-		Il2CppCodeGenWriteBarrier((&____positionTracker_6), value);
+		____positionTracker_4 = value;
+		Il2CppCodeGenWriteBarrier((&____positionTracker_4), value);
 	}
 };
 
@@ -6885,8 +6865,10 @@ public:
 	GameObject_t1756533147 * ____playerObj_6;
 	// PhotonView PlayerManager::_photonView
 	PhotonView_t899863581 * ____photonView_7;
+	// System.Int32 PlayerManager::_playerId
+	int32_t ____playerId_8;
 	// PositionTracker PlayerManager::_positionTracker
-	PositionTracker_t858055883 * ____positionTracker_8;
+	PositionTracker_t858055883 * ____positionTracker_9;
 
 public:
 	inline static int32_t get_offset_of__playerPosition_3() { return static_cast<int32_t>(offsetof(PlayerManager_t1596653588, ____playerPosition_3)); }
@@ -6932,13 +6914,21 @@ public:
 		Il2CppCodeGenWriteBarrier((&____photonView_7), value);
 	}
 
-	inline static int32_t get_offset_of__positionTracker_8() { return static_cast<int32_t>(offsetof(PlayerManager_t1596653588, ____positionTracker_8)); }
-	inline PositionTracker_t858055883 * get__positionTracker_8() const { return ____positionTracker_8; }
-	inline PositionTracker_t858055883 ** get_address_of__positionTracker_8() { return &____positionTracker_8; }
-	inline void set__positionTracker_8(PositionTracker_t858055883 * value)
+	inline static int32_t get_offset_of__playerId_8() { return static_cast<int32_t>(offsetof(PlayerManager_t1596653588, ____playerId_8)); }
+	inline int32_t get__playerId_8() const { return ____playerId_8; }
+	inline int32_t* get_address_of__playerId_8() { return &____playerId_8; }
+	inline void set__playerId_8(int32_t value)
 	{
-		____positionTracker_8 = value;
-		Il2CppCodeGenWriteBarrier((&____positionTracker_8), value);
+		____playerId_8 = value;
+	}
+
+	inline static int32_t get_offset_of__positionTracker_9() { return static_cast<int32_t>(offsetof(PlayerManager_t1596653588, ____positionTracker_9)); }
+	inline PositionTracker_t858055883 * get__positionTracker_9() const { return ____positionTracker_9; }
+	inline PositionTracker_t858055883 ** get_address_of__positionTracker_9() { return &____positionTracker_9; }
+	inline void set__positionTracker_9(PositionTracker_t858055883 * value)
+	{
+		____positionTracker_9 = value;
+		Il2CppCodeGenWriteBarrier((&____positionTracker_9), value);
 	}
 };
 
@@ -6962,18 +6952,20 @@ public:
 	Vector3U5BU5D_t1172311765* ____playerPosition_3;
 	// UnityEngine.Vector3[] PositionTracker::_playerRotation
 	Vector3U5BU5D_t1172311765* ____playerRotation_4;
-	// UnityEngine.Vector3 PositionTracker::_playerPositionOffset
-	Vector3_t2243707580  ____playerPositionOffset_5;
+	// UnityEngine.Vector3[] PositionTracker::_playerPositionOffset
+	Vector3U5BU5D_t1172311765* ____playerPositionOffset_5;
+	// UnityEngine.Vector3[] PositionTracker::_playerRotationOffset
+	Vector3U5BU5D_t1172311765* ____playerRotationOffset_6;
 	// PhotonView PositionTracker::_photonView
-	PhotonView_t899863581 * ____photonView_6;
+	PhotonView_t899863581 * ____photonView_7;
 	// System.Boolean PositionTracker::isPlayer
-	bool ___isPlayer_7;
+	bool ___isPlayer_8;
 	// System.Boolean PositionTracker::isGod
-	bool ___isGod_8;
+	bool ___isGod_9;
 	// UnityEngine.GameObject PositionTracker::bulletPrefab
-	GameObject_t1756533147 * ___bulletPrefab_9;
+	GameObject_t1756533147 * ___bulletPrefab_10;
 	// UnityEngine.UI.Text PositionTracker::text
-	Text_t356221433 * ___text_10;
+	Text_t356221433 * ___text_11;
 
 public:
 	inline static int32_t get_offset_of__playerPosition_3() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ____playerPosition_3)); }
@@ -6995,54 +6987,64 @@ public:
 	}
 
 	inline static int32_t get_offset_of__playerPositionOffset_5() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ____playerPositionOffset_5)); }
-	inline Vector3_t2243707580  get__playerPositionOffset_5() const { return ____playerPositionOffset_5; }
-	inline Vector3_t2243707580 * get_address_of__playerPositionOffset_5() { return &____playerPositionOffset_5; }
-	inline void set__playerPositionOffset_5(Vector3_t2243707580  value)
+	inline Vector3U5BU5D_t1172311765* get__playerPositionOffset_5() const { return ____playerPositionOffset_5; }
+	inline Vector3U5BU5D_t1172311765** get_address_of__playerPositionOffset_5() { return &____playerPositionOffset_5; }
+	inline void set__playerPositionOffset_5(Vector3U5BU5D_t1172311765* value)
 	{
 		____playerPositionOffset_5 = value;
+		Il2CppCodeGenWriteBarrier((&____playerPositionOffset_5), value);
 	}
 
-	inline static int32_t get_offset_of__photonView_6() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ____photonView_6)); }
-	inline PhotonView_t899863581 * get__photonView_6() const { return ____photonView_6; }
-	inline PhotonView_t899863581 ** get_address_of__photonView_6() { return &____photonView_6; }
-	inline void set__photonView_6(PhotonView_t899863581 * value)
+	inline static int32_t get_offset_of__playerRotationOffset_6() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ____playerRotationOffset_6)); }
+	inline Vector3U5BU5D_t1172311765* get__playerRotationOffset_6() const { return ____playerRotationOffset_6; }
+	inline Vector3U5BU5D_t1172311765** get_address_of__playerRotationOffset_6() { return &____playerRotationOffset_6; }
+	inline void set__playerRotationOffset_6(Vector3U5BU5D_t1172311765* value)
 	{
-		____photonView_6 = value;
-		Il2CppCodeGenWriteBarrier((&____photonView_6), value);
+		____playerRotationOffset_6 = value;
+		Il2CppCodeGenWriteBarrier((&____playerRotationOffset_6), value);
 	}
 
-	inline static int32_t get_offset_of_isPlayer_7() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___isPlayer_7)); }
-	inline bool get_isPlayer_7() const { return ___isPlayer_7; }
-	inline bool* get_address_of_isPlayer_7() { return &___isPlayer_7; }
-	inline void set_isPlayer_7(bool value)
+	inline static int32_t get_offset_of__photonView_7() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ____photonView_7)); }
+	inline PhotonView_t899863581 * get__photonView_7() const { return ____photonView_7; }
+	inline PhotonView_t899863581 ** get_address_of__photonView_7() { return &____photonView_7; }
+	inline void set__photonView_7(PhotonView_t899863581 * value)
 	{
-		___isPlayer_7 = value;
+		____photonView_7 = value;
+		Il2CppCodeGenWriteBarrier((&____photonView_7), value);
 	}
 
-	inline static int32_t get_offset_of_isGod_8() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___isGod_8)); }
-	inline bool get_isGod_8() const { return ___isGod_8; }
-	inline bool* get_address_of_isGod_8() { return &___isGod_8; }
-	inline void set_isGod_8(bool value)
+	inline static int32_t get_offset_of_isPlayer_8() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___isPlayer_8)); }
+	inline bool get_isPlayer_8() const { return ___isPlayer_8; }
+	inline bool* get_address_of_isPlayer_8() { return &___isPlayer_8; }
+	inline void set_isPlayer_8(bool value)
 	{
-		___isGod_8 = value;
+		___isPlayer_8 = value;
 	}
 
-	inline static int32_t get_offset_of_bulletPrefab_9() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___bulletPrefab_9)); }
-	inline GameObject_t1756533147 * get_bulletPrefab_9() const { return ___bulletPrefab_9; }
-	inline GameObject_t1756533147 ** get_address_of_bulletPrefab_9() { return &___bulletPrefab_9; }
-	inline void set_bulletPrefab_9(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_isGod_9() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___isGod_9)); }
+	inline bool get_isGod_9() const { return ___isGod_9; }
+	inline bool* get_address_of_isGod_9() { return &___isGod_9; }
+	inline void set_isGod_9(bool value)
 	{
-		___bulletPrefab_9 = value;
-		Il2CppCodeGenWriteBarrier((&___bulletPrefab_9), value);
+		___isGod_9 = value;
 	}
 
-	inline static int32_t get_offset_of_text_10() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___text_10)); }
-	inline Text_t356221433 * get_text_10() const { return ___text_10; }
-	inline Text_t356221433 ** get_address_of_text_10() { return &___text_10; }
-	inline void set_text_10(Text_t356221433 * value)
+	inline static int32_t get_offset_of_bulletPrefab_10() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___bulletPrefab_10)); }
+	inline GameObject_t1756533147 * get_bulletPrefab_10() const { return ___bulletPrefab_10; }
+	inline GameObject_t1756533147 ** get_address_of_bulletPrefab_10() { return &___bulletPrefab_10; }
+	inline void set_bulletPrefab_10(GameObject_t1756533147 * value)
 	{
-		___text_10 = value;
-		Il2CppCodeGenWriteBarrier((&___text_10), value);
+		___bulletPrefab_10 = value;
+		Il2CppCodeGenWriteBarrier((&___bulletPrefab_10), value);
+	}
+
+	inline static int32_t get_offset_of_text_11() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___text_11)); }
+	inline Text_t356221433 * get_text_11() const { return ___text_11; }
+	inline Text_t356221433 ** get_address_of_text_11() { return &___text_11; }
+	inline void set_text_11(Text_t356221433 * value)
+	{
+		___text_11 = value;
+		Il2CppCodeGenWriteBarrier((&___text_11), value);
 	}
 };
 
@@ -7603,35 +7605,35 @@ extern const int32_t g_FieldOffsetTable2164[2] =
 	LoginManager_t973619992::get_offset_of__nextScene_4(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2165 = { sizeof (GodManager_t3418635257), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2165[5] = 
+extern const int32_t g_FieldOffsetTable2165[3] = 
 {
-	GodManager_t3418635257::get_offset_of__playerPosition_2(),
-	GodManager_t3418635257::get_offset_of__playerRotation_3(),
-	GodManager_t3418635257::get_offset_of_playerPrefab_4(),
-	GodManager_t3418635257::get_offset_of__playerObj_5(),
-	GodManager_t3418635257::get_offset_of__positionTracker_6(),
+	GodManager_t3418635257::get_offset_of_playerPrefab_2(),
+	GodManager_t3418635257::get_offset_of__playerObj_3(),
+	GodManager_t3418635257::get_offset_of__positionTracker_4(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2166 = { sizeof (PlayerManager_t1596653588), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2166[6] = 
+extern const int32_t g_FieldOffsetTable2166[7] = 
 {
 	PlayerManager_t1596653588::get_offset_of__playerPosition_3(),
 	PlayerManager_t1596653588::get_offset_of__playerRotation_4(),
 	PlayerManager_t1596653588::get_offset_of_playerPrefab_5(),
 	PlayerManager_t1596653588::get_offset_of__playerObj_6(),
 	PlayerManager_t1596653588::get_offset_of__photonView_7(),
-	PlayerManager_t1596653588::get_offset_of__positionTracker_8(),
+	PlayerManager_t1596653588::get_offset_of__playerId_8(),
+	PlayerManager_t1596653588::get_offset_of__positionTracker_9(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2167 = { sizeof (PositionTracker_t858055883), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2167[8] = 
+extern const int32_t g_FieldOffsetTable2167[9] = 
 {
 	PositionTracker_t858055883::get_offset_of__playerPosition_3(),
 	PositionTracker_t858055883::get_offset_of__playerRotation_4(),
 	PositionTracker_t858055883::get_offset_of__playerPositionOffset_5(),
-	PositionTracker_t858055883::get_offset_of__photonView_6(),
-	PositionTracker_t858055883::get_offset_of_isPlayer_7(),
-	PositionTracker_t858055883::get_offset_of_isGod_8(),
-	PositionTracker_t858055883::get_offset_of_bulletPrefab_9(),
-	PositionTracker_t858055883::get_offset_of_text_10(),
+	PositionTracker_t858055883::get_offset_of__playerRotationOffset_6(),
+	PositionTracker_t858055883::get_offset_of__photonView_7(),
+	PositionTracker_t858055883::get_offset_of_isPlayer_8(),
+	PositionTracker_t858055883::get_offset_of_isGod_9(),
+	PositionTracker_t858055883::get_offset_of_bulletPrefab_10(),
+	PositionTracker_t858055883::get_offset_of_text_11(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2168 = { sizeof (SceneLoader_t1952549817), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable2168[1] = 

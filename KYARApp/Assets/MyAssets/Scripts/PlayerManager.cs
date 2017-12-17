@@ -15,6 +15,9 @@ public class PlayerManager : Photon.PunBehaviour
     // Photon
     private PhotonView _photonView;
 
+    // 何番目にログインしたプレイヤーか
+    private int _playerId;
+
     private PositionTracker _positionTracker;
 
     private void Awake()
@@ -24,16 +27,19 @@ public class PlayerManager : Photon.PunBehaviour
 
     void Start()
     {
-        _playerObj = Instantiate(playerPrefab);
+        _playerId = _photonView.isMine ? 1 : 0; // 敵の ID
         _positionTracker = GetComponent<PositionTracker>();
+
+        _playerObj = Instantiate(playerPrefab,
+                                 -_positionTracker.PlayerPositionOffset(1),
+                                 Quaternion.Euler(_positionTracker.PlayerRotationOffset(1)));
+
     }
 
     void Update()
     {
-        int playerId = _photonView.isMine ? 1 : 0;
-
-        _playerObj.transform.position = _positionTracker.PlayerPosition(playerId);
-        _playerObj.transform.rotation = Quaternion.Euler(_positionTracker.PlayerRotation(playerId));
+        _playerObj.transform.position = _positionTracker.PlayerPosition(_playerId, 1);
+        _playerObj.transform.rotation = Quaternion.Euler(_positionTracker.PlayerRotation(_playerId, 1));
 
     }
 }

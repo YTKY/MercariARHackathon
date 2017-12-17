@@ -15025,9 +15025,12 @@ extern "C" void PositionTracker_Awake_m279960219 ();
 extern "C" void PositionTracker_Start_m1564803920 ();
 extern "C" void PositionTracker_Update_m3153287191 ();
 extern "C" void PositionTracker_UpdatePlayerPosition_m603019788 ();
-extern "C" void PositionTracker_Shot_m1858995391 ();
-extern "C" void PositionTracker_PlayerPosition_m4290773863 ();
-extern "C" void PositionTracker_PlayerRotation_m478065646 ();
+extern "C" void PositionTracker_ShotRPC_m3603633786 ();
+extern "C" void PositionTracker_Shot_m3214244270 ();
+extern "C" void PositionTracker_PlayerPosition_m2505018398 ();
+extern "C" void PositionTracker_PlayerRotation_m3487216311 ();
+extern "C" void PositionTracker_PlayerPositionOffset_m2486224484 ();
+extern "C" void PositionTracker_PlayerRotationOffset_m457030883 ();
 extern "C" void PunEvent__ctor_m2421758696 ();
 extern "C" void PunPlayerScores__ctor_m2480230180 ();
 extern "C" void PunRPC__ctor_m3631903409 ();
@@ -15805,7 +15808,7 @@ extern "C" void WorkerMenu_OnDisconnectedFromPhoton_m3655135434 ();
 extern "C" void WorkerMenu_OnFailedToConnectToPhoton_m2511247198 ();
 extern "C" void WorkerMenu_OnConnectedToMaster_m248562659 ();
 extern "C" void WorkerMenu__cctor_m4287693745 ();
-extern const Il2CppMethodPointer g_MethodPointers[15788] = 
+extern const Il2CppMethodPointer g_MethodPointers[15791] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -30815,9 +30818,12 @@ extern const Il2CppMethodPointer g_MethodPointers[15788] =
 	PositionTracker_Start_m1564803920,
 	PositionTracker_Update_m3153287191,
 	PositionTracker_UpdatePlayerPosition_m603019788,
-	PositionTracker_Shot_m1858995391,
-	PositionTracker_PlayerPosition_m4290773863,
-	PositionTracker_PlayerRotation_m478065646,
+	PositionTracker_ShotRPC_m3603633786,
+	PositionTracker_Shot_m3214244270,
+	PositionTracker_PlayerPosition_m2505018398,
+	PositionTracker_PlayerRotation_m3487216311,
+	PositionTracker_PlayerPositionOffset_m2486224484,
+	PositionTracker_PlayerRotationOffset_m457030883,
 	PunEvent__ctor_m2421758696,
 	PunPlayerScores__ctor_m2480230180,
 	PunRPC__ctor_m3631903409,
