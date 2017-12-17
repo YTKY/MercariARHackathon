@@ -32,9 +32,9 @@ namespace UnityEngine.XR.iOS
         private float MAX_TIME = 5.9f;
         private bool _debug = true;
         private float _timeCount;
-        private float _targetDistance = 0.1f;
-        private float _baseHight = 0.1f;
-        private float _baseDistance = 15f;
+        private static float _targetDistance = 0.1f;
+        private static float _baseHight = 0.1f;
+        private static float _baseDistance = 15f;
         private Vector3 _baseVector;
         private Vector3 _basePoint;
         private FloorDetectionStatus _floorDetectionStatus;
@@ -104,36 +104,24 @@ namespace UnityEngine.XR.iOS
             }
             else if (_floorDetectionStatus == FloorDetectionStatus.GameStarted)
             {
-                if (_debug)
+
+                // Get base position 
+
+
+                // Update position
+                for (int i = 0; i < 2; i++)
                 {
-                    // Get base position 
-
-
-                    // Initial Position
-
-                    Vector3 player0Position = new Vector3(0.7f, 1.5f, 1.3f);
-                    Vector3 player1Position = new Vector3(0.1f, 0.0f, 15.1f);
-                    player0Position = (player0Position * (_targetDistance / _baseDistance)) + _basePoint;
-                    player1Position = (player1Position * (_targetDistance / _baseDistance)) + _basePoint;
-
-                    _playerObj[0].transform.position = player0Position;
-                    _playerObj[1].transform.position = player1Position;
-                    _playerObj[0].transform.rotation = new Quaternion(0.3f, 0.2f, 0.1f, 0.9f);
-                    _playerObj[1].transform.rotation = new Quaternion(0.0f, -1.0f, 0.3f, 0.0f);
-
+                    _playerObj[i].transform.position = GetPlayerPositionInGod(_positionTracker.PlayerPosition(i, i));
+                    _playerObj[i].transform.rotation = Quaternion.Euler(_positionTracker.PlayerRotation(i, i));
                 }
-                else
-                {
-                    for (int i = 0; i < 2; i++)
-                    {
-                        _playerObj[i].transform.position = _positionTracker.PlayerPosition(i);
-                        _playerObj[i].transform.rotation = Quaternion.Euler(_positionTracker.PlayerRotation(i));
-                    }
-                }
+
             }
         }
 
-
+        public Vector3 GetPlayerPositionInGod(Vector3 pos)
+        {
+            return (pos * (_targetDistance / _baseDistance)) + _basePoint;
+        }
 
         public void AddAnchor(ARPlaneAnchor arPlaneAnchor)
         {
@@ -183,14 +171,12 @@ namespace UnityEngine.XR.iOS
             // Display Count down timer    
             _timeCount = MAX_TIME;
             mainMessage.text = ((int)_timeCount).ToString();
-
-            Vector3 player0Position = new Vector3(0.7f, 1.5f, 1.3f);
-            Vector3 player1Position = new Vector3(0.1f, 0.0f, 15.1f);
-            player0Position = (player0Position * (_targetDistance / _baseDistance)) + _basePoint;
-            player1Position = (player1Position * (_targetDistance / _baseDistance)) + _basePoint;
-            _playerObj = new GameObject[] {Instantiate(playerPrefab, player0Position, new Quaternion(0.3f, 0.2f, 0.1f, 0.9f)),
-                                       Instantiate(playerPrefab,player1Position, new Quaternion(0.0f, -1.0f, 0.3f, 0.0f))};
             _positionTracker = GetComponent<PositionTracker>();
+            _playerObj = new GameObject[2];
+            for (int i = 0; i < 2; i++)
+            {
+                _playerObj[i] = Instantiate(playerPrefab, GetPlayerPositionInGod(_positionTracker.PlayerPosition(i, i)), Quaternion.Euler(_positionTracker.PlayerRotation(i, i)));
+            }
         }
 
     }
