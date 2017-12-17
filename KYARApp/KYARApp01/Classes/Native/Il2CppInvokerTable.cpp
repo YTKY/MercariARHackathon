@@ -32357,6 +32357,13 @@ void* RuntimeInvoker_Void_t1841601450_Vector3_t2243707580_Vector3_t2243707580_In
 	return NULL;
 }
 
+void* RuntimeInvoker_Vector3_t2243707580_Int32_t2071877448_Int32_t2071877448 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Vector3_t2243707580  (*Func)(void* obj, int32_t p1, int32_t p2, const RuntimeMethod* method);
+	Vector3_t2243707580  ret = ((Func)methodPointer)(obj, *((int32_t*)args[0]), *((int32_t*)args[1]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Vector3_t2243707580_Int32_t2071877448 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef Vector3_t2243707580  (*Func)(void* obj, int32_t p1, const RuntimeMethod* method);
@@ -37915,7 +37922,7 @@ void* RuntimeInvoker_RuntimeObject_FloatTween_t2986189219 (Il2CppMethodPointer m
 	return ret;
 }
 
-extern const InvokerMethod g_Il2CppInvokerPointers[2222] = 
+extern const InvokerMethod g_Il2CppInvokerPointers[2223] = 
 {
 	RuntimeInvoker_Void_t1841601450,
 	RuntimeInvoker_Boolean_t3825574718_RuntimeObject,
@@ -39345,6 +39352,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2222] =
 	RuntimeInvoker_Void_t1841601450_UIVertex_t1204258818,
 	RuntimeInvoker_Void_t1841601450_RuntimeObject_Color32_t874517518_Int32_t2071877448_Int32_t2071877448_Single_t2076509932_Single_t2076509932,
 	RuntimeInvoker_Void_t1841601450_Vector3_t2243707580_Vector3_t2243707580_Int32_t2071877448,
+	RuntimeInvoker_Vector3_t2243707580_Int32_t2071877448_Int32_t2071877448,
 	RuntimeInvoker_Vector3_t2243707580_Int32_t2071877448,
 	RuntimeInvoker_Void_t1841601450_PhotonMessageInfo_t13590565,
 	RuntimeInvoker_Void_t1841601450_RuntimeObject_Int32_t2071877448_SByte_t454417549_RuntimeObject,

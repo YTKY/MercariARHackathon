@@ -16939,6 +16939,16 @@ extern "C"  bool GameObject_get_activeInHierarchy_m2532098784 (GameObject_t17565
 	bool retVal = _il2cpp_icall_func(__this);
 	return retVal;
 }
+// System.String UnityEngine.GameObject::get_tag()
+extern "C"  String_t* GameObject_get_tag_m3359901967 (GameObject_t1756533147 * __this, const RuntimeMethod* method)
+{
+	typedef String_t* (*GameObject_get_tag_m3359901967_ftn) (GameObject_t1756533147 *);
+	static GameObject_get_tag_m3359901967_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GameObject_get_tag_m3359901967_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::get_tag()");
+	String_t* retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
 // System.Void UnityEngine.GameObject::set_tag(System.String)
 extern "C"  void GameObject_set_tag_m2565837656 (GameObject_t1756533147 * __this, String_t* ___value0, const RuntimeMethod* method)
 {

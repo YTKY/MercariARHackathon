@@ -9748,6 +9748,7 @@ extern "C" void GameObject_set_layer_m3642810622 ();
 extern "C" void GameObject_SetActive_m2693135142 ();
 extern "C" void GameObject_get_activeSelf_m2643917226 ();
 extern "C" void GameObject_get_activeInHierarchy_m2532098784 ();
+extern "C" void GameObject_get_tag_m3359901967 ();
 extern "C" void GameObject_set_tag_m2565837656 ();
 extern "C" void GameObject_FindGameObjectsWithTag_m3720927271 ();
 extern "C" void GameObject_SendMessage_m3423113156 ();
@@ -13738,6 +13739,10 @@ extern "C" void BlendshapePrinter_FaceAdded_m1103712689 ();
 extern "C" void BlendshapePrinter_FaceUpdated_m2771505318 ();
 extern "C" void BlendshapePrinter_FaceRemoved_m4120866103 ();
 extern "C" void BlendshapePrinter_Update_m3989659578 ();
+extern "C" void BulletManager__ctor_m742243314 ();
+extern "C" void BulletManager_Start_m1138582878 ();
+extern "C" void BulletManager_Update_m434196423 ();
+extern "C" void BulletManager_OnTriggerEnter_m3755607182 ();
 extern "C" void CellTree__ctor_m3782778995 ();
 extern "C" void CellTree__ctor_m1642478691 ();
 extern "C" void CellTree_get_RootNode_m98911955 ();
@@ -15002,6 +15007,11 @@ extern "C" void PickupItemSyncer_SendPickedUpItems_m3407434898 ();
 extern "C" void PickupItemSyncer_PickupItemInit_m2133736866 ();
 extern "C" void PickupTriggerForward__ctor_m3334940580 ();
 extern "C" void PickupTriggerForward_OnTriggerEnter_m1294620792 ();
+extern "C" void PlayerController__ctor_m3280132936 ();
+extern "C" void PlayerController_Start_m3606284888 ();
+extern "C" void PlayerController_Update_m4228472513 ();
+extern "C" void PlayerController_GetPlayerId_m879818666 ();
+extern "C" void PlayerController_SetPlayerId_m4020562649 ();
 extern "C" void PlayerDiamond__ctor_m2995276206 ();
 extern "C" void PlayerDiamond_get_PhotonView_m803556664 ();
 extern "C" void PlayerDiamond_get_DiamondRenderer_m2847422333 ();
@@ -15025,9 +15035,12 @@ extern "C" void PositionTracker_Awake_m279960219 ();
 extern "C" void PositionTracker_Start_m1564803920 ();
 extern "C" void PositionTracker_Update_m3153287191 ();
 extern "C" void PositionTracker_UpdatePlayerPosition_m603019788 ();
-extern "C" void PositionTracker_Shot_m1858995391 ();
-extern "C" void PositionTracker_PlayerPosition_m4290773863 ();
-extern "C" void PositionTracker_PlayerRotation_m478065646 ();
+extern "C" void PositionTracker_ShotRPC_m3603633786 ();
+extern "C" void PositionTracker_Shot_m3214244270 ();
+extern "C" void PositionTracker_PlayerPosition_m2505018398 ();
+extern "C" void PositionTracker_PlayerRotation_m3487216311 ();
+extern "C" void PositionTracker_PlayerPositionOffset_m2486224484 ();
+extern "C" void PositionTracker_PlayerRotationOffset_m457030883 ();
 extern "C" void PunEvent__ctor_m2421758696 ();
 extern "C" void PunPlayerScores__ctor_m2480230180 ();
 extern "C" void PunRPC__ctor_m3631903409 ();
@@ -15805,7 +15818,7 @@ extern "C" void WorkerMenu_OnDisconnectedFromPhoton_m3655135434 ();
 extern "C" void WorkerMenu_OnFailedToConnectToPhoton_m2511247198 ();
 extern "C" void WorkerMenu_OnConnectedToMaster_m248562659 ();
 extern "C" void WorkerMenu__cctor_m4287693745 ();
-extern const Il2CppMethodPointer g_MethodPointers[15788] = 
+extern const Il2CppMethodPointer g_MethodPointers[15801] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -25538,6 +25551,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15788] =
 	GameObject_SetActive_m2693135142,
 	GameObject_get_activeSelf_m2643917226,
 	GameObject_get_activeInHierarchy_m2532098784,
+	GameObject_get_tag_m3359901967,
 	GameObject_set_tag_m2565837656,
 	GameObject_FindGameObjectsWithTag_m3720927271,
 	GameObject_SendMessage_m3423113156,
@@ -29528,6 +29542,10 @@ extern const Il2CppMethodPointer g_MethodPointers[15788] =
 	BlendshapePrinter_FaceUpdated_m2771505318,
 	BlendshapePrinter_FaceRemoved_m4120866103,
 	BlendshapePrinter_Update_m3989659578,
+	BulletManager__ctor_m742243314,
+	BulletManager_Start_m1138582878,
+	BulletManager_Update_m434196423,
+	BulletManager_OnTriggerEnter_m3755607182,
 	CellTree__ctor_m3782778995,
 	CellTree__ctor_m1642478691,
 	CellTree_get_RootNode_m98911955,
@@ -30792,6 +30810,11 @@ extern const Il2CppMethodPointer g_MethodPointers[15788] =
 	PickupItemSyncer_PickupItemInit_m2133736866,
 	PickupTriggerForward__ctor_m3334940580,
 	PickupTriggerForward_OnTriggerEnter_m1294620792,
+	PlayerController__ctor_m3280132936,
+	PlayerController_Start_m3606284888,
+	PlayerController_Update_m4228472513,
+	PlayerController_GetPlayerId_m879818666,
+	PlayerController_SetPlayerId_m4020562649,
 	PlayerDiamond__ctor_m2995276206,
 	PlayerDiamond_get_PhotonView_m803556664,
 	PlayerDiamond_get_DiamondRenderer_m2847422333,
@@ -30815,9 +30838,12 @@ extern const Il2CppMethodPointer g_MethodPointers[15788] =
 	PositionTracker_Start_m1564803920,
 	PositionTracker_Update_m3153287191,
 	PositionTracker_UpdatePlayerPosition_m603019788,
-	PositionTracker_Shot_m1858995391,
-	PositionTracker_PlayerPosition_m4290773863,
-	PositionTracker_PlayerRotation_m478065646,
+	PositionTracker_ShotRPC_m3603633786,
+	PositionTracker_Shot_m3214244270,
+	PositionTracker_PlayerPosition_m2505018398,
+	PositionTracker_PlayerRotation_m3487216311,
+	PositionTracker_PlayerPositionOffset_m2486224484,
+	PositionTracker_PlayerRotationOffset_m457030883,
 	PunEvent__ctor_m2421758696,
 	PunPlayerScores__ctor_m2480230180,
 	PunRPC__ctor_m3631903409,

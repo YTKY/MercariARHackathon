@@ -11,7 +11,10 @@ public class PositionTracker : Photon.PunBehaviour
     private Vector3[] _playerPosition;
     private Vector3[] _playerRotation;
 
-    private Vector3 _playerPositionOffset;
+    private Vector3[] _playerPositionOffset;
+    private Vector3[] _playerRotationOffset;
+
+    private Vector3[] _bulletPositionOffset;
 
     // Photon
     private PhotonView _photonView = null;
@@ -25,7 +28,7 @@ public class PositionTracker : Photon.PunBehaviour
 
     // Debug 用
     // Player の座標を表示する Text
-    //public Text text;
+    public Text text;
 
     private void Awake()
     {
@@ -49,10 +52,22 @@ public class PositionTracker : Photon.PunBehaviour
             new Vector3 (0.0f, 0.0f, 0.0f),
             new Vector3 (0.0f, 0.0f, 0.0f),
         };
-        _playerPositionOffset = new Vector3(5.0f, 0.0f, 0.0f);
+        _playerPositionOffset = new Vector3[]{
+            new Vector3 (0.0f, 0.0f, 0.0f),
+            new Vector3 (0.0f, 0.0f, -5.0f),
+        };
+        _playerRotationOffset = new Vector3[]{
+            new Vector3 (0.0f, 0.0f, 0.0f),
+            new Vector3 (0.0f, 180.0f, 0.0f),
+        };
+        _bulletPositionOffset = new Vector3[]{
+            new Vector3 (0.0f, 0.0f, 1.0f),
+            new Vector3 (0.0f, 0.0f, -1.0f),
+        };
     }
 
-    void Update()
+
+    void Update () 
     {
         if (isPlayer)
         {
@@ -64,9 +79,9 @@ public class PositionTracker : Photon.PunBehaviour
             _playerPosition[playerId] = Camera.main.transform.position;
             _playerRotation[playerId] = Camera.main.transform.rotation.eulerAngles;
 
-            _photonView.RPC("UpdatePlayerPosition",
-                            PhotonTargets.All,
-                            _playerPosition[playerId],
+            _photonView.RPC("UpdatePlayerPosition", 
+                            PhotonTargets.All, 
+                            _playerPosition[playerId], 
                             _playerRotation[playerId],
                             playerId);
 
@@ -75,7 +90,7 @@ public class PositionTracker : Photon.PunBehaviour
             {
                 if (Input.GetMouseButtonUp(0))
                 {
-                    _photonView.RPC("Shot", PhotonTargets.All);
+                    _photonView.RPC("ShotRPC", PhotonTargets.All);
                 }
             }
             else
@@ -85,22 +100,28 @@ public class PositionTracker : Photon.PunBehaviour
                     Touch touch = Input.GetTouch(0);
                     if (touch.phase == TouchPhase.Ended)
                     {
-                        _photonView.RPC("Shot", PhotonTargets.All,
+                        _photonView.RPC("ShotRPC", PhotonTargets.All, 
                                         playerId);
                     }
                 }
             }
         }
-    }
-
+	}
+    
     [PunRPC]
-    void UpdatePlayerPosition(Vector3 position,
+    void UpdatePlayerPosition(Vector3 position, 
                               Vector3 rotation,
                               int playerId
                              )
     {
+        // Player の座標を表示
+        text.text = "Current Position \n" +
+            "x = " + position.x.ToString() + "\n" +
+            "y = " + position.y.ToString() + "\n" +
+            "z = " + position.z.ToString() + "\n";
+
         // God の場合 private の position, rotation をアップデート
-        if (isGod)
+        if (isGod) 
         {
             _playerPosition[playerId] = position * 10;
             _playerRotation[playerId] = rotation;
@@ -109,39 +130,73 @@ public class PositionTracker : Photon.PunBehaviour
         // Player の場合 private の position, rotation をアップデート
         if (isPlayer)
         {
-            _playerPosition[playerId] = position;
+            _playerPosition[playerId] = position * 5;
             _playerRotation[playerId] = rotation;
         }
     }
 
     [PunRPC]
-    void Shot(int playerId)
+    void ShotRPC (int playerId) // playerId = 打った人
+    {
+        if (isGod) 
+        {
+            Shot(playerId, playerId);
+        }
+        if (isPlayer) 
+        {
+            // 打ったのが自分かどうか
+            int myId = _photonView.isMine ? 0 : 1; // 自分のID
+
+            if (myId == playerId) { // 自分が打った
+                Shot(playerId, 0);
+            } 
+            else // 敵が打った
+            {
+                Shot(playerId, 1);
+            }
+        }
+    }
+
+    void Shot (int playerId, int offsetId) 
     {
         GameObject bulletObj = Instantiate(bulletPrefab,
-                                           PlayerPosition(playerId),
-                                           Quaternion.Euler(PlayerRotation(playerId)));
+                                           PlayerPosition(playerId, offsetId) + _bulletPositionOffset[playerId],
+                                           Quaternion.Euler(PlayerRotation(playerId, offsetId)));
         Vector3 force;
         force = bulletObj.transform.forward * 1000;
         bulletObj.GetComponent<Rigidbody>().AddForce(force);
 
-        // will be destroyed in 5 seconds
+        // この玉は 5 秒後に消えます
         Destroy(bulletObj, 5);
     }
 
-    public Vector3 PlayerPosition(int playerId)
+    public Vector3 PlayerPosition (int playerId, int offsetId) 
     {
-        if (playerId == 1)
-        {
-            return _playerPosition[playerId] - _playerPositionOffset;
+        // 相手のプレイヤーは 180° 回転しているので元に戻す
+        // God のときは Player1 を回転
+        int myId = _photonView.isMine ? 0 : 1;
+        Vector3 tmp = _playerPosition[playerId];
+        
+        if ((playerId != myId && isPlayer) || (playerId == 1 && isGod)) { 
+            tmp.x *= -1;
+            tmp.z *= -1;
         }
-        else
-        {
-            return _playerPosition[playerId];
-        }
+            
+        return tmp - _playerPositionOffset[offsetId];
     }
 
-    public Vector3 PlayerRotation(int playerId)
+    public Vector3 PlayerRotation (int playerId, int offsetId) 
     {
-        return _playerRotation[playerId];
+        return _playerRotation[playerId] - _playerRotationOffset[offsetId];
+    }
+
+    public Vector3 PlayerPositionOffset (int playerId)
+    {
+        return _playerPositionOffset[playerId];
+    }
+
+    public Vector3 PlayerRotationOffset(int playerId)
+    {
+        return _playerRotationOffset[playerId];
     }
 }
