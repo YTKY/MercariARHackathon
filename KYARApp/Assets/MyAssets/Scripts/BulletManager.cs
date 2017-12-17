@@ -24,6 +24,7 @@ public class BulletManager : MonoBehaviour
             if (playerId != _shooterId)
             {
                 Debug.Log("Shot the player " + playerId.ToString());
+                collision.transform.GetComponent<PlayerController>().Damage();
             }
         }
     }

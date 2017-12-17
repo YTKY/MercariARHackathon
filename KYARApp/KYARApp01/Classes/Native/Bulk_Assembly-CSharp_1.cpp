@@ -21785,6 +21785,16 @@ public:
 	PositionTracker_t858055883 * ____positionTracker_2;
 	// System.Int32 PlayerController::_playerId
 	int32_t ____playerId_3;
+	// System.Int32 PlayerController::_hp
+	int32_t ____hp_4;
+	// UnityEngine.GameObject[] PlayerController::barriers
+	GameObjectU5BU5D_t3057952154* ___barriers_5;
+	// UnityEngine.GameObject PlayerController::particle
+	GameObject_t1756533147 * ___particle_6;
+	// UnityEngine.GameObject PlayerController::player
+	GameObject_t1756533147 * ___player_7;
+	// UnityEngine.GameObject[] PlayerController::playerSkin
+	GameObjectU5BU5D_t3057952154* ___playerSkin_8;
 
 public:
 	inline static int32_t get_offset_of__positionTracker_2() { return static_cast<int32_t>(offsetof(PlayerController_t4148409433, ____positionTracker_2)); }
@@ -21802,6 +21812,50 @@ public:
 	inline void set__playerId_3(int32_t value)
 	{
 		____playerId_3 = value;
+	}
+
+	inline static int32_t get_offset_of__hp_4() { return static_cast<int32_t>(offsetof(PlayerController_t4148409433, ____hp_4)); }
+	inline int32_t get__hp_4() const { return ____hp_4; }
+	inline int32_t* get_address_of__hp_4() { return &____hp_4; }
+	inline void set__hp_4(int32_t value)
+	{
+		____hp_4 = value;
+	}
+
+	inline static int32_t get_offset_of_barriers_5() { return static_cast<int32_t>(offsetof(PlayerController_t4148409433, ___barriers_5)); }
+	inline GameObjectU5BU5D_t3057952154* get_barriers_5() const { return ___barriers_5; }
+	inline GameObjectU5BU5D_t3057952154** get_address_of_barriers_5() { return &___barriers_5; }
+	inline void set_barriers_5(GameObjectU5BU5D_t3057952154* value)
+	{
+		___barriers_5 = value;
+		Il2CppCodeGenWriteBarrier((&___barriers_5), value);
+	}
+
+	inline static int32_t get_offset_of_particle_6() { return static_cast<int32_t>(offsetof(PlayerController_t4148409433, ___particle_6)); }
+	inline GameObject_t1756533147 * get_particle_6() const { return ___particle_6; }
+	inline GameObject_t1756533147 ** get_address_of_particle_6() { return &___particle_6; }
+	inline void set_particle_6(GameObject_t1756533147 * value)
+	{
+		___particle_6 = value;
+		Il2CppCodeGenWriteBarrier((&___particle_6), value);
+	}
+
+	inline static int32_t get_offset_of_player_7() { return static_cast<int32_t>(offsetof(PlayerController_t4148409433, ___player_7)); }
+	inline GameObject_t1756533147 * get_player_7() const { return ___player_7; }
+	inline GameObject_t1756533147 ** get_address_of_player_7() { return &___player_7; }
+	inline void set_player_7(GameObject_t1756533147 * value)
+	{
+		___player_7 = value;
+		Il2CppCodeGenWriteBarrier((&___player_7), value);
+	}
+
+	inline static int32_t get_offset_of_playerSkin_8() { return static_cast<int32_t>(offsetof(PlayerController_t4148409433, ___playerSkin_8)); }
+	inline GameObjectU5BU5D_t3057952154* get_playerSkin_8() const { return ___playerSkin_8; }
+	inline GameObjectU5BU5D_t3057952154** get_address_of_playerSkin_8() { return &___playerSkin_8; }
+	inline void set_playerSkin_8(GameObjectU5BU5D_t3057952154* value)
+	{
+		___playerSkin_8 = value;
+		Il2CppCodeGenWriteBarrier((&___playerSkin_8), value);
 	}
 };
 
@@ -23639,8 +23693,8 @@ public:
 	bool ___isGod_10;
 	// UnityEngine.GameObject PositionTracker::bulletPrefab
 	GameObject_t1756533147 * ___bulletPrefab_11;
-	// UnityEngine.UI.Text PositionTracker::text
-	Text_t356221433 * ___text_12;
+	// System.Single PositionTracker::bulletSpeed
+	float ___bulletSpeed_12;
 
 public:
 	inline static int32_t get_offset_of__playerPosition_3() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ____playerPosition_3)); }
@@ -23722,13 +23776,12 @@ public:
 		Il2CppCodeGenWriteBarrier((&___bulletPrefab_11), value);
 	}
 
-	inline static int32_t get_offset_of_text_12() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___text_12)); }
-	inline Text_t356221433 * get_text_12() const { return ___text_12; }
-	inline Text_t356221433 ** get_address_of_text_12() { return &___text_12; }
-	inline void set_text_12(Text_t356221433 * value)
+	inline static int32_t get_offset_of_bulletSpeed_12() { return static_cast<int32_t>(offsetof(PositionTracker_t858055883, ___bulletSpeed_12)); }
+	inline float get_bulletSpeed_12() const { return ___bulletSpeed_12; }
+	inline float* get_address_of_bulletSpeed_12() { return &___bulletSpeed_12; }
+	inline void set_bulletSpeed_12(float value)
 	{
-		___text_12 = value;
-		Il2CppCodeGenWriteBarrier((&___text_12), value);
+		___bulletSpeed_12 = value;
 	}
 };
 

@@ -55106,6 +55106,11 @@ extern "C"  double Math_Acos_m2218287828 (RuntimeObject * __this /* static, unus
 {
 	return acos(___d0);
 }
+// System.Double System.Math::Atan2(System.Double,System.Double)
+extern "C"  double Math_Atan2_m792822848 (RuntimeObject * __this /* static, unused */, double ___y0, double ___x1, const RuntimeMethod* method)
+{
+	return atan2(___y0, ___x1);
+}
 // System.Double System.Math::Log(System.Double)
 extern "C"  double Math_Log_m3371716878 (RuntimeObject * __this /* static, unused */, double ___d0, const RuntimeMethod* method)
 {

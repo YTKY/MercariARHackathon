@@ -5,17 +5,18 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
     private PositionTracker _positionTracker;
-
     private int _playerId;
 
-	void Start () {
-        //_playerId = -1;
+    private int _hp;
+    public GameObject[] barriers;
+    public GameObject particle;
+    public GameObject player;
+    public GameObject[] playerSkin;
+
+    void Start () {
+        _hp = 3;
         _positionTracker = GameObject.Find("ARManager").GetComponent<PositionTracker>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+        playerSkin[_playerId].SetActive(true);
 	}
 
     public int GetPlayerId () 
@@ -28,5 +29,15 @@ public class PlayerController : MonoBehaviour {
         _playerId = playerId;
     }
 
+    public void Damage () {
+        _hp--;
+        if (_hp == 0) {
+            Instantiate(particle, player.transform.position, Quaternion.identity);
+            Destroy(player);
+        } else {
+            Instantiate(particle, barriers[_hp-1].transform.position, Quaternion.identity);            
+            Destroy(barriers[_hp-1]);
+        }
+    }
 
 }
