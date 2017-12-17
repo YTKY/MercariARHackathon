@@ -2,7 +2,7 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 2035
+  Total Type Removals = 2034
     Nested = 180
     Interfaces = 114
     Abstract Classes = 126
@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 147
   Total Field Removals = 596
-  Total Method Removals = 12053
+  Total Method Removals = 12095
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -10263,7 +10263,7 @@ Summary:
 Assembly: UnityEngine.CoreModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 397
+  Total Type Removals = 396
     Nested = 9
     Interfaces = 10
     Abstract Classes = 17
@@ -10272,7 +10272,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 46
   Total Field Removals = 27
-  Total Method Removals = 2745
+  Total Method Removals = 2789
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -11492,6 +11492,50 @@ Summary:
     UnityEngine.LightType
     UnityEngine.LineAlignment
     UnityEngine.LineRenderer
+        .ctor()
+        get_alignment()
+        get_colorGradient()
+        get_endColor()
+        get_endWidth()
+        get_generateLightingData()
+        get_loop()
+        get_numCapVertices()
+        get_numCornerVertices()
+        get_numPositions()
+        get_positionCount()
+        get_startColor()
+        get_startWidth()
+        get_textureMode()
+        get_useWorldSpace()
+        get_widthCurve()
+        get_widthMultiplier()
+        GetPosition(System.Int32)
+        GetPositions(UnityEngine.Vector3[])
+        INTERNAL_CALL_GetPosition(UnityEngine.LineRenderer,System.Int32,UnityEngine.Vector3&)
+        INTERNAL_get_endColor(UnityEngine.Color&)
+        INTERNAL_get_startColor(UnityEngine.Color&)
+        INTERNAL_set_endColor(UnityEngine.Color&)
+        INTERNAL_set_startColor(UnityEngine.Color&)
+        set_alignment(UnityEngine.LineAlignment)
+        set_colorGradient(UnityEngine.Gradient)
+        set_endColor(UnityEngine.Color)
+        set_endWidth(System.Single)
+        set_generateLightingData(System.Boolean)
+        set_loop(System.Boolean)
+        set_numCapVertices(System.Int32)
+        set_numCornerVertices(System.Int32)
+        set_numPositions(System.Int32)
+        set_startColor(UnityEngine.Color)
+        set_startWidth(System.Single)
+        set_textureMode(UnityEngine.LineTextureMode)
+        set_useWorldSpace(System.Boolean)
+        set_widthCurve(UnityEngine.AnimationCurve)
+        set_widthMultiplier(System.Single)
+        SetColors(UnityEngine.Color,UnityEngine.Color)
+        SetPositions(UnityEngine.Vector3[])
+        SetVertexCount(System.Int32)
+        SetWidth(System.Single,System.Single)
+        Simplify(System.Single)
     UnityEngine.LineTextureMode
     UnityEngine.LineUtility
     UnityEngine.LocationInfo
@@ -15250,7 +15294,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 7
-  Total Method Removals = 430
+  Total Method Removals = 428
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.BoxCollider
@@ -15468,7 +15512,6 @@ Summary:
         get_defaultContactOffset()
         get_defaultSolverIterations()
         get_defaultSolverVelocityIterations()
-        get_gravity()
         get_maxAngularVelocity()
         get_minPenetrationForPenalty()
         get_penetrationPenaltyForce()
@@ -15503,7 +15546,6 @@ Summary:
         INTERNAL_CALL_OverlapSphereNonAlloc(UnityEngine.Vector3&,System.Single,UnityEngine.Collider[],System.Int32,UnityEngine.QueryTriggerInteraction)
         INTERNAL_CALL_RaycastNonAlloc(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.RaycastHit[],System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
         Internal_CapsuleCast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,UnityEngine.RaycastHit&,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
-        INTERNAL_get_gravity(UnityEngine.Vector3&)
         INTERNAL_set_gravity(UnityEngine.Vector3&)
         Linecast(UnityEngine.Vector3,UnityEngine.Vector3)
         Linecast(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)
@@ -16100,7 +16142,7 @@ Summary:
 ---------------------------------------------------
 ---------------------------------------------------
 Mono.Cecil.ExportedType Removals:
-  Total: 1000
+  Total: 999
 ---------------------------------------------------
 JetBrains.Annotations.AssertionMethodAttribute
 JetBrains.Annotations.BaseTypeRequiredAttribute
@@ -16645,7 +16687,6 @@ UnityEngine.LightRenderMode
 UnityEngine.LightShadows
 UnityEngine.LightType
 UnityEngine.LineAlignment
-UnityEngine.LineRenderer
 UnityEngine.LineTextureMode
 UnityEngine.LineUtility
 UnityEngine.LocationInfo

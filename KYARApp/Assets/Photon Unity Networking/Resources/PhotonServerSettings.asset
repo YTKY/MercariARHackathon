@@ -45,4 +45,5 @@ MonoBehaviour:
   - UpdatePlayerPosition
   - Shot
   - ShotRPC
+  - DamageRPC
   DisableAutoOpenWizard: 1

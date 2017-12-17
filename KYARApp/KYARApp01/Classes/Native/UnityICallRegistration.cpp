@@ -1452,6 +1452,18 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.LightProbes
 
+	//Start Registrations for type : UnityEngine.LineRenderer
+
+		//System.Void UnityEngine.LineRenderer::INTERNAL_CALL_SetPosition(UnityEngine.LineRenderer,System.Int32,UnityEngine.Vector3&)
+		void Register_UnityEngine_LineRenderer_INTERNAL_CALL_SetPosition();
+		Register_UnityEngine_LineRenderer_INTERNAL_CALL_SetPosition();
+
+		//System.Void UnityEngine.LineRenderer::set_positionCount(System.Int32)
+		void Register_UnityEngine_LineRenderer_set_positionCount();
+		Register_UnityEngine_LineRenderer_set_positionCount();
+
+	//End Registrations for type : UnityEngine.LineRenderer
+
 	//Start Registrations for type : UnityEngine.Material
 
 		//System.Boolean UnityEngine.Material::HasProperty(System.Int32)
@@ -1765,6 +1777,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Physics::INTERNAL_CALL_Internal_RaycastTest(UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
 		void Register_UnityEngine_Physics_INTERNAL_CALL_Internal_RaycastTest();
 		Register_UnityEngine_Physics_INTERNAL_CALL_Internal_RaycastTest();
+
+		//System.Void UnityEngine.Physics::INTERNAL_get_gravity(UnityEngine.Vector3&)
+		void Register_UnityEngine_Physics_INTERNAL_get_gravity();
+		Register_UnityEngine_Physics_INTERNAL_get_gravity();
 
 		//UnityEngine.Collider[] UnityEngine.Physics::INTERNAL_CALL_OverlapSphere(UnityEngine.Vector3&,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
 		void Register_UnityEngine_Physics_INTERNAL_CALL_OverlapSphere();

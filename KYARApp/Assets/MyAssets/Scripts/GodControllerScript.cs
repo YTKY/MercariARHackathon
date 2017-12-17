@@ -177,6 +177,7 @@ namespace UnityEngine.XR.iOS
             {
                 _playerObj[i] = Instantiate(playerPrefab, GetPlayerPositionInGod(_positionTracker.PlayerPosition(i, i)), Quaternion.Euler(_positionTracker.PlayerRotation(i, i)));
                 _playerObj[i].transform.localScale = Resize(_playerObj[i].transform.localScale);
+                _playerObj[i].GetComponent<PlayerController>().SetPlayerId(i);
             }
         }
         public Vector3 Resize(Vector3 scale)
