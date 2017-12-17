@@ -5,15 +5,21 @@ using UnityEngine;
 public class PlayerManager : Photon.PunBehaviour
 {
     // Player の座標、回転
-    private Vector3 _playerPosition;
-    private Vector3 _playerRotation;
+    // private Vector3 _playerPosition;
+    // private Vector3 _playerRotation;
 
-    // Player の Prefab
+    // 敵 Player の Prefab
     public GameObject playerPrefab;
     private GameObject _playerObj;
 
+    // 自 Player 
+    public GameObject myPlayer;
+
     // Photon
     private PhotonView _photonView;
+
+    // 何番目にログインしたプレイヤーか
+    private int _playerId;
 
     private PositionTracker _positionTracker;
 
@@ -24,16 +30,23 @@ public class PlayerManager : Photon.PunBehaviour
 
     void Start()
     {
-        _playerObj = Instantiate(playerPrefab);
+        // 自Playerの設定
+        int myId = _photonView.isMine ? 0 : 1;
+        myPlayer.GetComponent<PlayerController>().SetPlayerId(myId);
+
+        // 敵Playerの設定
+        _playerId = _photonView.isMine ? 1 : 0; 
         _positionTracker = GetComponent<PositionTracker>();
+        _playerObj = Instantiate(playerPrefab,
+                                 -_positionTracker.PlayerPositionOffset(1),
+                                 Quaternion.Euler(_positionTracker.PlayerRotationOffset(1)));
+        _playerObj.GetComponent<PlayerController>().SetPlayerId(_playerId);
     }
 
     void Update()
     {
-        int playerId = _photonView.isMine ? 1 : 0;
-
-        _playerObj.transform.position = _positionTracker.PlayerPosition(playerId);
-        _playerObj.transform.rotation = Quaternion.Euler(_positionTracker.PlayerRotation(playerId));
+        _playerObj.transform.position = _positionTracker.PlayerPosition(_playerId, 1);
+        _playerObj.transform.rotation = Quaternion.Euler(_positionTracker.PlayerRotation(_playerId, 1));
 
     }
 }

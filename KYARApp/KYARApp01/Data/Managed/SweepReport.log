@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 147
   Total Field Removals = 596
-  Total Method Removals = 11826
+  Total Method Removals = 11825
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -10276,7 +10276,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 46
   Total Field Removals = 27
-  Total Method Removals = 2727
+  Total Method Removals = 2726
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -11145,7 +11145,6 @@ Summary:
         get_isStatic()
         get_isStaticBatchable()
         get_scene()
-        get_tag()
         GetComponent(System.String)
         GetComponentByName(System.String)
         GetComponentInChildren(System.Type)

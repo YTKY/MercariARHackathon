@@ -44,4 +44,5 @@ MonoBehaviour:
   - TaggedPlayer
   - UpdatePlayerPosition
   - Shot
+  - ShotRPC
   DisableAutoOpenWizard: 1
