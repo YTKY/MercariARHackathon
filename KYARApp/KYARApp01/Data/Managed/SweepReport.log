@@ -2,16 +2,16 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 2046
-    Nested = 183
+  Total Type Removals = 2035
+    Nested = 180
     Interfaces = 114
-    Abstract Classes = 127
+    Abstract Classes = 126
     Generic Types = 80
     Generic Interfaces = 6
     Generic Abstract Classes = 3
     Attributes = 147
   Total Field Removals = 596
-  Total Method Removals = 11825
+  Total Method Removals = 12053
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -550,7 +550,7 @@ Summary:
     Generic Abstract Classes = 1
     Attributes = 84
   Total Field Removals = 311
-  Total Method Removals = 4706
+  Total Method Removals = 4705
   References Removed = 0
 ---------------------------------------------------
     <PrivateImplementationDetails>
@@ -2718,7 +2718,6 @@ Summary:
         Abs(System.SByte)
         Asin(System.Double)
         Atan(System.Double)
-        Atan2(System.Double,System.Double)
         BigMul(System.Int32,System.Int32)
         Ceiling(System.Decimal)
         Cosh(System.Double)
@@ -9251,7 +9250,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 0
-  Total Method Removals = 659
+  Total Method Removals = 656
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.Animation
@@ -9286,13 +9285,10 @@ Summary:
         INTERNAL_set_localBounds(UnityEngine.Bounds&)
         Internal_StopByName(System.String)
         IsPlaying(System.String)
-        Play()
         Play(System.String)
         Play(System.String,UnityEngine.AnimationPlayMode)
         Play(System.String,UnityEngine.PlayMode)
         Play(UnityEngine.AnimationPlayMode)
-        Play(UnityEngine.PlayMode)
-        PlayDefaultAnimation(UnityEngine.PlayMode)
         PlayQueued(System.String)
         PlayQueued(System.String,UnityEngine.QueueMode)
         PlayQueued(System.String,UnityEngine.QueueMode,UnityEngine.PlayMode)
@@ -10267,7 +10263,7 @@ Summary:
 Assembly: UnityEngine.CoreModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 399
+  Total Type Removals = 397
     Nested = 9
     Interfaces = 10
     Abstract Classes = 17
@@ -10276,7 +10272,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 46
   Total Field Removals = 27
-  Total Method Removals = 2726
+  Total Method Removals = 2745
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -10319,16 +10315,11 @@ Summary:
         AddKey(UnityEngine.Keyframe)
         AddKey_Internal(UnityEngine.Keyframe)
         EaseInOut(System.Single,System.Single,System.Single,System.Single)
-        Evaluate(System.Single)
-        get_Item(System.Int32)
         get_keys()
-        get_length()
         get_postWrapMode()
         get_preWrapMode()
-        GetKey_Internal(System.Int32)
         GetKeys()
         INTERNAL_CALL_AddKey_Internal(UnityEngine.AnimationCurve,UnityEngine.Keyframe&)
-        INTERNAL_CALL_GetKey_Internal(UnityEngine.AnimationCurve,System.Int32,UnityEngine.Keyframe&)
         INTERNAL_CALL_MoveKey(UnityEngine.AnimationCurve,System.Int32,UnityEngine.Keyframe&)
         Linear(System.Single,System.Single,System.Single,System.Single)
         MoveKey(System.Int32,UnityEngine.Keyframe)
@@ -10551,7 +10542,6 @@ Summary:
         get_current()
         get_depthTextureMode()
         get_far()
-        get_fieldOfView()
         get_forceIntoRenderTexture()
         get_fov()
         get_hdr()
@@ -10661,7 +10651,6 @@ Summary:
         set_eventMask(System.Int32)
         set_far(System.Single)
         set_farClipPlane(System.Single)
-        set_fieldOfView(System.Single)
         set_forceIntoRenderTexture(System.Boolean)
         set_fov(System.Single)
         set_hdr(System.Boolean)
@@ -10761,8 +10750,6 @@ Summary:
     UnityEngine.Component
         BroadcastMessage(System.String)
         BroadcastMessage(System.String,System.Object)
-        BroadcastMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
-        BroadcastMessage(System.String,UnityEngine.SendMessageOptions)
         CompareTag(System.String)
         get_tag()
         GetComponent(System.String)
@@ -10770,13 +10757,10 @@ Summary:
         GetComponents(System.Type)
         GetComponentsInChildren(System.Type)
         GetComponentsInChildren(System.Type,System.Boolean)
-        GetComponentsInChildren<T>()
-        GetComponentsInChildren<T>(System.Boolean)
         GetComponentsInParent(System.Type)
         GetComponentsInParent(System.Type,System.Boolean)
         GetComponentsInParent<T>()
         GetComponentsInParent<T>(System.Boolean)
-        SendMessage(System.String)
         SendMessageUpwards(System.String)
         SendMessageUpwards(System.String,System.Object)
         SendMessageUpwards(System.String,System.Object,UnityEngine.SendMessageOptions)
@@ -11133,10 +11117,7 @@ Summary:
     UnityEngine.FullScreenMovieScalingMode
     UnityEngine.GameObject
         AddComponentInternal(System.String)
-        BroadcastMessage(System.String)
         BroadcastMessage(System.String,System.Object)
-        BroadcastMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
-        BroadcastMessage(System.String,UnityEngine.SendMessageOptions)
         CompareTag(System.String)
         CreatePrimitive(UnityEngine.PrimitiveType)
         FindGameObjectWithTag(System.String)
@@ -11178,7 +11159,6 @@ Summary:
         DrawGUITexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Material)
         DrawIcon(UnityEngine.Vector3,System.String)
         DrawIcon(UnityEngine.Vector3,System.String,System.Boolean)
-        DrawLine(UnityEngine.Vector3,UnityEngine.Vector3)
         DrawMesh(UnityEngine.Mesh)
         DrawMesh(UnityEngine.Mesh,System.Int32)
         DrawMesh(UnityEngine.Mesh,System.Int32,UnityEngine.Vector3)
@@ -11202,7 +11182,6 @@ Summary:
         INTERNAL_CALL_DrawFrustum(UnityEngine.Vector3&,System.Single,System.Single,System.Single,System.Single)
         INTERNAL_CALL_DrawGUITexture(UnityEngine.Rect&,UnityEngine.Texture,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Material)
         INTERNAL_CALL_DrawIcon(UnityEngine.Vector3&,System.String,System.Boolean)
-        INTERNAL_CALL_DrawLine(UnityEngine.Vector3&,UnityEngine.Vector3&)
         INTERNAL_CALL_DrawMesh(UnityEngine.Mesh,System.Int32,UnityEngine.Vector3&,UnityEngine.Quaternion&,UnityEngine.Vector3&)
         INTERNAL_CALL_DrawWireMesh(UnityEngine.Mesh,System.Int32,UnityEngine.Vector3&,UnityEngine.Quaternion&,UnityEngine.Vector3&)
         INTERNAL_get_color(UnityEngine.Color&)
@@ -11239,6 +11218,19 @@ Summary:
         QueryStateObject(System.Type,System.Int32)
         Tests_ClearObjects()
     UnityEngine.GUITexture
+        .ctor()
+        get_border()
+        get_color()
+        get_pixelInset()
+        get_texture()
+        INTERNAL_get_color(UnityEngine.Color&)
+        INTERNAL_get_pixelInset(UnityEngine.Rect&)
+        INTERNAL_set_color(UnityEngine.Color&)
+        INTERNAL_set_pixelInset(UnityEngine.Rect&)
+        set_border(UnityEngine.RectOffset)
+        set_color(UnityEngine.Color)
+        set_pixelInset(UnityEngine.Rect)
+        set_texture(UnityEngine.Texture)
     UnityEngine.Gyroscope
         m_GyroIndex
         .ctor(System.Int32)
@@ -11297,7 +11289,6 @@ Summary:
         compassInstance
         locationServiceInstance
         .ctor()
-        get_acceleration()
         get_accelerationEventCount()
         get_accelerationEvents()
         get_anyKey()
@@ -11315,7 +11306,6 @@ Summary:
         get_multiTouchEnabled()
         get_simulateMouseWithTouches()
         get_stylusTouchSupported()
-        get_touches()
         get_touchPressureSupported()
         GetAccelerationEvent(System.Int32)
         GetJoystickNames()
@@ -11326,7 +11316,6 @@ Summary:
         GetKeyUp(System.String)
         GetKeyUpString(System.String)
         INTERNAL_CALL_GetAccelerationEvent(System.Int32,UnityEngine.AccelerationEvent&)
-        INTERNAL_get_acceleration(UnityEngine.Vector3&)
         mainGyroIndex_Internal()
         ResetInputAxes()
         set_backButtonLeavesApp(System.Boolean)
@@ -11390,11 +11379,9 @@ Summary:
     UnityEngine.ISerializedStateWriter
     UnityEngine.jvalue
     UnityEngine.Keyframe
-        .ctor(System.Single,System.Single)
         get_inTangent()
         get_outTangent()
         get_tangentMode()
-        get_time()
         get_value()
         set_inTangent(System.Single)
         set_outTangent(System.Single)
@@ -11438,7 +11425,6 @@ Summary:
         get_shadows()
         get_shadowSoftness()
         get_shadowSoftnessFade()
-        get_shadowStrength()
         get_spotAngle()
         get_type()
         GetCommandBuffers(UnityEngine.Rendering.LightEvent)
@@ -11460,7 +11446,6 @@ Summary:
         set_pixelLightCount(System.Int32)
         set_range(System.Single)
         set_renderMode(UnityEngine.LightRenderMode)
-        set_shadowBias(System.Single)
         set_shadowConstantBias(System.Single)
         set_shadowCustomResolution(System.Int32)
         set_shadowNearPlane(System.Single)
@@ -11470,7 +11455,6 @@ Summary:
         set_shadows(UnityEngine.LightShadows)
         set_shadowSoftness(System.Single)
         set_shadowSoftnessFade(System.Single)
-        set_shadowStrength(System.Single)
         set_spotAngle(System.Single)
         set_type(UnityEngine.LightType)
         SetAllLightsFalloffToInverseSquared()
@@ -11548,7 +11532,6 @@ Summary:
         get_mainTextureScale()
         get_passCount()
         get_renderQueue()
-        get_shader()
         get_shaderKeywords()
         GetColorArray(System.Int32)
         GetColorArray(System.Int32,System.Collections.Generic.List`1<UnityEngine.Color>)
@@ -11612,7 +11595,6 @@ Summary:
         set_mainTextureOffset(UnityEngine.Vector2)
         set_mainTextureScale(UnityEngine.Vector2)
         set_renderQueue(System.Int32)
-        set_shader(UnityEngine.Shader)
         set_shaderKeywords(System.String[])
         SetBuffer(System.Int32,UnityEngine.ComputeBuffer)
         SetBuffer(System.String,UnityEngine.ComputeBuffer)
@@ -11747,7 +11729,6 @@ Summary:
         Abs(System.Int32)
         Asin(System.Single)
         Atan(System.Single)
-        Atan2(System.Single,System.Single)
         Ceil(System.Single)
         ClosestPowerOfTwo(System.Int32)
         CorrelatedColorTemperatureToRGB(System.Single)
@@ -11758,7 +11739,6 @@ Summary:
         HalfToFloat(System.UInt16)
         INTERNAL_CALL_CorrelatedColorTemperatureToRGB(System.Single,UnityEngine.Color&)
         IsPowerOfTwo(System.Int32)
-        LerpAngle(System.Single,System.Single,System.Single)
         LerpUnclamped(System.Single,System.Single,System.Single)
         LinearToGammaSpace(System.Single)
         LineIntersection(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2&)
@@ -11771,7 +11751,6 @@ Summary:
         Min(System.Single[])
         MoveTowardsAngle(System.Single,System.Single,System.Single)
         NextPowerOfTwo(System.Int32)
-        PerlinNoise(System.Single,System.Single)
         PingPong(System.Single,System.Single)
         RandomToLong(System.Random)
         SmoothDamp(System.Single,System.Single,System.Single&,System.Single,System.Single)
@@ -11963,8 +11942,6 @@ Summary:
     UnityEngine.NetworkViewID
     UnityEngine.NPOTSupport
     UnityEngine.Object
-        DestroyObject(UnityEngine.Object)
-        DestroyObject(UnityEngine.Object,System.Single)
         DoesObjectWithInstanceIDExist(System.Int32)
         EnsureRunningOnMainThread()
         FindObjectsOfTypeIncludingAssets(System.Type)
@@ -12309,8 +12286,73 @@ Summary:
         .ctor()
     UnityEngine.QualityLevel
     UnityEngine.QualitySettings
+        .ctor()
+        DecreaseLevel()
+        DecreaseLevel(System.Boolean)
+        get_activeColorSpace()
+        get_anisotropicFiltering()
+        get_antiAliasing()
+        get_asyncUploadBufferSize()
+        get_asyncUploadTimeSlice()
+        get_billboardsFaceCameraPosition()
+        get_blendWeights()
+        get_currentLevel()
+        get_desiredColorSpace()
+        get_lodBias()
+        get_masterTextureLimit()
+        get_maximumLODLevel()
+        get_maxQueuedFrames()
+        get_names()
+        get_particleRaycastBudget()
+        get_pixelLightCount()
+        get_realtimeReflectionProbes()
+        get_resolutionScalingFixedDPIFactor()
+        get_shadowCascade2Split()
+        get_shadowCascade4Split()
+        get_shadowCascades()
+        get_shadowDistance()
+        get_shadowmaskMode()
+        get_shadowNearPlaneOffset()
+        get_shadowProjection()
+        get_shadowResolution()
+        get_shadows()
+        get_softParticles()
+        get_softVegetation()
+        get_vSyncCount()
+        GetQualityLevel()
+        IncreaseLevel()
+        IncreaseLevel(System.Boolean)
+        INTERNAL_get_shadowCascade4Split(UnityEngine.Vector3&)
+        INTERNAL_set_shadowCascade4Split(UnityEngine.Vector3&)
+        set_anisotropicFiltering(UnityEngine.AnisotropicFiltering)
+        set_antiAliasing(System.Int32)
+        set_asyncUploadBufferSize(System.Int32)
+        set_asyncUploadTimeSlice(System.Int32)
+        set_billboardsFaceCameraPosition(System.Boolean)
+        set_blendWeights(UnityEngine.BlendWeights)
+        set_currentLevel(UnityEngine.QualityLevel)
+        set_lodBias(System.Single)
+        set_masterTextureLimit(System.Int32)
+        set_maximumLODLevel(System.Int32)
+        set_maxQueuedFrames(System.Int32)
+        set_particleRaycastBudget(System.Int32)
+        set_pixelLightCount(System.Int32)
+        set_realtimeReflectionProbes(System.Boolean)
+        set_resolutionScalingFixedDPIFactor(System.Single)
+        set_shadowCascade2Split(System.Single)
+        set_shadowCascade4Split(UnityEngine.Vector3)
+        set_shadowCascades(System.Int32)
+        set_shadowmaskMode(UnityEngine.ShadowmaskMode)
+        set_shadowNearPlaneOffset(System.Single)
+        set_shadowProjection(UnityEngine.ShadowProjection)
+        set_shadowResolution(UnityEngine.ShadowResolution)
+        set_shadows(UnityEngine.ShadowQuality)
+        set_softParticles(System.Boolean)
+        set_softVegetation(System.Boolean)
+        set_vSyncCount(System.Int32)
+        SetQualityLevel(System.Int32)
+        SetQualityLevel(System.Int32,System.Boolean)
     UnityEngine.Quaternion
-        AngleAxis(System.Single,UnityEngine.Vector3)
         AxisAngle(UnityEngine.Vector3,System.Single)
         EulerAngles(System.Single,System.Single,System.Single)
         EulerAngles(UnityEngine.Vector3)
@@ -12318,7 +12360,6 @@ Summary:
         EulerRotation(UnityEngine.Vector3)
         FromToRotation(UnityEngine.Vector3,UnityEngine.Vector3)
         get_Item(System.Int32)
-        INTERNAL_CALL_AngleAxis(System.Single,UnityEngine.Vector3&,UnityEngine.Quaternion&)
         INTERNAL_CALL_AxisAngle(UnityEngine.Vector3&,System.Single,UnityEngine.Quaternion&)
         INTERNAL_CALL_FromToRotation(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Quaternion&)
         INTERNAL_CALL_Internal_ToAxisAngleRad(UnityEngine.Quaternion&,UnityEngine.Vector3&,System.Single&)
@@ -12350,16 +12391,11 @@ Summary:
         ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
         ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
         get_insideUnitCircle()
-        get_onUnitSphere()
-        get_rotation()
         get_rotationUniform()
         get_seed()
         get_state()
-        get_value()
         GetRandomUnitCircle(UnityEngine.Vector2&)
         InitState(System.Int32)
-        INTERNAL_get_onUnitSphere(UnityEngine.Vector3&)
-        INTERNAL_get_rotation(UnityEngine.Quaternion&)
         INTERNAL_get_rotationUniform(UnityEngine.Quaternion&)
         INTERNAL_get_state(UnityEngine.Random/State&)
         INTERNAL_set_state(UnityEngine.Random/State&)
@@ -12413,14 +12449,12 @@ Summary:
         get_allowOcclusionWhenDynamic()
         get_bounds()
         get_castShadows()
-        get_enabled()
         get_isPartOfStaticBatch()
         get_lightmapIndex()
         get_lightmapScaleOffset()
         get_lightProbeProxyVolumeOverride()
         get_lightProbeUsage()
         get_localToWorldMatrix()
-        get_materials()
         get_motionVectorGenerationMode()
         get_motionVectors()
         get_probeAnchor()
@@ -12430,7 +12464,6 @@ Summary:
         get_reflectionProbeUsage()
         get_shadowCastingMode()
         get_sharedMaterial()
-        get_sharedMaterials()
         get_sortingGroupID()
         get_sortingGroupOrder()
         get_sortingLayerName()
@@ -12454,7 +12487,6 @@ Summary:
         set_lightmapScaleOffset(UnityEngine.Vector4)
         set_lightProbeProxyVolumeOverride(UnityEngine.GameObject)
         set_lightProbeUsage(UnityEngine.Rendering.LightProbeUsage)
-        set_materials(UnityEngine.Material[])
         set_motionVectorGenerationMode(UnityEngine.MotionVectorGenerationMode)
         set_motionVectors(System.Boolean)
         set_probeAnchor(UnityEngine.Transform)
@@ -12920,12 +12952,10 @@ Summary:
         get_sceneCount()
         get_sceneCountInBuildSettings()
         GetAllScenes()
-        GetSceneAt(System.Int32)
         GetSceneByBuildIndex(System.Int32)
         GetSceneByName(System.String)
         GetSceneByPath(System.String)
         INTERNAL_CALL_CreateScene(System.String,UnityEngine.SceneManagement.Scene&)
-        INTERNAL_CALL_GetSceneAt(System.Int32,UnityEngine.SceneManagement.Scene&)
         INTERNAL_CALL_GetSceneByBuildIndex(System.Int32,UnityEngine.SceneManagement.Scene&)
         INTERNAL_CALL_GetSceneByName(System.String,UnityEngine.SceneManagement.Scene&)
         INTERNAL_CALL_GetSceneByPath(System.String,UnityEngine.SceneManagement.Scene&)
@@ -13009,7 +13039,6 @@ Summary:
         .ctor()
         InvokeStatic(System.Type,System.String,System.Object)
     UnityEngine.Shader
-        .ctor()
         DisableKeyword(System.String)
         EnableKeyword(System.String)
         ExtractArrayFromList(System.Object)
@@ -13298,8 +13327,6 @@ Summary:
         GetPixels(System.Int32)
         GetPixels(System.Int32,System.Int32,System.Int32,System.Int32)
         GetPixels(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-        GetPixels32()
-        GetPixels32(System.Int32)
         GetRawTextureData()
         INTERNAL_CALL_Compress(UnityEngine.Texture2D,System.Boolean)
         INTERNAL_CALL_GetPixel(UnityEngine.Texture2D,System.Int32,System.Int32,UnityEngine.Color&)
@@ -13388,7 +13415,6 @@ Summary:
         op_Inequality(UnityEngine.TrackedReference,UnityEngine.TrackedReference)
     UnityEngine.TrailRenderer
     UnityEngine.Transform
-        DetachChildren()
         Find(System.String)
         FindChild(System.String)
         get_hasChanged()
@@ -13416,7 +13442,6 @@ Summary:
         InverseTransformPoint(System.Single,System.Single,System.Single)
         InverseTransformVector(System.Single,System.Single,System.Single)
         InverseTransformVector(UnityEngine.Vector3)
-        LookAt(UnityEngine.Vector3)
         Rotate(UnityEngine.Vector3)
         Rotate(UnityEngine.Vector3,System.Single)
         Rotate(UnityEngine.Vector3,System.Single,UnityEngine.Space)
@@ -13436,14 +13461,12 @@ Summary:
         SetPositionAndRotation(UnityEngine.Vector3,UnityEngine.Quaternion)
         SetSiblingIndex(System.Int32)
         TransformDirection(System.Single,System.Single,System.Single)
-        TransformPoint(System.Single,System.Single,System.Single)
         TransformVector(System.Single,System.Single,System.Single)
         TransformVector(UnityEngine.Vector3)
         Translate(System.Single,System.Single,System.Single)
         Translate(System.Single,System.Single,System.Single,UnityEngine.Space)
         Translate(System.Single,System.Single,System.Single,UnityEngine.Transform)
         Translate(UnityEngine.Vector3)
-        Translate(UnityEngine.Vector3,UnityEngine.Space)
         Translate(UnityEngine.Vector3,UnityEngine.Transform)
     UnityEngine.TransparencySortMode
     UnityEngine.Types
@@ -13485,15 +13508,12 @@ Summary:
         Distance(UnityEngine.Vector2,UnityEngine.Vector2)
         get_down()
         get_left()
-        get_magnitude()
         get_negativeInfinity()
-        get_normalized()
         get_positiveInfinity()
         LerpUnclamped(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
         Max(UnityEngine.Vector2,UnityEngine.Vector2)
         Min(UnityEngine.Vector2,UnityEngine.Vector2)
         MoveTowards(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
-        Normalize()
         op_Multiply(System.Single,UnityEngine.Vector2)
         Reflect(UnityEngine.Vector2,UnityEngine.Vector2)
         Scale(UnityEngine.Vector2)
@@ -13506,7 +13526,6 @@ Summary:
     UnityEngine.Vector2Int
     UnityEngine.Vector3
         AngleBetween(UnityEngine.Vector3,UnityEngine.Vector3)
-        ClampMagnitude(UnityEngine.Vector3,System.Single)
         Exclude(UnityEngine.Vector3,UnityEngine.Vector3)
         get_fwd()
         get_negativeInfinity()
@@ -13520,7 +13539,6 @@ Summary:
         Normalize()
         OrthoNormalize(UnityEngine.Vector3&,UnityEngine.Vector3&)
         OrthoNormalize(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Vector3&)
-        Project(UnityEngine.Vector3,UnityEngine.Vector3)
         ProjectOnPlane(UnityEngine.Vector3,UnityEngine.Vector3)
         Reflect(UnityEngine.Vector3,UnityEngine.Vector3)
         Scale(UnityEngine.Vector3)
@@ -13528,9 +13546,7 @@ Summary:
         Set(System.Single,System.Single,System.Single)
         SignedAngle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
         SlerpUnclamped(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-        SmoothDamp(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3&,System.Single)
         SmoothDamp(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3&,System.Single,System.Single)
-        SmoothDamp(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3&,System.Single,System.Single,System.Single)
         ToString(System.String)
     UnityEngine.Vector3Int
     UnityEngine.Vector4
@@ -13564,8 +13580,6 @@ Summary:
         SqrMagnitude()
         ToString(System.String)
     UnityEngine.VRTextureUsage
-    UnityEngine.WaitForFixedUpdate
-        .ctor()
     UnityEngine.WaitUntil
     UnityEngine.WaitWhile
     UnityEngineInternal.APIUpdaterRuntimeServices
@@ -14215,24 +14229,30 @@ Summary:
 Assembly: UnityEngine.ParticleSystemModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 62
-    Nested = 26
+  Total Type Removals = 55
+    Nested = 23
     Interfaces = 0
-    Abstract Classes = 1
+    Abstract Classes = 0
     Generic Types = 0
     Generic Interfaces = 0
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 0
-  Total Method Removals = 137
+  Total Method Removals = 342
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.ParticleCollisionEvent
+        get_intersection()
+        get_normal()
     UnityEngine.ParticlePhysicsExtensions
+        GetCollisionEvents(UnityEngine.ParticleSystem,UnityEngine.GameObject,UnityEngine.ParticleCollisionEvent[])
+        GetSafeCollisionEventSize(UnityEngine.ParticleSystem)
+        GetSafeTriggerParticlesSize(UnityEngine.ParticleSystem,UnityEngine.ParticleSystemTriggerEventType)
+        GetTriggerParticles(UnityEngine.ParticleSystem,UnityEngine.ParticleSystemTriggerEventType,System.Collections.Generic.List`1<UnityEngine.ParticleSystem/Particle>)
+        SetTriggerParticles(UnityEngine.ParticleSystem,UnityEngine.ParticleSystemTriggerEventType,System.Collections.Generic.List`1<UnityEngine.ParticleSystem/Particle>)
+        SetTriggerParticles(UnityEngine.ParticleSystem,UnityEngine.ParticleSystemTriggerEventType,System.Collections.Generic.List`1<UnityEngine.ParticleSystem/Particle>,System.Int32,System.Int32)
     UnityEngine.ParticleSystem
         .ctor()
-        Clear()
-        Clear(System.Boolean)
         Emit(System.Int32)
         Emit(UnityEngine.ParticleSystem/EmitParams,System.Int32)
         Emit(UnityEngine.ParticleSystem/Particle)
@@ -14242,7 +14262,6 @@ Summary:
         get_colorOverLifetime()
         get_customData()
         get_duration()
-        get_emission()
         get_emissionRate()
         get_enableEmission()
         get_externalForces()
@@ -14256,7 +14275,6 @@ Summary:
         get_lights()
         get_limitVelocityOverLifetime()
         get_loop()
-        get_main()
         get_maxParticles()
         get_noise()
         get_particleCount()
@@ -14298,8 +14316,6 @@ Summary:
         IsAlive(System.Boolean)
         Pause()
         Pause(System.Boolean)
-        Play()
-        Play(System.Boolean)
         set_emissionRate(System.Single)
         set_enableEmission(System.Boolean)
         set_gravityModifier(System.Single)
@@ -14334,6 +14350,43 @@ Summary:
     UnityEngine.ParticleSystem/ColorOverLifetimeModule
     UnityEngine.ParticleSystem/CustomDataModule
     UnityEngine.ParticleSystem/EmissionModule
+        get_burstCount()
+        get_enabled()
+        get_rate()
+        get_rateMultiplier()
+        get_rateOverDistance()
+        get_rateOverDistanceMultiplier()
+        get_rateOverTime()
+        get_rateOverTimeMultiplier()
+        get_type()
+        GetBurst(System.Int32)
+        GetBurst(UnityEngine.ParticleSystem,System.Int32)
+        GetBurstCount(UnityEngine.ParticleSystem)
+        GetBursts(Burst[])
+        GetEnabled(UnityEngine.ParticleSystem)
+        GetRateOverDistance(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        GetRateOverDistanceMultiplier(UnityEngine.ParticleSystem)
+        GetRateOverTime(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        GetRateOverTimeMultiplier(UnityEngine.ParticleSystem)
+        INTERNAL_CALL_GetBurst(UnityEngine.ParticleSystem,System.Int32,Burst&)
+        INTERNAL_CALL_SetBurst(UnityEngine.ParticleSystem,System.Int32,Burst&)
+        set_burstCount(System.Int32)
+        set_rate(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_rateMultiplier(System.Single)
+        set_rateOverDistance(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_rateOverDistanceMultiplier(System.Single)
+        set_rateOverTime(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_rateOverTimeMultiplier(System.Single)
+        set_type(UnityEngine.ParticleSystemEmissionType)
+        SetBurst(System.Int32,Burst)
+        SetBurst(UnityEngine.ParticleSystem,System.Int32,Burst)
+        SetBurstCount(UnityEngine.ParticleSystem,System.Int32)
+        SetBursts(Burst[])
+        SetBursts(Burst[],System.Int32)
+        SetRateOverDistance(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        SetRateOverDistanceMultiplier(UnityEngine.ParticleSystem,System.Single)
+        SetRateOverTime(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        SetRateOverTimeMultiplier(UnityEngine.ParticleSystem,System.Single)
     UnityEngine.ParticleSystem/EmitParams
     UnityEngine.ParticleSystem/ExternalForcesModule
     UnityEngine.ParticleSystem/ForceOverLifetimeModule
@@ -14341,7 +14394,167 @@ Summary:
     UnityEngine.ParticleSystem/LightsModule
     UnityEngine.ParticleSystem/LimitVelocityOverLifetimeModule
     UnityEngine.ParticleSystem/MainModule
+        get_customSimulationSpace()
+        get_duration()
+        get_emitterVelocityMode()
+        get_gravityModifier()
+        get_gravityModifierMultiplier()
+        get_loop()
+        get_maxParticles()
+        get_playOnAwake()
+        get_prewarm()
+        get_randomizeRotationDirection()
+        get_scalingMode()
+        get_simulationSpace()
+        get_simulationSpeed()
+        get_startColor()
+        get_startDelay()
+        get_startDelayMultiplier()
+        get_startRotation()
+        get_startRotation3D()
+        get_startRotationMultiplier()
+        get_startRotationX()
+        get_startRotationXMultiplier()
+        get_startRotationY()
+        get_startRotationYMultiplier()
+        get_startRotationZ()
+        get_startRotationZMultiplier()
+        get_startSize()
+        get_startSize3D()
+        get_startSizeX()
+        get_startSizeXMultiplier()
+        get_startSizeY()
+        get_startSizeYMultiplier()
+        get_startSizeZ()
+        get_startSizeZMultiplier()
+        get_startSpeed()
+        get_stopAction()
+        get_useUnscaledTime()
+        GetCustomSimulationSpace(UnityEngine.ParticleSystem)
+        GetDuration(UnityEngine.ParticleSystem)
+        GetEnabled(UnityEngine.ParticleSystem)
+        GetGravityModifier(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        GetGravityModifierMultiplier(UnityEngine.ParticleSystem)
+        GetLoop(UnityEngine.ParticleSystem)
+        GetMaxParticles(UnityEngine.ParticleSystem)
+        GetPlayOnAwake(UnityEngine.ParticleSystem)
+        GetPrewarm(UnityEngine.ParticleSystem)
+        GetRandomizeRotationDirection(UnityEngine.ParticleSystem)
+        GetScalingMode(UnityEngine.ParticleSystem)
+        GetSimulationSpace(UnityEngine.ParticleSystem)
+        GetSimulationSpeed(UnityEngine.ParticleSystem)
+        GetStartColor(UnityEngine.ParticleSystem,MinMaxGradient&)
+        GetStartDelay(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        GetStartDelayMultiplier(UnityEngine.ParticleSystem)
+        GetStartRotation3D(UnityEngine.ParticleSystem)
+        GetStartRotationX(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        GetStartRotationXMultiplier(UnityEngine.ParticleSystem)
+        GetStartRotationY(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        GetStartRotationYMultiplier(UnityEngine.ParticleSystem)
+        GetStartRotationZ(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        GetStartRotationZMultiplier(UnityEngine.ParticleSystem)
+        GetStartSize3D(UnityEngine.ParticleSystem)
+        GetStartSizeX(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        GetStartSizeY(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        GetStartSizeYMultiplier(UnityEngine.ParticleSystem)
+        GetStartSizeZ(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        GetStartSizeZMultiplier(UnityEngine.ParticleSystem)
+        GetStartSpeed(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        GetStopAction(UnityEngine.ParticleSystem)
+        GetUseRigidbodyForVelocity(UnityEngine.ParticleSystem)
+        GetUseUnscaledTime(UnityEngine.ParticleSystem)
+        set_customSimulationSpace(UnityEngine.Transform)
+        set_duration(System.Single)
+        set_emitterVelocityMode(UnityEngine.ParticleSystemEmitterVelocityMode)
+        set_gravityModifier(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_gravityModifierMultiplier(System.Single)
+        set_loop(System.Boolean)
+        set_maxParticles(System.Int32)
+        set_playOnAwake(System.Boolean)
+        set_prewarm(System.Boolean)
+        set_randomizeRotationDirection(System.Single)
+        set_scalingMode(UnityEngine.ParticleSystemScalingMode)
+        set_simulationSpace(UnityEngine.ParticleSystemSimulationSpace)
+        set_simulationSpeed(System.Single)
+        set_startColor(MinMaxGradient)
+        set_startDelay(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_startDelayMultiplier(System.Single)
+        set_startLifetime(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_startRotation(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_startRotation3D(System.Boolean)
+        set_startRotationMultiplier(System.Single)
+        set_startRotationX(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_startRotationXMultiplier(System.Single)
+        set_startRotationY(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_startRotationYMultiplier(System.Single)
+        set_startRotationZ(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_startRotationZMultiplier(System.Single)
+        set_startSize(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_startSize3D(System.Boolean)
+        set_startSizeX(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_startSizeXMultiplier(System.Single)
+        set_startSizeY(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_startSizeYMultiplier(System.Single)
+        set_startSizeZ(UnityEngine.ParticleSystem/MinMaxCurve)
+        set_startSizeZMultiplier(System.Single)
+        set_stopAction(UnityEngine.ParticleSystemStopAction)
+        set_useUnscaledTime(System.Boolean)
+        SetCustomSimulationSpace(UnityEngine.ParticleSystem,UnityEngine.Transform)
+        SetDuration(UnityEngine.ParticleSystem,System.Single)
+        SetEnabled(UnityEngine.ParticleSystem,System.Boolean)
+        SetGravityModifier(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        SetGravityModifierMultiplier(UnityEngine.ParticleSystem,System.Single)
+        SetLoop(UnityEngine.ParticleSystem,System.Boolean)
+        SetMaxParticles(UnityEngine.ParticleSystem,System.Int32)
+        SetPlayOnAwake(UnityEngine.ParticleSystem,System.Boolean)
+        SetPrewarm(UnityEngine.ParticleSystem,System.Boolean)
+        SetRandomizeRotationDirection(UnityEngine.ParticleSystem,System.Single)
+        SetScalingMode(UnityEngine.ParticleSystem,UnityEngine.ParticleSystemScalingMode)
+        SetSimulationSpace(UnityEngine.ParticleSystem,UnityEngine.ParticleSystemSimulationSpace)
+        SetSimulationSpeed(UnityEngine.ParticleSystem,System.Single)
+        SetStartColor(UnityEngine.ParticleSystem,MinMaxGradient&)
+        SetStartDelay(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        SetStartDelayMultiplier(UnityEngine.ParticleSystem,System.Single)
+        SetStartLifetime(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        SetStartRotation3D(UnityEngine.ParticleSystem,System.Boolean)
+        SetStartRotationX(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        SetStartRotationXMultiplier(UnityEngine.ParticleSystem,System.Single)
+        SetStartRotationY(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        SetStartRotationYMultiplier(UnityEngine.ParticleSystem,System.Single)
+        SetStartRotationZ(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        SetStartRotationZMultiplier(UnityEngine.ParticleSystem,System.Single)
+        SetStartSize3D(UnityEngine.ParticleSystem,System.Boolean)
+        SetStartSizeX(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        SetStartSizeY(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        SetStartSizeYMultiplier(UnityEngine.ParticleSystem,System.Single)
+        SetStartSizeZ(UnityEngine.ParticleSystem,UnityEngine.ParticleSystem/MinMaxCurve&)
+        SetStartSizeZMultiplier(UnityEngine.ParticleSystem,System.Single)
+        SetStopAction(UnityEngine.ParticleSystem,UnityEngine.ParticleSystemStopAction)
+        SetUseRigidbodyForVelocity(UnityEngine.ParticleSystem,System.Boolean)
+        SetUseUnscaledTime(UnityEngine.ParticleSystem,System.Boolean)
     UnityEngine.ParticleSystem/MinMaxCurve
+        .ctor(System.Single,System.Single)
+        .ctor(System.Single,UnityEngine.AnimationCurve)
+        .ctor(System.Single,UnityEngine.AnimationCurve,UnityEngine.AnimationCurve)
+        Evaluate(System.Single)
+        Evaluate(System.Single,System.Single)
+        get_constantMax()
+        get_constantMin()
+        get_curve()
+        get_curveMax()
+        get_curveMin()
+        get_curveMultiplier()
+        get_curveScalar()
+        get_mode()
+        set_constant(System.Single)
+        set_constantMax(System.Single)
+        set_constantMin(System.Single)
+        set_curve(UnityEngine.AnimationCurve)
+        set_curveMax(UnityEngine.AnimationCurve)
+        set_curveMin(UnityEngine.AnimationCurve)
+        set_curveMultiplier(System.Single)
+        set_curveScalar(System.Single)
+        set_mode(UnityEngine.ParticleSystemCurveMode)
     UnityEngine.ParticleSystem/MinMaxGradient
     UnityEngine.ParticleSystem/NoiseModule
     UnityEngine.ParticleSystem/Particle
@@ -14399,12 +14612,17 @@ Summary:
     UnityEngine.ParticleSystemCollisionMode
     UnityEngine.ParticleSystemCollisionQuality
     UnityEngine.ParticleSystemCollisionType
-    UnityEngine.ParticleSystemCurveMode
     UnityEngine.ParticleSystemCustomData
     UnityEngine.ParticleSystemCustomDataMode
     UnityEngine.ParticleSystemEmissionType
     UnityEngine.ParticleSystemEmitterVelocityMode
     UnityEngine.ParticleSystemExtensionsImpl
+        .ctor()
+        GetCollisionEventsDeprecated(UnityEngine.ParticleSystem,UnityEngine.GameObject,UnityEngine.ParticleCollisionEvent[])
+        GetSafeCollisionEventSize(UnityEngine.ParticleSystem)
+        GetSafeTriggerParticlesSize(UnityEngine.ParticleSystem,System.Int32)
+        GetTriggerParticles(UnityEngine.ParticleSystem,System.Int32,System.Object)
+        SetTriggerParticles(UnityEngine.ParticleSystem,System.Int32,System.Object,System.Int32,System.Int32)
     UnityEngine.ParticleSystemGradientMode
     UnityEngine.ParticleSystemInheritVelocityMode
     UnityEngine.ParticleSystemMeshShapeType
@@ -15023,7 +15241,7 @@ Summary:
 Assembly: UnityEngine.PhysicsModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 23
+  Total Type Removals = 21
     Nested = 0
     Interfaces = 0
     Abstract Classes = 0
@@ -15032,7 +15250,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 7
-  Total Method Removals = 422
+  Total Method Removals = 430
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.BoxCollider
@@ -15088,10 +15306,8 @@ Summary:
         SimpleMove(UnityEngine.Vector3)
     UnityEngine.CharacterJoint
     UnityEngine.Collider
-        .ctor()
         ClosestPoint(UnityEngine.Vector3)
         ClosestPointOnBounds(UnityEngine.Vector3)
-        get_attachedRigidbody()
         get_contactOffset()
         get_enabled()
         get_isTrigger()
@@ -15099,9 +15315,6 @@ Summary:
         get_sharedMaterial()
         INTERNAL_CALL_ClosestPoint(UnityEngine.Collider,UnityEngine.Vector3&,UnityEngine.Vector3&)
         INTERNAL_CALL_ClosestPointOnBounds(UnityEngine.Collider,UnityEngine.Vector3&,UnityEngine.Vector3&)
-        INTERNAL_CALL_Internal_Raycast(UnityEngine.Collider,UnityEngine.Ray&,UnityEngine.RaycastHit&,System.Single)
-        Internal_Raycast(UnityEngine.Collider,UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single)
-        Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single)
         set_contactOffset(System.Single)
         set_enabled(System.Boolean)
         set_isTrigger(System.Boolean)
@@ -15110,13 +15323,11 @@ Summary:
     UnityEngine.Collision
         .ctor()
         get_collider()
-        get_contacts()
         get_frictionForceSum()
         get_gameObject()
         get_impactForceSum()
         get_impulse()
         get_other()
-        get_relativeVelocity()
         get_rigidbody()
         get_transform()
         GetEnumerator()
@@ -15126,9 +15337,7 @@ Summary:
     UnityEngine.ConstantForce
     UnityEngine.ContactPoint
         ColliderFromInstanceId(System.Int32)
-        get_normal()
         get_otherCollider()
-        get_point()
         get_separation()
         get_thisCollider()
     UnityEngine.ControllerColliderHit
@@ -15146,6 +15355,35 @@ Summary:
     UnityEngine.FixedJoint
     UnityEngine.HingeJoint
     UnityEngine.Joint
+        .ctor()
+        get_anchor()
+        get_autoConfigureConnectedAnchor()
+        get_axis()
+        get_breakForce()
+        get_breakTorque()
+        get_connectedAnchor()
+        get_connectedMassScale()
+        get_currentForce()
+        get_currentTorque()
+        get_enableCollision()
+        get_enablePreprocessing()
+        get_massScale()
+        INTERNAL_get_anchor(UnityEngine.Vector3&)
+        INTERNAL_get_axis(UnityEngine.Vector3&)
+        INTERNAL_get_connectedAnchor(UnityEngine.Vector3&)
+        INTERNAL_get_currentForce(UnityEngine.Vector3&)
+        INTERNAL_get_currentTorque(UnityEngine.Vector3&)
+        INTERNAL_set_axis(UnityEngine.Vector3&)
+        INTERNAL_set_connectedAnchor(UnityEngine.Vector3&)
+        set_autoConfigureConnectedAnchor(System.Boolean)
+        set_axis(UnityEngine.Vector3)
+        set_breakForce(System.Single)
+        set_breakTorque(System.Single)
+        set_connectedAnchor(UnityEngine.Vector3)
+        set_connectedMassScale(System.Single)
+        set_enableCollision(System.Boolean)
+        set_enablePreprocessing(System.Boolean)
+        set_massScale(System.Single)
     UnityEngine.JointDrive
     UnityEngine.JointDriveMode
     UnityEngine.JointLimits
@@ -15262,7 +15500,6 @@ Summary:
         INTERNAL_CALL_OverlapBoxNonAlloc(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Collider[],UnityEngine.Quaternion&,System.Int32,UnityEngine.QueryTriggerInteraction)
         INTERNAL_CALL_OverlapCapsule(UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
         INTERNAL_CALL_OverlapCapsuleNonAlloc(UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,UnityEngine.Collider[],System.Int32,UnityEngine.QueryTriggerInteraction)
-        INTERNAL_CALL_OverlapSphere(UnityEngine.Vector3&,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
         INTERNAL_CALL_OverlapSphereNonAlloc(UnityEngine.Vector3&,System.Single,UnityEngine.Collider[],System.Int32,UnityEngine.QueryTriggerInteraction)
         INTERNAL_CALL_RaycastNonAlloc(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.RaycastHit[],System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
         Internal_CapsuleCast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,UnityEngine.RaycastHit&,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
@@ -15288,7 +15525,6 @@ Summary:
         OverlapCapsuleNonAlloc(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Collider[])
         OverlapCapsuleNonAlloc(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Collider[],System.Int32)
         OverlapCapsuleNonAlloc(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Collider[],System.Int32,UnityEngine.QueryTriggerInteraction)
-        OverlapSphere(UnityEngine.Vector3,System.Single)
         OverlapSphere(UnityEngine.Vector3,System.Single,System.Int32)
         OverlapSphere(UnityEngine.Vector3,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
         OverlapSphereNonAlloc(UnityEngine.Vector3,System.Single,UnityEngine.Collider[])
@@ -15354,7 +15590,6 @@ Summary:
         CalculateRaycastTexCoord(UnityEngine.Vector2&,UnityEngine.Collider,UnityEngine.Vector2,UnityEngine.Vector3,System.Int32,System.Int32)
         get_barycentricCoordinate()
         get_lightmapCoord()
-        get_rigidbody()
         get_textureCoord()
         get_textureCoord1()
         get_textureCoord2()
@@ -15366,14 +15601,10 @@ Summary:
         set_normal(UnityEngine.Vector3)
         set_point(UnityEngine.Vector3)
     UnityEngine.Rigidbody
-        .ctor()
         AddExplosionForce(System.Single,UnityEngine.Vector3,System.Single)
         AddExplosionForce(System.Single,UnityEngine.Vector3,System.Single,System.Single)
-        AddExplosionForce(System.Single,UnityEngine.Vector3,System.Single,System.Single,UnityEngine.ForceMode)
         AddForce(System.Single,System.Single,System.Single)
         AddForce(System.Single,System.Single,System.Single,UnityEngine.ForceMode)
-        AddForce(UnityEngine.Vector3,UnityEngine.ForceMode)
-        AddForceAtPosition(UnityEngine.Vector3,UnityEngine.Vector3)
         AddForceAtPosition(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.ForceMode)
         AddRelativeForce(System.Single,System.Single,System.Single)
         AddRelativeForce(System.Single,System.Single,System.Single,UnityEngine.ForceMode)
@@ -15388,17 +15619,14 @@ Summary:
         AddTorque(UnityEngine.Vector3)
         AddTorque(UnityEngine.Vector3,UnityEngine.ForceMode)
         ClosestPointOnBounds(UnityEngine.Vector3)
-        get_angularDrag()
         get_centerOfMass()
         get_collisionDetectionMode()
         get_constraints()
         get_detectCollisions()
-        get_drag()
         get_freezeRotation()
         get_inertiaTensor()
         get_inertiaTensorRotation()
         get_interpolation()
-        get_isKinematic()
         get_mass()
         get_maxAngularVelocity()
         get_maxDepenetrationVelocity()
@@ -15416,8 +15644,6 @@ Summary:
         get_worldCenterOfMass()
         GetPointVelocity(UnityEngine.Vector3)
         GetRelativePointVelocity(UnityEngine.Vector3)
-        INTERNAL_CALL_AddExplosionForce(UnityEngine.Rigidbody,System.Single,UnityEngine.Vector3&,System.Single,System.Single,UnityEngine.ForceMode)
-        INTERNAL_CALL_AddForceAtPosition(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.ForceMode)
         INTERNAL_CALL_AddRelativeForce(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
         INTERNAL_CALL_AddRelativeTorque(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
         INTERNAL_CALL_AddTorque(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
@@ -15450,12 +15676,10 @@ Summary:
         MoveRotation(UnityEngine.Quaternion)
         ResetCenterOfMass()
         ResetInertiaTensor()
-        set_angularDrag(System.Single)
         set_centerOfMass(UnityEngine.Vector3)
         set_collisionDetectionMode(UnityEngine.CollisionDetectionMode)
         set_constraints(UnityEngine.RigidbodyConstraints)
         set_detectCollisions(System.Boolean)
-        set_drag(System.Single)
         set_freezeRotation(System.Boolean)
         set_inertiaTensor(UnityEngine.Vector3)
         set_inertiaTensorRotation(UnityEngine.Quaternion)
@@ -15491,13 +15715,15 @@ Summary:
     UnityEngine.SoftJointLimitSpring
     UnityEngine.SphereCollider
         .ctor()
-        get_center()
-        get_radius()
-        INTERNAL_get_center(UnityEngine.Vector3&)
-        INTERNAL_set_center(UnityEngine.Vector3&)
-        set_center(UnityEngine.Vector3)
-        set_radius(System.Single)
     UnityEngine.SpringJoint
+        .ctor()
+        get_damper()
+        get_maxDistance()
+        get_minDistance()
+        get_spring()
+        get_tolerance()
+        set_minDistance(System.Single)
+        set_tolerance(System.Single)
     UnityEngine.WheelFrictionCurve
 ---------------------------------------------------
 Assembly: UnityEngine.TerrainPhysicsModule
@@ -15874,7 +16100,7 @@ Summary:
 ---------------------------------------------------
 ---------------------------------------------------
 Mono.Cecil.ExportedType Removals:
-  Total: 1011
+  Total: 1000
 ---------------------------------------------------
 JetBrains.Annotations.AssertionMethodAttribute
 JetBrains.Annotations.BaseTypeRequiredAttribute
@@ -16350,7 +16576,6 @@ UnityEngine.GUILayout/AreaScope
 UnityEngine.GUILayout/HorizontalScope
 UnityEngine.GUILayout/ScrollViewScope
 UnityEngine.GUILayout/VerticalScope
-UnityEngine.GUITexture
 UnityEngine.Halo
 UnityEngine.Handheld
 UnityEngine.Hash128
@@ -16390,7 +16615,6 @@ UnityEngine.IPPtrRemapper
 UnityEngine.ISerializedStateReader
 UnityEngine.ISerializedStateWriter
 UnityEngine.IStylePainter
-UnityEngine.Joint
 UnityEngine.Joint2D
 UnityEngine.JointAngleLimits2D
 UnityEngine.JointDrive
@@ -16527,9 +16751,7 @@ UnityEngine.OcclusionArea
 UnityEngine.OcclusionPortal
 UnityEngine.Particle
 UnityEngine.ParticleAnimator
-UnityEngine.ParticleCollisionEvent
 UnityEngine.ParticleEmitter
-UnityEngine.ParticlePhysicsExtensions
 UnityEngine.ParticleRenderer
 UnityEngine.ParticleRenderMode
 UnityEngine.ParticleSystem/Burst
@@ -16537,15 +16759,12 @@ UnityEngine.ParticleSystem/CollisionModule
 UnityEngine.ParticleSystem/ColorBySpeedModule
 UnityEngine.ParticleSystem/ColorOverLifetimeModule
 UnityEngine.ParticleSystem/CustomDataModule
-UnityEngine.ParticleSystem/EmissionModule
 UnityEngine.ParticleSystem/EmitParams
 UnityEngine.ParticleSystem/ExternalForcesModule
 UnityEngine.ParticleSystem/ForceOverLifetimeModule
 UnityEngine.ParticleSystem/InheritVelocityModule
 UnityEngine.ParticleSystem/LightsModule
 UnityEngine.ParticleSystem/LimitVelocityOverLifetimeModule
-UnityEngine.ParticleSystem/MainModule
-UnityEngine.ParticleSystem/MinMaxCurve
 UnityEngine.ParticleSystem/MinMaxGradient
 UnityEngine.ParticleSystem/NoiseModule
 UnityEngine.ParticleSystem/RotationBySpeedModule
@@ -16563,12 +16782,10 @@ UnityEngine.ParticleSystemAnimationType
 UnityEngine.ParticleSystemCollisionMode
 UnityEngine.ParticleSystemCollisionQuality
 UnityEngine.ParticleSystemCollisionType
-UnityEngine.ParticleSystemCurveMode
 UnityEngine.ParticleSystemCustomData
 UnityEngine.ParticleSystemCustomDataMode
 UnityEngine.ParticleSystemEmissionType
 UnityEngine.ParticleSystemEmitterVelocityMode
-UnityEngine.ParticleSystemExtensionsImpl
 UnityEngine.ParticleSystemGradientMode
 UnityEngine.ParticleSystemInheritVelocityMode
 UnityEngine.ParticleSystemMeshShapeType
@@ -16627,7 +16844,6 @@ UnityEngine.Profiling.Recorder
 UnityEngine.Profiling.Sampler
 UnityEngine.Projector
 UnityEngine.QualityLevel
-UnityEngine.QualitySettings
 UnityEngine.QueueMode
 UnityEngine.Random/State
 UnityEngine.Ray2D
@@ -16730,7 +16946,6 @@ UnityEngine.SoftJointLimitSpring
 UnityEngine.SparseTexture
 UnityEngine.SpeedTreeWindAsset
 UnityEngine.SplatPrototype
-UnityEngine.SpringJoint
 UnityEngine.SpringJoint2D
 UnityEngine.SpriteAlignment
 UnityEngine.SpriteDrawMode

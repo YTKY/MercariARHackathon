@@ -333,6 +333,18 @@ extern "C" void SliderHandler_t3550500579_marshal_pinvoke(void* managedStructure
 extern "C" void SliderHandler_t3550500579_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void SliderHandler_t3550500579_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const RuntimeType SliderHandler_t3550500579_0_0_0;
+extern "C" void EmissionModule_t2748003162_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void EmissionModule_t2748003162_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void EmissionModule_t2748003162_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType EmissionModule_t2748003162_0_0_0;
+extern "C" void MainModule_t6751348_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void MainModule_t6751348_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void MainModule_t6751348_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType MainModule_t6751348_0_0_0;
+extern "C" void MinMaxCurve_t122563058_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void MinMaxCurve_t122563058_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void MinMaxCurve_t122563058_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType MinMaxCurve_t122563058_0_0_0;
 extern "C" void Collision_t2876846408_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
 extern "C" void Collision_t2876846408_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void Collision_t2876846408_marshal_pinvoke_cleanup(void* marshaledStructure);
@@ -475,7 +487,7 @@ extern "C" void DelegatePInvokeWrapper_internal_ARUserAnchorRemoved_t4166385952(
 extern const RuntimeType internal_ARUserAnchorRemoved_t4166385952_0_0_0;
 extern "C" void DelegatePInvokeWrapper_internal_ARUserAnchorUpdated_t1661963345();
 extern const RuntimeType internal_ARUserAnchorUpdated_t1661963345_0_0_0;
-extern Il2CppInteropData g_Il2CppInteropData[140] = 
+extern Il2CppInteropData g_Il2CppInteropData[143] = 
 {
 	{ NULL, Context_t2636657155_marshal_pinvoke, Context_t2636657155_marshal_pinvoke_back, Context_t2636657155_marshal_pinvoke_cleanup, NULL, NULL, &Context_t2636657155_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Context */,
 	{ NULL, Escape_t169451053_marshal_pinvoke, Escape_t169451053_marshal_pinvoke_back, Escape_t169451053_marshal_pinvoke_cleanup, NULL, NULL, &Escape_t169451053_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Escape */,
@@ -567,6 +579,9 @@ extern Il2CppInteropData g_Il2CppInteropData[140] =
 	{ NULL, GUIStyle_t1799908754_marshal_pinvoke, GUIStyle_t1799908754_marshal_pinvoke_back, GUIStyle_t1799908754_marshal_pinvoke_cleanup, NULL, NULL, &GUIStyle_t1799908754_0_0_0 } /* UnityEngine.GUIStyle */,
 	{ NULL, GUIStyleState_t3801000545_marshal_pinvoke, GUIStyleState_t3801000545_marshal_pinvoke_back, GUIStyleState_t3801000545_marshal_pinvoke_cleanup, NULL, NULL, &GUIStyleState_t3801000545_0_0_0 } /* UnityEngine.GUIStyleState */,
 	{ NULL, SliderHandler_t3550500579_marshal_pinvoke, SliderHandler_t3550500579_marshal_pinvoke_back, SliderHandler_t3550500579_marshal_pinvoke_cleanup, NULL, NULL, &SliderHandler_t3550500579_0_0_0 } /* UnityEngine.SliderHandler */,
+	{ NULL, EmissionModule_t2748003162_marshal_pinvoke, EmissionModule_t2748003162_marshal_pinvoke_back, EmissionModule_t2748003162_marshal_pinvoke_cleanup, NULL, NULL, &EmissionModule_t2748003162_0_0_0 } /* UnityEngine.ParticleSystem/EmissionModule */,
+	{ NULL, MainModule_t6751348_marshal_pinvoke, MainModule_t6751348_marshal_pinvoke_back, MainModule_t6751348_marshal_pinvoke_cleanup, NULL, NULL, &MainModule_t6751348_0_0_0 } /* UnityEngine.ParticleSystem/MainModule */,
+	{ NULL, MinMaxCurve_t122563058_marshal_pinvoke, MinMaxCurve_t122563058_marshal_pinvoke_back, MinMaxCurve_t122563058_marshal_pinvoke_cleanup, NULL, NULL, &MinMaxCurve_t122563058_0_0_0 } /* UnityEngine.ParticleSystem/MinMaxCurve */,
 	{ NULL, Collision_t2876846408_marshal_pinvoke, Collision_t2876846408_marshal_pinvoke_back, Collision_t2876846408_marshal_pinvoke_cleanup, NULL, NULL, &Collision_t2876846408_0_0_0 } /* UnityEngine.Collision */,
 	{ NULL, ControllerColliderHit_t4070855101_marshal_pinvoke, ControllerColliderHit_t4070855101_marshal_pinvoke_back, ControllerColliderHit_t4070855101_marshal_pinvoke_cleanup, NULL, NULL, &ControllerColliderHit_t4070855101_0_0_0 } /* UnityEngine.ControllerColliderHit */,
 	{ NULL, RaycastHit_t87180320_marshal_pinvoke, RaycastHit_t87180320_marshal_pinvoke_back, RaycastHit_t87180320_marshal_pinvoke_cleanup, NULL, NULL, &RaycastHit_t87180320_0_0_0 } /* UnityEngine.RaycastHit */,
