@@ -65,6 +65,7 @@ public class PositionTracker : Photon.PunBehaviour
             new Vector3 (0.0f, 0.0f, 0.0f),
             new Vector3 (0.0f, 0.0f, 0.0f),
         };
+
     }
 
 
@@ -161,7 +162,7 @@ public class PositionTracker : Photon.PunBehaviour
         bulletObj.GetComponent<Rigidbody>().AddForce(force);
 
         // この玉は 5 秒後に消えます
-        Destroy(bulletObj, 5);
+        Destroy(bulletObj, 2);
     }
 
     void Shot(int playerId, int offsetId)
@@ -208,4 +209,6 @@ public class PositionTracker : Photon.PunBehaviour
     {
         return _playerRotationOffset[playerId];
     }
+
+
 }
