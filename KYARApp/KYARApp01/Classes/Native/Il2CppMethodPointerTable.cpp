@@ -9855,6 +9855,9 @@ extern "C" void LightmapSettings_get_lightProbes_m3696280806 ();
 extern "C" void LightProbes__ctor_m1755455173 ();
 extern "C" void LightProbes_get_bakedProbes_m1609242417 ();
 extern "C" void LightProbes_get_count_m118233321 ();
+extern "C" void LineRenderer_set_positionCount_m199236971 ();
+extern "C" void LineRenderer_SetPosition_m3726666384 ();
+extern "C" void LineRenderer_INTERNAL_CALL_SetPosition_m1097142393 ();
 extern "C" void Logger__ctor_m1903664092 ();
 extern "C" void Logger_get_logHandler_m3063408166 ();
 extern "C" void Logger_set_logHandler_m3938522457 ();
@@ -11588,6 +11591,8 @@ extern "C" void Joint_get_connectedBody_m3841244195 ();
 extern "C" void Joint_set_connectedBody_m4050921680 ();
 extern "C" void Joint_set_anchor_m2330311681 ();
 extern "C" void Joint_INTERNAL_set_anchor_m726811223 ();
+extern "C" void Physics_get_gravity_m1035197364 ();
+extern "C" void Physics_INTERNAL_get_gravity_m2607613905 ();
 extern "C" void Physics_Raycast_m3712965514 ();
 extern "C" void Physics_Raycast_m4094847631 ();
 extern "C" void Physics_Raycast_m3979945464 ();
@@ -13875,6 +13880,8 @@ extern "C" void BlendshapePrinter_Update_m3989659578 ();
 extern "C" void BulletManager__ctor_m742243314 ();
 extern "C" void BulletManager_SetShooterId_m2178470276 ();
 extern "C" void BulletManager_OnTriggerEnter_m3755607182 ();
+extern "C" void BulletManager_Update_m434196423 ();
+extern "C" void BulletManager_SimulateTrajectory_m4026306439 ();
 extern "C" void CellTree__ctor_m3782778995 ();
 extern "C" void CellTree__ctor_m1642478691 ();
 extern "C" void CellTree_get_RootNode_m98911955 ();
@@ -15141,9 +15148,11 @@ extern "C" void PickupTriggerForward__ctor_m3334940580 ();
 extern "C" void PickupTriggerForward_OnTriggerEnter_m1294620792 ();
 extern "C" void PlayerController__ctor_m3280132936 ();
 extern "C" void PlayerController_Start_m3606284888 ();
+extern "C" void PlayerController_EnableSkin_m315882447 ();
 extern "C" void PlayerController_GetPlayerId_m879818666 ();
 extern "C" void PlayerController_SetPlayerId_m4020562649 ();
 extern "C" void PlayerController_Damage_m4227909559 ();
+extern "C" void PlayerController_DamageRPC_m352755388 ();
 extern "C" void PlayerDiamond__ctor_m2995276206 ();
 extern "C" void PlayerDiamond_get_PhotonView_m803556664 ();
 extern "C" void PlayerDiamond_get_DiamondRenderer_m2847422333 ();
@@ -16292,7 +16301,7 @@ extern "C" void WaypointProgressTracker_Start_m2999634794 ();
 extern "C" void WaypointProgressTracker_Reset_m1013515717 ();
 extern "C" void WaypointProgressTracker_Update_m4274946821 ();
 extern "C" void WaypointProgressTracker_OnDrawGizmos_m3153626988 ();
-extern const Il2CppMethodPointer g_MethodPointers[16275] = 
+extern const Il2CppMethodPointer g_MethodPointers[16284] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -26132,6 +26141,9 @@ extern const Il2CppMethodPointer g_MethodPointers[16275] =
 	LightProbes__ctor_m1755455173,
 	LightProbes_get_bakedProbes_m1609242417,
 	LightProbes_get_count_m118233321,
+	LineRenderer_set_positionCount_m199236971,
+	LineRenderer_SetPosition_m3726666384,
+	LineRenderer_INTERNAL_CALL_SetPosition_m1097142393,
 	Logger__ctor_m1903664092,
 	Logger_get_logHandler_m3063408166,
 	Logger_set_logHandler_m3938522457,
@@ -27865,6 +27877,8 @@ extern const Il2CppMethodPointer g_MethodPointers[16275] =
 	Joint_set_connectedBody_m4050921680,
 	Joint_set_anchor_m2330311681,
 	Joint_INTERNAL_set_anchor_m726811223,
+	Physics_get_gravity_m1035197364,
+	Physics_INTERNAL_get_gravity_m2607613905,
 	Physics_Raycast_m3712965514,
 	Physics_Raycast_m4094847631,
 	Physics_Raycast_m3979945464,
@@ -30152,6 +30166,8 @@ extern const Il2CppMethodPointer g_MethodPointers[16275] =
 	BulletManager__ctor_m742243314,
 	BulletManager_SetShooterId_m2178470276,
 	BulletManager_OnTriggerEnter_m3755607182,
+	BulletManager_Update_m434196423,
+	BulletManager_SimulateTrajectory_m4026306439,
 	CellTree__ctor_m3782778995,
 	CellTree__ctor_m1642478691,
 	CellTree_get_RootNode_m98911955,
@@ -31418,9 +31434,11 @@ extern const Il2CppMethodPointer g_MethodPointers[16275] =
 	PickupTriggerForward_OnTriggerEnter_m1294620792,
 	PlayerController__ctor_m3280132936,
 	PlayerController_Start_m3606284888,
+	PlayerController_EnableSkin_m315882447,
 	PlayerController_GetPlayerId_m879818666,
 	PlayerController_SetPlayerId_m4020562649,
 	PlayerController_Damage_m4227909559,
+	PlayerController_DamageRPC_m352755388,
 	PlayerDiamond__ctor_m2995276206,
 	PlayerDiamond_get_PhotonView_m803556664,
 	PlayerDiamond_get_DiamondRenderer_m2847422333,

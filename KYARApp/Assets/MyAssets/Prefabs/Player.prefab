@@ -370,6 +370,7 @@ GameObject:
   - component: {fileID: 135379996953812580}
   - component: {fileID: 23558362348933872}
   - component: {fileID: 114839056714232782}
+  - component: {fileID: 114623405570255044}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3298,7 +3299,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1432093691190064}
-  m_LocalRotation: {x: -0.005911436, y: -0.67944837, z: 0.7336993, w: -0.00066563475}
+  m_LocalRotation: {x: -0.005911435, y: -0.67944837, z: 0.7336993, w: -0.00066563475}
   m_LocalPosition: {x: -0.14276123, y: 0.032653574, z: 0.13977996}
   m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
   m_Children: []
@@ -4041,7 +4042,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1299642071647234}
-  m_LocalRotation: {x: -0.005911435, y: -0.6794483, z: 0.73369926, w: -0.0006656347}
+  m_LocalRotation: {x: -0.005911434, y: -0.6794483, z: 0.73369926, w: -0.0006656347}
   m_LocalPosition: {x: -0.14276123, y: 0.032653574, z: 0.13977996}
   m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
   m_Children: []
@@ -6531,6 +6532,32 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114623405570255044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114584363547688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerId: 0
+  group: 0
+  OwnerShipWasTransfered: 0
+  prefixBackup: -1
+  synchronization: 0
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 0}
+  ObservedComponentsFoldoutOpen: 1
+  viewIdField: 0
+  instantiationId: -1
+  currentMasterID: -1
+  isRuntimeInstantiated: 0
 --- !u!114 &114839056714232782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6542,6 +6569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48a2038c73b954944a2e26642f15f4f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isMe: 0
   barriers:
   - {fileID: 1731851084377904}
   - {fileID: 1546715163459968}
@@ -6550,6 +6578,7 @@ MonoBehaviour:
   playerSkin:
   - {fileID: 1645685842347230}
   - {fileID: 1009855154752694}
+  _photonView: {fileID: 0}
 --- !u!135 &135269759395747710
 SphereCollider:
   m_ObjectHideFlags: 1
